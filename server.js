@@ -21,11 +21,25 @@ function renderFont(fontInfo) {
 
     return out
 }
+// create memory db for queries
+// Require minimongo
+const minimongo = require("minimongo");
+
+const LocalDb = minimongo.MemoryDb;
+
+db = new LocalDb();
+db.addCollection('fonts')
+
+    const gf = require('./gf.js')
+gf.listMetaData().then(fonts =>  {
+    db.fonts.upsert(fonts, (docs) => {console.log(docs.length)},(err) => {console.log(err)} )
+})
+
 
 app.get('/', (req, res) => {
-    const gf = require('./gf.js')
     res.write('<html><body><ul>')
-    gf.listMetaData().then(fonts => {
+    db.fonts.find(()=>true).fetch()
+    .then(fonts => {
         for (const font of fonts) {
             res.write(`<li>${renderFont(font)}</li>`)
         }
