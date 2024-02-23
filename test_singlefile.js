@@ -8,7 +8,7 @@ async function main() {
     const root = await (new ProtoBuf.Root()).load('fonts_public.proto', { keepCase: true })
 
     // load text based protobuf data
-    const input = fs.readFileSync('./fonts/ofl/paprika/METADATA.pb', 'utf-8');
+    const input = fs.readFileSync('./fonts/ofl/abeezee/METADATA.pb', 'utf-8');
     const result = sut.parse(root, fqn, input)
 
     if (result.status) {

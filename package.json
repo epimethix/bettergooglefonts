@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "protobufjs": "^7.2.6",
-    "protobufjs-textformat": "github:akkurat/protobufjs-textformat"
+    "protobufjs-textformat": "^1.0.2"
   }
 }
