@@ -16,6 +16,7 @@ async function listMetaData() {
     // METADATA.pb
     let missingCounter = 0
     const parsingErrors = []
+    const parsed = []
     for (const fontDirName of fontDirs) {
         const fullName = fontsBasePath + fontDirName + '/METADATA.pb';
         if (fs.existsSync(fullName)) {
@@ -23,6 +24,7 @@ async function listMetaData() {
             const result = sut.parse(root, fqn, metaContents)
             if (result.status) {
                 console.log(JSON.stringify(result.message,null,2));
+                parsed.push({meta: result.message, dir: fontDirName})
             }
             else {
                 parsingErrors.push([fullName, result.error])
@@ -35,6 +37,9 @@ async function listMetaData() {
     console.log(`Metadata files for ${missingCounter} fonts were not found!`)
     console.log(`Meta Parsing failed for ${parsingErrors.length} fonts`)
     console.log(parsingErrors)
+    return parsed
 }
+
+exports.listMetaData = listMetaData
 
 listMetaData()
