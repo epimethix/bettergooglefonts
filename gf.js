@@ -23,7 +23,7 @@ async function listMetaData() {
             const metaContents = fs.readFileSync(fullName, 'utf-8');
             const result = sut.parse(root, fqn, metaContents)
             if (result.status) {
-                console.log(JSON.stringify(result.message,null,2));
+                // console.log(JSON.stringify(result.message,null,2));
                 parsed.push({meta: result.message, dir: fontDirName})
             }
             else {
