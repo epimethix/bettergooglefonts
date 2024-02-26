@@ -1,0 +1,7 @@
+<p>fontoverview works!</p>
+<app-fontfilters></app-fontfilters>
+<ul class="fontGrid">
+  <div *ngFor="let font of fonts">
+    <app-fontpreview [font]="font"></app-fontpreview>
+  </div>
+</ul>

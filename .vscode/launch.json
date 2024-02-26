@@ -12,7 +12,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/gf.js"
+            "program": "${workspaceFolder}/gf.js",
+            "args": ["${workspaceFolder}/bettergooglefontsng/src/assets/"]
         },
         {
             "type": "pwa-node",

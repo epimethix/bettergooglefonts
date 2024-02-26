@@ -7,6 +7,7 @@ async function listMetaData() {
     // load protobuf definition
     const root = await (new ProtoBuf.Root()).load('fonts_public.proto', { keepCase: true })
 
+    // TODO: read all licences
     const fontsBasePath = './fonts/ofl/';
 
     const fontDirs = fs.readdirSync(fontsBasePath);
@@ -14,9 +15,9 @@ async function listMetaData() {
     // console.log(fontDirs);
 
     // METADATA.pb
-    let missingCounter = 0
-    const parsingErrors = []
-    const parsed = []
+    let missingCounter = 0, idx = 1
+    const parsingErrors = [], parsed = []
+
     for (const fontDirName of fontDirs) {
         const fullName = fontsBasePath + fontDirName + '/METADATA.pb';
         if (fs.existsSync(fullName)) {
@@ -24,13 +25,14 @@ async function listMetaData() {
             const result = sut.parse(root, fqn, metaContents)
             if (result.status) {
                 // console.log(JSON.stringify(result.message,null,2));
-                parsed.push({meta: result.message, dir: fontDirName})
+                parsed.push({ meta: result.message, dir: fontDirName, idx })
             }
             else {
                 parsingErrors.push([fullName, result.error])
             }
+            idx++
         } else {
-            missingCounter++;
+            missingCounter++
             // console.log(`Metadata for ${fontDirName} was not found!`)
         }
     }
@@ -39,7 +41,45 @@ async function listMetaData() {
     console.log(parsingErrors)
     return parsed
 }
+async function parseAxesRegistry() {
+    const axesfolder = 'fonts/axisregistry/Lib/axisregistry';
+    const root = await (new ProtoBuf.Root()).load(axesfolder + '/axes.proto', { keepCase: true })
+
+    const dataFolder = axesfolder + '/data';
+    const axes = fs.readdirSync(dataFolder);
+
+    const outs = []
+    const parseerrors = []
+
+    for (const axe of axes) {
+       if( axe.endsWith('.textproto')) {
+         contents = fs.readFileSync(dataFolder + '/' + axe, 'utf-8')
+         const out = sut.parse(root, 'AxisProto', contents)
+         if(out.status)
+         {
+            outs.push(out.message)
+         }
+         else
+         {
+            parseerrors.push([axe,out.error])
+         }
+       }
+
+    }
+    console.log(parseerrors)
+    return outs
+}
 
 exports.listMetaData = listMetaData
+exports.parseAxesRegistry = parseAxesRegistry
 
-listMetaData()
+if (require.main === module) {
+    console.log(process.argv)
+    const outputfolder = process.argv[2]
+    listMetaData().then(fatJson =>
+        fs.writeFileSync(outputfolder + '/fontmeta.json', JSON.stringify(fatJson))
+    );
+    parseAxesRegistry().then(axesJson =>
+        fs.writeFileSync(outputfolder + '/axesmeta.json', JSON.stringify(axesJson))
+    );
+}

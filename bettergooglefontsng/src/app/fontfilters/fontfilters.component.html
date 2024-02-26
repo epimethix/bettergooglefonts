@@ -1,0 +1,9 @@
+<p>fontfilters works!</p>
+
+<ul class="filters">
+    <li *ngFor="let axis of axes">
+        <!-- {{axis|json}} -->
+        <app-fontfilter [axisTag]="axis.tag" [min]="axis.min_value" [max]="axis.max_value">
+        </app-fontfilter>
+    </li>
+</ul>

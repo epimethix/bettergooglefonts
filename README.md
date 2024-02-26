@@ -1,13 +1,16 @@
 # Better Google Fonts
 
 ## How to Run
+### installation
 
-### list all meta font data
+
+### combine all meta font data into one fat json
 ```bash
-node gf.js
+node gf.js bettergooglefontsng/assets/fonts-meta.json
 ```
 
-### start express.js to serve font files and overview
+### start angular app to serve font files and overview
 ```bash
-npm run dev
+cd bettergooglefontsng
+ng serve
 ```
