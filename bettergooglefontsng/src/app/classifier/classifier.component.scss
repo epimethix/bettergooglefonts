@@ -2,5 +2,12 @@
     font-size: 50pt;
     overflow: hidden;
     overflow-wrap: break-word;
-    letter-spacing: 50pt;
+    letter-spacing: 20pt;
+    width: 50vw;
+}
+
+.classifier {
+    display: flex;
+    direction: row;
+
 }

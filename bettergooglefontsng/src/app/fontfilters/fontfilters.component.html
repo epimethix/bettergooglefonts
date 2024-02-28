@@ -1,9 +1,21 @@
-<p>fontfilters works!</p>
-
-<ul class="filters">
-    <li *ngFor="let axis of axes">
-        <!-- {{axis|json}} -->
-        <app-fontfilter [axisTag]="axis.tag" [min]="axis.min_value" [max]="axis.max_value">
-        </app-fontfilter>
-    </li>
-</ul>
+<div>
+    <ul class="filters">
+        <li *ngFor="let axis of axes">
+            <!-- {{axis|json}} -->
+            <app-fontfilter [axisTag]="axis.tag" [min]="axis.min_value" [max]="axis.max_value">
+            </app-fontfilter>
+        </li>
+    </ul>
+    <ul>
+        <li *ngFor="let toggle of toggles">
+            <mat-form-field>
+                <mat-label>Toppings</mat-label>
+                <mat-select [formControl]="fc[toggle.name]" multiple>
+                    @for (topping of toppingList; track topping) {
+                    <mat-option [value]="topping">{{topping}}</mat-option>
+                    }
+                </mat-select>
+            </mat-form-field>
+        </li>
+    </ul>
+</div>

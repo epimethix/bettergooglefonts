@@ -5,6 +5,10 @@ import { FontNameUrl } from './FontNameUrl';
 import { MemoryDb } from 'minimongo';
 import { Subject } from 'rxjs/internal/Subject';
 
+export type AxesInfo = {
+
+}
+
 export type FontFilter = {
   name: string
   min?: number
@@ -61,7 +65,7 @@ export class MongofontService {
     })
     return sub.asObservable();
   }
-  
+
   getFontByIdx(idx: number): Observable<FontInfo> {
     const sub = new Subject<FontInfo>()
     this.names.subscribe(_ => {
@@ -72,8 +76,42 @@ export class MongofontService {
     return sub.asObservable();
   }
 
+  /**
+   * 
+   * @returns Axes based on fonts
+   */
+  // todo add selector as parameter
+  getAxes(): Observable<AxesInfo[]> {
+    const sub = new Subject<AxesInfo[]>()
+    this.names.subscribe(names => {
+      if (names) {
+        this.db.fonts.find({ 'meta.axes': { $exists: true } }, { fields: 'meta.axes' })
+          .fetch().then(docs => {
+            const axes = new Map()
+            for (const doc of docs) {
+              for (const axe of doc.meta.axes) {
+                if (!axes.has(axe.tag)) {
+                  axes.set(axe.tag, { count: 0, min: 1000, max: 0 })
+                }
+                const axstat = axes.get(axe.tag)
+                axstat.count++
 
+                if (axe.min_value < axstat.min) {
+                  axstat.min = axe.min_value
+                }
+                if (axe.max_value > axstat.max) {
+                  axstat.max = axe.max_value
+                }
+
+              }
+            }
+          })
+      }
+    })
+    return sub
+  }
 }
+
 export function getUrlForFirstFont(d: FontInfo) {
   return `/assets/fonts/ofl/${d.dir}/${d.meta.fonts[0].filename}`;
 }

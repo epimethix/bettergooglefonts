@@ -1,9 +1,24 @@
-<div class="classifier">
+<div class="classifier" >
     <div class="specimen-wide" [style]="{fontFamily: font?.meta?.name}">
         ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïð0123456789
     </div>
     <div>
-        <div class="prev">Previous Font: {{fontPrev?.meta?.name}}</div>
-        <div class="next">Next Font: {{fontNext?.meta?.name}}</div>
+        <ul>
+            <li *ngFor="let q of questions">
+                <h5>{{q.title}}</h5>
+                <mat-radio-group (change)="saveAnswer($event,q.title)">
+                    <mat-radio-button *ngFor="let option of q.items"
+                    [value]="option" [checked]="isSelected(q.title,option)"
+                    >
+                        {{option}}
+                    </mat-radio-button>
+                </mat-radio-group>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <!-- todo angular 17 routerLink -->
+        <div class="prev"><a [href]="'/classify/'+fontPrev?.dir">Previous Font: {{fontPrev?.meta?.name}}</a></div>
+        <div class="next"><a [href]="'/classify/'+fontNext?.dir">Next Font: {{fontNext?.meta?.name}}</a></div>
     </div>
 </div>

@@ -12,7 +12,7 @@ import { Component, Input, OnInit } from '@angular/core';
     </div>
   `,
 })
-export class FontfilterComponent {
+export class AxisFontfilterComponent {
 
     @Input()
     axisTag = ''
