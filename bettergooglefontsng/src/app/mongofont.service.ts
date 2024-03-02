@@ -33,6 +33,7 @@ export class MongofontService {
 
   db: MinimongoLocalDb
   filters: BehaviorSubject<FontFilter[]> = new BehaviorSubject([] as FontFilter[])
+  // EventsEmitter?
   dbready: BehaviorSubject<boolean> = new BehaviorSubject(false)
 
   constructor(private http: HttpClient) {
@@ -85,6 +86,7 @@ export class MongofontService {
         this.db.collections['classification']
           .find(selector, { fields: { 'name': 1 } }).fetch().then(f => {
             sub.next(f.map(f => f.name))
+            sub.complete()
           })
       }
     })
@@ -104,11 +106,11 @@ export class MongofontService {
     return sub.asObservable();
   }
 
-  getFontBySkip(selector?,options?): Observable<FontInfo> {
+  getFontBySkip(selector?, options?): Observable<FontInfo> {
     const sub = new Subject<FontInfo>()
     this.dbready.subscribe(ready => {
       if (ready) {
-        this.db.collections['fonts'].findOne(selector,options).then(f => {
+        this.db.collections['fonts'].findOne(selector, options).then(f => {
           sub.next(f)
         })
       }
