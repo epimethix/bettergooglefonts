@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
-import { ClassificationService } from '../classification.service';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
+import { ClassificationService, fontParamsSans } from '../classification.service';
 
 type Axis = {
   tag: string
@@ -9,6 +9,10 @@ type Axis = {
   max_value: number
 }
 
+export type FilterSelection = {
+  toggles
+  ranges
+}
 @Component({
   selector: 'app-fontfilters',
   templateUrl: './fontfilters.component.html',
@@ -18,20 +22,35 @@ type Axis = {
 
 export class FontfiltersComponent implements OnInit {
   axes: Axis[] = []
-  toggles: { name: string, items: string[] }[] = []
-  fc: any;
-  constructor(private http: HttpClient, private classifier: ClassificationService) { }
+  toggles: { title: string, items: string[] }[] = []
+  _fc: { [k: string]: FormControl } = {};
+
+  @Output()
+  selectionChange = new EventEmitter<FilterSelection>
+  fg: FormGroup<{ [k: string]: FormControl<any>; }>;
+
+  constructor(private http: HttpClient, private classifier: ClassificationService) {
+    this.toggles = classifier.getQuestions()
+
+    for (let toggle of this.toggles) {
+      this._fc[toggle.title] = new FormControl()
+    }
+    this.fg = new FormGroup(this._fc)
+
+  }
   ngOnInit(): void {
     this.http.get('/assets/axesmeta.json').subscribe(
       a => this.axes = (a as Axis[]).filter(a => a.tag.toLowerCase() === a.tag)
     )
-    this.toggles = Object.entries( this.classifier.getAllAnswers() ).map( ([name,items]) => ({name,items})) 
-
-    for( let toggle of this.toggles) {
-      this.fc[toggle.name] = new FormControl()
-    }
-    
-
+    this.fg.valueChanges.subscribe(v => this.selectionChange.emit(mapFormEvent(v)))
   }
-
 }
+
+function mapFormEvent(values: Partial<{ [x: string]: any; }>): FilterSelection {
+  const out = { toggles: {}, ranges: {} }
+  for (const [k, v] of Object.entries(values)) {
+    if (v && v.length) { out.toggles[k] = v }
+  }
+  return out
+}
+

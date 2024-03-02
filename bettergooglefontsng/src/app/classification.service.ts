@@ -4,32 +4,43 @@ import { IndexedDb } from 'minimongo';
 
 const LOCALSTORAGE_PREFIX = 'fontquestionnaire_'
 
-export const fontParams = {
-  "e-angle": ["horizontal", "~horizontal", "angled", "~vertical", "vertical"],
-  "x-height": ["neutra", "reasonable"],
-  "g-shape": ["modern (single story)", "classical (double story)"],
-  "l-shape": ["helvetica", "akkurat"],
-  "Kk-shape": ["helvetica/grotesk", "univers/frutiger (symmetric)", "other"],
-  "a-shape": ["double story", "double story extensive tail", "single story"],
-  "G-shape": ["Helvetica", "Univers"],
-  "R-shape": ["helvetica/univers (curved)", "straight"],
-  "M-tip": ["baseline", "above"],
-  "M-stems": ["parallel", "angled"],
-  "W-tip": ["on tip", "crossed"]
-}
+// TODO: Common? Specific for Serif?
+// naaa... too complex.. could make sense but let's stick to one type of question so far
+// 
+export const fontParamsSans = {
+  "e-angle": { a: ["horizontal", "~horizontal", "angled", "~vertical", "vertical"], s: "ea" },
+  "x-height": { a: ["neutra", "reasonable"], s: "Hx7" },
+  "g-shape": { a: ["modern (single story)", "classical (double story)"], s: "g" },
+  "l-shape": { a: ["helvetica", "akkurat"], s: "l" },
+  "Kk-shape": { a: ["helvetica/grotesk", "univers/frutiger (symmetric)", "other"], s: "K k" },
+  "a-shape": { a: ["double story", "double story extensive tail", "single story"], s: "a" },
+  "G-shape": { a: ["Helvetica", "Univers"], s: "G" },
+  "R-shape": { a: ["helvetica/univers (curved)", "straight"], s: "R" },
+  "M-tip": { a: ["baseline", "above"], s: "M" },
+  "M-stems": { a: ["parallel", "angled"], s: "M" },
+  "W-tip": { a: ["one tip", "crossed", "other"], s: "W" },
 
+}
+const fontQuestions = Object.entries(fontParamsSans)
+  .map(([title, value]) => ({ title, items: value.a, samples: value.s }));
+
+
+export type FontQuestion = {
+  title: string;
+  items: string[];
+  samples: string;
+};
 
 @Injectable({
   providedIn: 'root'
 })
 export class ClassificationService {
-  getQuestions(): { title: string; items: string[]; }[] {
+  getQuestions(): FontQuestion[] {
     return JSON.parse(JSON.stringify(this.questions))
   }
-  questions: { title: string; items: string[]; }[] = [];
+  questions: FontQuestion[] = [];
   constructor() {
-    this.questions = Object.entries(fontParams)
-      .map(([title, items]) => ({ title, items }))
+    this.questions = fontQuestions
   }
 
   private getLocalStorageItem(fontName: string) {
@@ -59,7 +70,7 @@ export class ClassificationService {
     return {}
   }
 
-  getAllAnswers(): {[k:string]: string[]}  {
+  getAllAnswers(): { [k: string]: string[] } {
     const lookup = {}
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i)

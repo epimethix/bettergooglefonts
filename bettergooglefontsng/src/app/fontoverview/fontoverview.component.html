@@ -1,7 +1,7 @@
 <p>fontoverview works!</p>
-<app-fontfilters></app-fontfilters>
+<app-fontfilters (selectionChange)="trackFilterChange($event)"></app-fontfilters>
 <ul class="fontGrid">
-  <div *ngFor="let font of fonts">
+  <div *ngFor="let font of fonts | async">
     <app-fontpreview [font]="font"></app-fontpreview>
   </div>
 </ul>

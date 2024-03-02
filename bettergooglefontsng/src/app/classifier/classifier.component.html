@@ -1,21 +1,31 @@
-<div class="classifier" >
+<div class="classifier">
+
     <div class="specimen-wide" [style]="{fontFamily: font?.meta?.name}">
         ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïð0123456789
     </div>
+    @if(answers) {
     <div>
+        <div>
+            <mat-slide-toggle [(ngModel)]="autoNext">
+                Auto Next
+            </mat-slide-toggle>
+        </div>
         <ul>
             <li *ngFor="let q of questions">
-                <h5>{{q.title}}</h5>
-                <mat-radio-group (change)="saveAnswer($event,q.title)">
-                    <mat-radio-button *ngFor="let option of q.items"
-                    [value]="option" [checked]="isSelected(q.title,option)"
-                    >
-                        {{option}}
-                    </mat-radio-button>
-                </mat-radio-group>
+                <div class="sample" [style]="{fontFamily: font?.meta?.name, fontSize: '150pt', height: '100pt'}">{{q.samples}}</div>
+                <div class="question">
+                    <h5>{{q.title}}</h5>
+                    <mat-radio-group (change)="saveAnswer($event,q.title)">
+                        <mat-radio-button *ngFor="let option of q.items" [value]="option"
+                            [checked]="isSelected(q.title,option)">
+                            {{option}}
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </div>
             </li>
         </ul>
     </div>
+    }
     <div>
         <!-- todo angular 17 routerLink -->
         <div class="prev"><a [href]="'/classify/'+fontPrev?.dir">Previous Font: {{fontPrev?.meta?.name}}</a></div>
