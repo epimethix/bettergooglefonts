@@ -1,15 +1,19 @@
 import { ChangeDetectorRef, Component, HostListener, OnInit } from '@angular/core';
-import { MatRadioChange } from '@angular/material/radio';
+import { MatRadioChange, MatRadioModule } from '@angular/material/radio';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ClassificationService, FontQuestion, fontParamsSans } from '../classification.service';
 import { appendStyleTag, generateFontCss } from '../FontNameUrl';
 import { FontInfo, MongofontService, getUrlForFirstFont } from '../mongofont.service';
-import { NgModel } from '@angular/forms';
+import { NgModel, FormsModule } from '@angular/forms';
+import { NgFor } from '@angular/common';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @Component({
-  selector: 'app-classifier',
-  templateUrl: './classifier.component.html',
-  styleUrls: ['./classifier.component.scss']
+    selector: 'app-classifier',
+    templateUrl: './classifier.component.html',
+    styleUrls: ['./classifier.component.scss'],
+    standalone: true,
+    imports: [MatSlideToggleModule, FormsModule, NgFor, MatRadioModule]
 })
 export class ClassifierComponent implements OnInit {
   questions: FontQuestion[] = [];

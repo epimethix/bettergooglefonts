@@ -1,7 +1,11 @@
 <p>fontoverview works!</p>
 <app-fontfilters (selectionChange)="trackFilterChange($event)"></app-fontfilters>
 <ul class="fontGrid">
-  <div *ngFor="let font of fonts | async">
-    <app-fontpreview [font]="font"></app-fontpreview>
-  </div>
+  <cdk-virtual-scroll-viewport appendOnly itemSize="100" class="font-viewport">
+    <div *cdkVirtualFor="let font of fonts">
+      <div>
+        <app-fontpreview [font]="font"></app-fontpreview>
+      </div>
+    </div>
+  </cdk-virtual-scroll-viewport>
 </ul>

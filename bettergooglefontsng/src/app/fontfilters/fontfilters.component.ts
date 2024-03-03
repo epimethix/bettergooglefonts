@@ -1,7 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ClassificationService, fontParamsSans } from '../classification.service';
+import { MatOptionModule } from '@angular/material/core';
+import { MatSelectModule } from '@angular/material/select';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { AxisFontfilterComponent } from './fontfilter.component';
+import { NgFor } from '@angular/common';
 
 type Axis = {
   tag: string
@@ -14,9 +19,11 @@ export type FilterSelection = {
   ranges
 }
 @Component({
-  selector: 'app-fontfilters',
-  templateUrl: './fontfilters.component.html',
-  styleUrls: ['./fontfilters.component.scss']
+    selector: 'app-fontfilters',
+    templateUrl: './fontfilters.component.html',
+    styleUrls: ['./fontfilters.component.scss'],
+    standalone: true,
+    imports: [NgFor, AxisFontfilterComponent, MatFormFieldModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatOptionModule]
 })
 
 

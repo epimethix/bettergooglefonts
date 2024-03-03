@@ -8,8 +8,8 @@ describe('FontpreviewComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [FontpreviewComponent]
-    });
+    imports: [FontpreviewComponent]
+});
     fixture = TestBed.createComponent(FontpreviewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

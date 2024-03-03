@@ -8,8 +8,8 @@ describe('FontoverviewComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [FontoverviewComponent]
-    });
+    imports: [FontoverviewComponent]
+});
     fixture = TestBed.createComponent(FontoverviewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

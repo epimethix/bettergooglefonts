@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { MatSliderModule } from '@angular/material/slider';
 
 @Component({
     selector: 'app-fontfilter',
@@ -11,6 +12,8 @@ import { Component, Input, OnInit } from '@angular/core';
     </mat-slider>
     </div>
   `,
+    standalone: true,
+    imports: [MatSliderModule],
 })
 export class AxisFontfilterComponent {
 

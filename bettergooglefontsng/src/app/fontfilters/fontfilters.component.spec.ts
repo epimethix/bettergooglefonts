@@ -8,8 +8,8 @@ describe('FontfiltersComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [FontfiltersComponent]
-    });
+    imports: [FontfiltersComponent]
+});
     fixture = TestBed.createComponent(FontfiltersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
