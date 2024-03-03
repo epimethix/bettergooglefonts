@@ -44,13 +44,13 @@ export class FontfiltersComponent implements OnInit {
   @Output()
   selectionChange = new EventEmitter<FilterSelection>
   fg: FormGroup<{ [k: string]: FormControl<any>; }>;
-  availableToggles: { name: string }[];
+  availableFilters: { name: string }[];
   // maybe rather a function and just a string for the selection
-  selectedToggles: Toggle[] = []
+  activeFilters: Toggle[] = []
 
   constructor(private http: HttpClient, private classifier: ClassificationService) {
     this.toggles = classifier.getQuestions()
-    this.availableToggles = this.toggles.map(t => ({ name: t.title }))
+    this.availableFilters = this.toggles.map(t => ({ name: t.title }))
 
     for (let toggle of this.toggles) {
       this._fc[toggle.title] = new FormControl()
@@ -65,12 +65,21 @@ export class FontfiltersComponent implements OnInit {
     this.fg.valueChanges.subscribe(v => this.selectionChange.emit(mapFormEvent(v)))
   }
 
-  selectFilter(value: string) {
+  activateFilter(value: string) {
     const toggle = this.toggles.find(v => v.title === value)
     if (toggle) {
-      this.selectedToggles.push(toggle)
+      this.activeFilters.push(toggle)
     }
   }
+
+  removeFilter(value: string) {
+    const idx = this.activeFilters.findIndex(v => v.title === value)
+    if (idx > -1) {
+      this.activeFilters.splice(idx,1)
+      this._fc[value].setValue(undefined)
+    }
+  }
+  
 }
 
 function mapFormEvent(values: Partial<{ [x: string]: any; }>): FilterSelection {

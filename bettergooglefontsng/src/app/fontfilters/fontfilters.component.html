@@ -8,9 +8,16 @@
     </ul>
 
     <ul class="filters">
-        <li *ngFor="let toggle of selectedToggles; track toggle">
-           <app-active-filter [toggle]="toggle" [formcontrol]="_fc[toggle.title]"></app-active-filter> 
+        <li *ngFor="let filter of activeFilters">
+           <app-active-filter
+           [toggle]="filter"
+           [formcontrol]="_fc[filter.title]"
+           (remove)="removeFilter(filter.title)"
+           ></app-active-filter> 
         </li>
-        <app-searchable-filterlist [availableFilters]="availableToggles" (select)="selectFilter($event)"></app-searchable-filterlist>
+        <app-searchable-filterlist 
+        [availableFilters]="availableFilters" 
+        (activate)="activateFilter($event)"
+        ></app-searchable-filterlist>
     </ul>
 </div>

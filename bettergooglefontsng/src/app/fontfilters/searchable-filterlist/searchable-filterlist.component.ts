@@ -20,13 +20,13 @@ export class SearchableFilterlistComponent implements OnInit {
   availableFilters: { name: string, icon?: string }[] = []
 
   @Output()
-  select = new EventEmitter<string>()
+  activate = new EventEmitter<string>()
 
   ngOnInit(): void {
     this.selectedFilter.valueChanges
       .subscribe(value => {
         if (value) {
-          this.select.next(value)
+          this.activate.next(value)
           this.selectedFilter.setValue(null)
         }
       })
