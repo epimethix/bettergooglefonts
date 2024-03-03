@@ -1,0 +1,35 @@
+import { JsonPipe } from '@angular/common';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+
+@Component({
+  selector: 'app-searchable-filterlist',
+  standalone: true,
+  imports: [JsonPipe, MatAutocompleteModule, MatFormFieldModule, FormsModule, ReactiveFormsModule, MatInputModule],
+  templateUrl: './searchable-filterlist.component.html',
+  styleUrl: './searchable-filterlist.component.scss'
+})
+export class SearchableFilterlistComponent implements OnInit {
+
+  selectedFilter = new FormControl<string>('')
+
+  @Input()
+  availableFilters: { name: string, icon?: string }[] = []
+
+  @Output()
+  select = new EventEmitter<string>()
+
+  ngOnInit(): void {
+    this.selectedFilter.valueChanges
+      .subscribe(value => {
+        if (value) {
+          this.select.next(value)
+          this.selectedFilter.setValue(null)
+        }
+      })
+  }
+
+}

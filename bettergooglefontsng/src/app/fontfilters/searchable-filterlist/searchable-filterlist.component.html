@@ -1,0 +1,15 @@
+<mat-form-field class="example-full-width">
+    <mat-label>Add new Filter</mat-label>
+    <input type="text"
+           placeholder="Pick one"
+           aria-label="Add new Filter"
+           matInput
+           [formControl]="selectedFilter"
+           [matAutocomplete]="auto">
+<!-- requireSelection -> only click on values triggers event  -->
+<mat-autocomplete requireSelection #auto="matAutocomplete"> 
+    @for (option of availableFilters; track option) {
+    <mat-option [value]="option.name">{{option.name}}</mat-option>
+    }
+</mat-autocomplete>
+</mat-form-field>
