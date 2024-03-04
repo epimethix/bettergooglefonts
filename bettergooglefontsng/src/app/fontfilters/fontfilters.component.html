@@ -4,9 +4,10 @@
             @if (filter?.type == 'select') {
             <app-active-filter [filter]="filter" [formcontrol]="_fc[filter.title]"></app-active-filter>
             } @else if (filter.type == 'range') {
-            <!-- todo: toggle to indclude or exclude fonts without this axis present -->
+            <!-- todo: toggle to indclude or exclude fonts without this axis present  -> Wrap to its own component-->
+            <!-- todo: show numeric value of slider (also when not active) -->
             <mat-label>{{filter.title}}</mat-label>
-            <mat-slider [min]="filter.min_value" [max]="filter.max_value">
+            <mat-slider [min]="filter.min_value" [max]="filter.max_value" discrete>
                 <input matSliderStartThumb [formControl]="_fcg[filter.title].min">
                 <input matSliderEndThumb [formControl]="_fcg[filter.title].max">
             </mat-slider>
@@ -14,7 +15,7 @@
             }
 
             <button mat-icon-button color="primary" (click)="removeFilter(filter.title)"
-                aria-label="Example icon button with a menu icon">
+                aria-label="'Remove Filter ' + filter.title">
                 <mat-icon>delete</mat-icon>
             </button>
         </li>
