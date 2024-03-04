@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, OnInit } from '@angular/core';
-import { BehaviorSubject, from, map, Observable, ObservableInput, ReplaySubject } from 'rxjs';
+import { BehaviorSubject, combineLatest, combineLatestWith, filter, from, map, Observable, ObservableInput, ReplaySubject } from 'rxjs';
 import { FontNameUrl } from './FontNameUrl';
 import { MemoryDb, MinimongoCollection, MinimongoLocalDb } from 'minimongo';
 import { Subject } from 'rxjs/internal/Subject';
@@ -51,27 +51,32 @@ export class MongofontService {
     })
   }
 
-  getFonts(filter?: FilterSelection): Observable<FontNameUrl[]> {
+  getFonts(filterS?: FilterSelection): Observable<FontNameUrl[]> {
+
     const sub = new Subject<FontNameUrl[]>()
 
     let selector = from([{}])
-    if (filter?.toggles) {
-      selector = this.getFontNamesForSelectedToggles(filter.toggles)
+    if (filterS?.toggles) {
+      selector = this.getFontNamesForSelectedToggles(filterS.toggles)
         .pipe(map(arr => ({ dir: { $in: arr } })))
     }
 
-    selector.subscribe(selector => {
-      this.db.collections['fonts'].find(selector).fetch(docs => {
-        // const fmeta = docs.map()
-        // TODO: map filename already in meta?
-        const metafonts: FontNameUrl[] = docs.map((d: FontInfo) => ({
-          name: d.meta.name,
-          url: getUrlForFirstFont(d),
-          axes: d.meta.axes
-        }))
-        sub.next(metafonts)
-      }, err => console.log(err))
-    })
+    this.dbready.pipe(filter<boolean>(v => v)).pipe(combineLatestWith(selector))
+      .subscribe(([dbready, selector]) => {
+        if (filterS?.ranges) {
+          selector = { ...selector, ...this.getSelectorForAxes(filterS.ranges) }
+        }
+        this.db.collections['fonts'].find(selector).fetch(docs => {
+          // const fmeta = docs.map()
+          // TODO: map filename already in meta?
+          const metafonts: FontNameUrl[] = docs.map((d: FontInfo) => ({
+            name: d.meta.name,
+            url: getUrlForFirstFont(d),
+            axes: d.meta.axes
+          }))
+          sub.next(metafonts)
+        }, err => console.log(err))
+      })
     return sub.asObservable()
   }
 
@@ -117,6 +122,27 @@ export class MongofontService {
     })
     return sub.asObservable();
   }
+
+  getSelectorForAxes(ranges: { [k in string]: { min: number, max: number } }) {
+    const selector = {}
+    const variationInfos = []
+    for (const [param, value] of Object.entries(ranges)) {
+      selector['meta.axes'] = { $elemMatch: { tag: param } } // cutting off 'a_'
+      if (value) {
+        const { min, max } = value
+        if (min) {
+          selector['meta.axes']['$elemMatch']['min_value'] = { $lte: min }
+          // variationInfos.push({ name: min })
+        }
+        if (max) {
+          selector['meta.axes']['$elemMatch']['max_value'] = { $gte: max }
+          // variationInfos.push({ name: max })
+        }
+      }
+    }
+    return selector
+  }
+
 
   /**
    * 

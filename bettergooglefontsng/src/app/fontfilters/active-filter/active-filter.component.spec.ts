@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ActiveFilterComponent } from './active-filter.component';
+import { ActiveSelectFilterComponent } from './active-filter.component';
 
 describe('ActiveFilterComponent', () => {
-  let component: ActiveFilterComponent;
-  let fixture: ComponentFixture<ActiveFilterComponent>;
+  let component: ActiveSelectFilterComponent;
+  let fixture: ComponentFixture<ActiveSelectFilterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ActiveFilterComponent]
+      imports: [ActiveSelectFilterComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ActiveFilterComponent);
+    fixture = TestBed.createComponent(ActiveSelectFilterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

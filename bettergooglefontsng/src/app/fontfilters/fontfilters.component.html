@@ -1,23 +1,20 @@
 <div>
     <ul class="filters">
-        <li *ngFor="let axis of axes">
-            <!-- {{axis|json}} -->
-            <app-fontfilter [axisTag]="axis.tag" [min]="axis.min_value" [max]="axis.max_value">
-            </app-fontfilter>
-        </li>
-    </ul>
-
-    <ul class="filters">
         <li *ngFor="let filter of activeFilters">
-           <app-active-filter
-           [toggle]="filter"
-           [formcontrol]="_fc[filter.title]"
-           (remove)="removeFilter(filter.title)"
-           ></app-active-filter> 
+            @if (filter?.type == 'select') {
+            <app-active-filter [filter]="filter" [formcontrol]="_fc[filter.title]"
+                (remove)="removeFilter(filter.title)"></app-active-filter>
+            } @else if (filter.type == 'range') {
+            <!-- todo: toggle to indclude or exclude fonts without this axis present -->
+            <mat-label>{{filter.title}}</mat-label>
+            <mat-slider [min]="filter.min_value" [max]="filter.max_value">
+                <input matSliderStartThumb [formControl]="_fcg[filter.title].min">
+                <input matSliderEndThumb [formControl]="_fcg[filter.title].max">
+            </mat-slider>
+
+            }
         </li>
-        <app-searchable-filterlist 
-        [availableFilters]="availableFilters" 
-        (activate)="activateFilter($event)"
-        ></app-searchable-filterlist>
+        <app-searchable-filterlist [availableFilters]="availableFilters"
+            (activate)="activateFilter($event)"></app-searchable-filterlist>
     </ul>
 </div>

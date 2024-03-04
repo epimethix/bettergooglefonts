@@ -1,3 +1,32 @@
-.font-viewport {
-    height: 50vh;
+.fontOverview {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+
+    .fontFilters {
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    .fontGridWrapper {
+        // overflow-y: scroll;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 200px;
+    }
+}
+
+.fontViewport {
+    height: 100%;
+
+    .fontGrid {
+        display: flex;
+        flex-flow: row wrap;
+
+        .gridElement {
+            width: 200px;
+            word-wrap: break-word;
+            overflow: hidden;
+        }
+    }
 }
