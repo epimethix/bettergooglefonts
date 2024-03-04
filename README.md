@@ -69,3 +69,9 @@ ng serve
 * The answers are written into localstorage
 * To contribute classifications go to http://localhost:4200/classify-json and copy the contents into classification.json
 
+## Angular App
+* mongofont.service.ts -> Has the meta data
+* fontoverview -> listing fonts, main routing
+* fontpreview -> One tile in the listing
+* fontfilters -> upper part of fontoverview
+* classifier -> questionnaire
