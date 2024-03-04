@@ -1,0 +1,21 @@
+.specimen-wide {
+    font-size: 40pt;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    letter-spacing: 10pt;
+    width: 50vw;
+}
+
+.classifier {
+    display: flex;
+    direction: row;
+    li {
+        list-style: none;
+        display: flex;
+        .question {
+            display: flex;
+            flex-flow: column wrap;
+        }
+    }
+}
+

@@ -1,0 +1,12 @@
+<div class="fontOverview">
+  <app-fontfilters class="fontFilters" (selectionChange)="trackFilterChange($event)"></app-fontfilters>
+  <ul class="fontGridWrapper">
+    <cdk-virtual-scroll-viewport appendOnly itemSize="20" class="fontViewport">
+      <div class="fontGrid">
+        <div *cdkVirtualFor="let font of fonts" class="gridElement">
+          <app-fontpreview [font]="font"></app-fontpreview>
+        </div>
+      </div>
+    </cdk-virtual-scroll-viewport>
+  </ul>
+</div>

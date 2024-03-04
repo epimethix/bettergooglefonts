@@ -1,0 +1,1299 @@
+{
+  "cantarell": {
+    "e-angle": "~vertical"
+  },
+  "alumnisans": {
+    "e-angle": "horizontal",
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "ibmplexsans": {
+    "e-angle": "~horizontal"
+  },
+  "montserrat": {
+    "e-angle": "angled"
+  },
+  "bahianita": {
+    "e-angle": "horizontal"
+  },
+  "hindkochi": {
+    "e-angle": "vertical"
+  },
+  "paytoneone": {
+    "Kk-shape": "other"
+  },
+  "kronaone": {
+    "e-angle": "~vertical"
+  },
+  "englebert": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "~horizontal"
+  },
+  "carlito": {
+    "e-angle": "angled"
+  },
+  "aronesans": {
+    "e-angle": "~vertical"
+  },
+  "karlatamilupright": {
+    "e-angle": "angled"
+  },
+  "pathwayextreme": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "gothica1": {
+    "e-angle": "angled"
+  },
+  "encodesanssemicondensed": {
+    "e-angle": "vertical"
+  },
+  "arya": {
+    "e-angle": "horizontal"
+  },
+  "pangolin": {
+    "x-height": "reasonable"
+  },
+  "archivo": {
+    "e-angle": "horizontal"
+  },
+  "khmer": {
+    "e-angle": "angled"
+  },
+  "cabin": {
+    "e-angle": "~vertical"
+  },
+  "anybody": {
+    "e-angle": "~horizontal"
+  },
+  "bizudgothic": {
+    "e-angle": "angled"
+  },
+  "newscycle": {
+    "e-angle": "angled"
+  },
+  "mallanna": {
+    "e-angle": "~vertical"
+  },
+  "notosansbalinese": {
+    "e-angle": "vertical"
+  },
+  "parisienne": {
+    "x-height": "reasonable"
+  },
+  "montserratalternates": {
+    "e-angle": "angled"
+  },
+  "chauphilomeneone": {
+    "e-angle": "~vertical"
+  },
+  "capriola": {
+    "e-angle": "~vertical"
+  },
+  "fahkwang": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "horizontal"
+  },
+  "asul": {
+    "e-angle": "angled"
+  },
+  "bacasimeantique": {
+    "e-angle": "angled"
+  },
+  "alumnisansinlineone": {
+    "e-angle": "horizontal"
+  },
+  "nobile": {
+    "e-angle": "angled"
+  },
+  "changa": {
+    "e-angle": "~vertical"
+  },
+  "lekton": {
+    "e-angle": "~vertical"
+  },
+  "bebasneue": {
+    "M-tip": "baseline"
+  },
+  "inder": {
+    "e-angle": "vertical"
+  },
+  "miriamlibre": {
+    "e-angle": "vertical"
+  },
+  "alegreya": {
+    "g-shape": "classical (double story)",
+    "M-stems": "angled",
+    "e-angle": "angled"
+  },
+  "plusjakartasans": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "meerainimai": {
+    "e-angle": "~horizontal"
+  },
+  "kufam": {
+    "e-angle": "vertical"
+  },
+  "battambang": {
+    "e-angle": "~vertical"
+  },
+  "notosansadlam": {
+    "e-angle": "vertical"
+  },
+  "kulimpark": {
+    "e-angle": "~vertical"
+  },
+  "jura": {
+    "e-angle": "horizontal"
+  },
+  "inclusivesans": {
+    "e-angle": "angled"
+  },
+  "catamaran": {
+    "e-angle": "angled"
+  },
+  "francoisone": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "angled"
+  },
+  "arsenal": {
+    "e-angle": "angled"
+  },
+  "manjari": {
+    "e-angle": "~vertical"
+  },
+  "mplus2": {
+    "e-angle": "horizontal"
+  },
+  "chathura": {
+    "e-angle": "vertical"
+  },
+  "bricolagegrotesque": {
+    "e-angle": "~horizontal"
+  },
+  "kodemono": {
+    "e-angle": "angled"
+  },
+  "dongle": {
+    "e-angle": "angled"
+  },
+  "lexendexa": {
+    "e-angle": "angled"
+  },
+  "ibmplexsanshebrew": {
+    "e-angle": "~horizontal"
+  },
+  "amethysta": {
+    "x-height": "reasonable"
+  },
+  "asapcondensed": {
+    "e-angle": "~vertical"
+  },
+  "b612mono": {
+    "e-angle": "angled"
+  },
+  "blinker": {
+    "e-angle": "~vertical"
+  },
+  "antic": {
+    "e-angle": "~vertical"
+  },
+  "otomanopeeone": {
+    "e-angle": "angled"
+  },
+  "metrophobic": {
+    "e-angle": "horizontal"
+  },
+  "basic": {
+    "e-angle": "~vertical"
+  },
+  "anaheim": {
+    "e-angle": "~vertical"
+  },
+  "ojuju": {
+    "e-angle": "vertical"
+  },
+  "candal": {
+    "e-angle": "vertical"
+  },
+  "adlamdisplay": {
+    "e-angle": "angled",
+    "g-shape": "modern (single story)"
+  },
+  "portlligatsans": {
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "gidugu": {
+    "e-angle": "horizontal"
+  },
+  "commissioner": {
+    "e-angle": "vertical"
+  },
+  "alice": {
+    "g-shape": "classical (double story)",
+    "x-height": "reasonable"
+  },
+  "almendrasc": {
+    "e-angle": "angled"
+  },
+  "livvic": {
+    "e-angle": "angled"
+  },
+  "koho": {
+    "e-angle": "angled"
+  },
+  "murecho": {
+    "e-angle": "angled"
+  },
+  "bevietnampro": {
+    "e-angle": "horizontal"
+  },
+  "almendradisplay": {
+    "e-angle": "angled"
+  },
+  "dohyeon": {
+    "e-angle": "vertical"
+  },
+  "ekmukta": {
+    "e-angle": "~vertical"
+  },
+  "hind": {
+    "e-angle": "vertical"
+  },
+  "paprika": {
+    "x-height": "reasonable",
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "akshar": {
+    "e-angle": "~horizontal",
+    "g-shape": "modern (single story)"
+  },
+  "gotu": {
+    "e-angle": "angled"
+  },
+  "anekmalayalam": {
+    "e-angle": "vertical"
+  },
+  "hammersmithone": {
+    "e-angle": "vertical"
+  },
+  "darkergrotesque": {
+    "e-angle": "horizontal"
+  },
+  "notosansadlamunjoined": {
+    "e-angle": "vertical"
+  },
+  "amaticsc": {
+    "x-height": "neutra"
+  },
+  "barlowcondensed": {
+    "e-angle": "~horizontal"
+  },
+  "adamina": {
+    "e-angle": "angled",
+    "x-height": "reasonable",
+    "g-shape": "classical (double story)"
+  },
+  "aboreto": {
+    "e-angle": "horizontal"
+  },
+  "mplus1": {
+    "e-angle": "~vertical"
+  },
+  "ibmplexsansthailooped": {
+    "e-angle": "~horizontal"
+  },
+  "almendra": {
+    "e-angle": "angled"
+  },
+  "gfsneohellenic": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "angled"
+  },
+  "karlatamilinclined": {
+    "e-angle": "angled"
+  },
+  "krub": {
+    "e-angle": "~horizontal"
+  },
+  "alexandria": {
+    "g-shape": "modern (single story)",
+    "e-angle": "angled",
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "assistant": {
+    "e-angle": "angled"
+  },
+  "encodesanscondensed": {
+    "e-angle": "vertical"
+  },
+  "mousememoirs": {
+    "e-angle": "~vertical"
+  },
+  "preahvihear": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "balthazar": {
+    "e-angle": "vertical"
+  },
+  "baijamjuree": {
+    "e-angle": "horizontal"
+  },
+  "imprima": {
+    "e-angle": "angled"
+  },
+  "afacad": {
+    "e-angle": "~vertical",
+    "g-shape": "modern (single story)"
+  },
+  "gayathri": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "horizontal"
+  },
+  "allison": {
+    "e-angle": "angled"
+  },
+  "anekodia": {
+    "e-angle": "vertical"
+  },
+  "josefinsans": {
+    "e-angle": "~vertical"
+  },
+  "kdamthmorpro": {
+    "e-angle": "vertical"
+  },
+  "barlow": {
+    "e-angle": "~horizontal"
+  },
+  "figtree": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "angled"
+  },
+  "alfaslabone": {
+    "g-shape": "modern (single story)",
+    "x-height": "neutra",
+    "e-angle": "vertical"
+  },
+  "armata": {
+    "e-angle": "~vertical"
+  },
+  "anektelugu": {
+    "e-angle": "vertical"
+  },
+  "kanit": {
+    "e-angle": "vertical"
+  },
+  "acme": {
+    "e-angle": "angled",
+    "x-height": "reasonable",
+    "g-shape": "classical (double story)"
+  },
+  "comme": {
+    "e-angle": "angled"
+  },
+  "mooli": {
+    "e-angle": "angled"
+  },
+  "economica": {
+    "e-angle": "vertical"
+  },
+  "lexendpeta": {
+    "e-angle": "angled"
+  },
+  "pragatinarrow": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "anekdevanagari": {
+    "e-angle": "vertical"
+  },
+  "mako": {
+    "e-angle": "vertical"
+  },
+  "cantoraone": {
+    "e-angle": "vertical"
+  },
+  "muktamahee": {
+    "e-angle": "angled"
+  },
+  "orbit": {
+    "e-angle": "horizontal"
+  },
+  "familjengrotesk": {
+    "Kk-shape": "other",
+    "e-angle": "horizontal"
+  },
+  "aladin": {
+    "l-shape": "helvetica",
+    "g-shape": "modern (single story)",
+    "e-angle": "angled"
+  },
+  "encodesans": {
+    "e-angle": "vertical"
+  },
+  "pavanam": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "martelsans": {
+    "e-angle": "angled"
+  },
+  "allertastencil": {
+    "e-angle": "angled",
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "federo": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "vertical"
+  },
+  "merriweathersans": {
+    "e-angle": "~vertical"
+  },
+  "notosansbassavah": {
+    "e-angle": "vertical"
+  },
+  "georama": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "~vertical"
+  },
+  "gasoekone": {
+    "Kk-shape": "univers/frutiger (symmetric)",
+    "e-angle": "~horizontal"
+  },
+  "nats": {
+    "e-angle": "angled"
+  },
+  "allerta": {
+    "g-shape": "modern (single story)",
+    "Kk-shape": "univers/frutiger (symmetric)",
+    "a-shape": "double story",
+    "e-angle": "angled",
+    "x-height": "reasonable",
+    "G-shape": "Univers",
+    "R-shape": "straight",
+    "M-tip": "above",
+    "M-stems": "parallel",
+    "W-tip": "on tip",
+    "l-shape": "akkurat"
+  },
+  "cabincondensed": {
+    "e-angle": "vertical"
+  },
+  "heebo": {
+    "e-angle": "angled"
+  },
+  "exo2": {
+    "Kk-shape": "other",
+    "e-angle": "vertical"
+  },
+  "asar": {
+    "e-angle": "~vertical"
+  },
+  "alegreyasans": {
+    "g-shape": "classical (double story)",
+    "M-tip": "above",
+    "e-angle": "angled",
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "adventpro": {
+    "e-angle": "~vertical",
+    "g-shape": "modern (single story)"
+  },
+  "kantumruypro": {
+    "e-angle": "angled"
+  },
+  "hubballi": {
+    "e-angle": "~vertical"
+  },
+  "alegreyasanssc": {
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "publicsans": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "carme": {
+    "e-angle": "vertical"
+  },
+  "averialibre": {
+    "e-angle": "~vertical"
+  },
+  "mada": {
+    "e-angle": "~vertical"
+  },
+  "bizudpgothic": {
+    "e-angle": "angled"
+  },
+  "lexendzetta": {
+    "e-angle": "~horizontal"
+  },
+  "benchnine": {
+    "e-angle": "~horizontal"
+  },
+  "kiteone": {
+    "e-angle": "angled"
+  },
+  "aguafinascript": {
+    "e-angle": "angled"
+  },
+  "ibmplexsansthai": {
+    "e-angle": "~horizontal"
+  },
+  "anekbangla": {
+    "e-angle": "vertical"
+  },
+  "abel": {
+    "e-angle": "horizontal",
+    "x-height": "reasonable"
+  },
+  "aldrich": {
+    "g-shape": "modern (single story)",
+    "e-angle": "vertical",
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "dorsa": {
+    "e-angle": "horizontal"
+  },
+  "carroisgothic": {
+    "e-angle": "angled"
+  },
+  "prozalibre": {
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "averiagruesalibre": {
+    "e-angle": "~vertical"
+  },
+  "ptsansnarrow": {
+    "Kk-shape": "other"
+  },
+  "geologica": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "angled"
+  },
+  "badscript": {
+    "e-angle": "~horizontal"
+  },
+  "instrumentsans": {
+    "e-angle": "horizontal"
+  },
+  "astloch": {
+    "e-angle": "angled"
+  },
+  "orienta": {
+    "e-angle": "angled"
+  },
+  "encodesansexpanded": {
+    "e-angle": "vertical"
+  },
+  "notosansbengali": {
+    "e-angle": "vertical"
+  },
+  "ibmplexsansarabic": {
+    "e-angle": "~horizontal"
+  },
+  "andika": {
+    "e-angle": "~vertical"
+  },
+  "bagelfatone": {
+    "e-angle": "~vertical"
+  },
+  "bubblerone": {
+    "e-angle": "vertical"
+  },
+  "alumnisanscollegiateone": {
+    "e-angle": "horizontal"
+  },
+  "madimione": {
+    "e-angle": "vertical"
+  },
+  "alkalami": {
+    "g-shape": "classical (double story)",
+    "e-angle": "~vertical"
+  },
+  "istokweb": {
+    "e-angle": "angled"
+  },
+  "doppioone": {
+    "e-angle": "vertical"
+  },
+  "hindcolombo": {
+    "e-angle": "vertical"
+  },
+  "librefranklin": {
+    "e-angle": "angled"
+  },
+  "anta": {
+    "e-angle": "vertical"
+  },
+  "autourone": {
+    "e-angle": "angled"
+  },
+  "actor": {
+    "e-angle": "~vertical",
+    "x-height": "reasonable",
+    "g-shape": "modern (single story)"
+  },
+  "notosansarmenian": {
+    "e-angle": "vertical"
+  },
+  "pathwaygothicone": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "outfit": {
+    "e-angle": "angled"
+  },
+  "akatab": {
+    "e-angle": "~vertical",
+    "g-shape": "classical (double story)"
+  },
+  "farro": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "~vertical"
+  },
+  "golostext": {
+    "e-angle": "horizontal"
+  },
+  "epilogue": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "horizontal"
+  },
+  "dotgothic16": {
+    "e-angle": "horizontal"
+  },
+  "anektamil": {
+    "e-angle": "vertical"
+  },
+  "encodesanssemiexpanded": {
+    "Kk-shape": "other",
+    "e-angle": "vertical"
+  },
+  "muktavaani": {
+    "e-angle": "angled"
+  },
+  "finlandica": {
+    "Kk-shape": "other",
+    "e-angle": "angled"
+  },
+  "dmsans": {
+    "e-angle": "horizontal"
+  },
+  "durusans": {
+    "e-angle": "~vertical"
+  },
+  "chivo": {
+    "e-angle": "horizontal"
+  },
+  "belleza": {
+    "e-angle": "~vertical"
+  },
+  "magra": {
+    "e-angle": "~vertical"
+  },
+  "akayakanadaka": {
+    "e-angle": "angled",
+    "g-shape": "classical (double story)"
+  },
+  "gowundodum": {
+    "e-angle": "angled"
+  },
+  "cuprum": {
+    "e-angle": "vertical"
+  },
+  "nuosusil": {
+    "e-angle": "angled"
+  },
+  "galdeano": {
+    "Kk-shape": "univers/frutiger (symmetric)",
+    "e-angle": "angled"
+  },
+  "alumnisanspinstripe": {
+    "e-angle": "horizontal"
+  },
+  "firasansextracondensed": {
+    "Kk-shape": "univers/frutiger (symmetric)",
+    "e-angle": "angled"
+  },
+  "hindguntur": {
+    "e-angle": "vertical"
+  },
+  "alkatra": {
+    "g-shape": "modern (single story)",
+    "e-angle": "angled"
+  },
+  "anekkannada": {
+    "e-angle": "vertical"
+  },
+  "pattaya": {
+    "Kk-shape": "other"
+  },
+  "lexend": {
+    "e-angle": "angled"
+  },
+  "convergence": {
+    "e-angle": "angled"
+  },
+  "mingzat": {
+    "e-angle": "horizontal"
+  },
+  "play": {
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "alef": {
+    "g-shape": "classical (double story)",
+    "e-angle": "~vertical",
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "hedvigletterssans": {
+    "e-angle": "horizontal"
+  },
+  "alata": {
+    "g-shape": "modern (single story)",
+    "e-angle": "~vertical"
+  },
+  "b612": {
+    "e-angle": "angled"
+  },
+  "hermeneusone": {
+    "e-angle": "horizontal"
+  },
+  "molengo": {
+    "e-angle": "~vertical"
+  },
+  "aneklatin": {
+    "e-angle": "vertical"
+  },
+  "qahiri": {
+    "Kk-shape": "other"
+  },
+  "allan": {
+    "g-shape": "modern (single story)",
+    "e-angle": "angled"
+  },
+  "asap": {
+    "e-angle": "~vertical"
+  },
+  "poppins": {
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "harmattan": {
+    "e-angle": "~vertical"
+  },
+  "azeretmono": {
+    "e-angle": "horizontal"
+  },
+  "oswald": {
+    "e-angle": "horizontal"
+  },
+  "cagliostro": {
+    "e-angle": "angled"
+  },
+  "dhyana": {
+    "e-angle": "angled"
+  },
+  "belanosima": {
+    "M-tip": "above",
+    "e-angle": "angled"
+  },
+  "cambay": {
+    "e-angle": "~vertical"
+  },
+  "archivoblack": {
+    "e-angle": "horizontal"
+  },
+  "mina": {
+    "e-angle": "vertical"
+  },
+  "notosansbatak": {
+    "e-angle": "vertical"
+  },
+  "overpass": {
+    "e-angle": "angled"
+  },
+  "abhayalibre": {
+    "e-angle": "~horizontal"
+  },
+  "mitr": {
+    "e-angle": "angled"
+  },
+  "daysone": {
+    "e-angle": "horizontal"
+  },
+  "braahone": {
+    "e-angle": "~vertical"
+  },
+  "notosansavestan": {
+    "e-angle": "vertical"
+  },
+  "average": {
+    "e-angle": "angled"
+  },
+  "pontanosans": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "muktamalar": {
+    "e-angle": "angled"
+  },
+  "mpluscodelatin": {
+    "e-angle": "vertical"
+  },
+  "prompt": {
+    "e-angle": "vertical",
+    "g-shape": "classical (double story)",
+    "x-height": "reasonable",
+    "l-shape": "akkurat",
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "kodchasan": {
+    "e-angle": "angled"
+  },
+  "atkinsonhyperlegible": {
+    "e-angle": "~horizontal"
+  },
+  "akayatelivigala": {
+    "e-angle": "angled"
+  },
+  "audiowide": {
+    "e-angle": "vertical"
+  },
+  "michroma": {
+    "e-angle": "horizontal"
+  },
+  "passionone": {
+    "x-height": "reasonable",
+    "g-shape": "classical (double story)",
+    "e-angle": "vertical"
+  },
+  "bakbakone": {
+    "e-angle": "vertical"
+  },
+  "allura": {
+    "e-angle": "angled"
+  },
+  "atomicage": {
+    "e-angle": "vertical"
+  },
+  "inriasans": {
+    "e-angle": "~vertical"
+  },
+  "marmelad": {
+    "e-angle": "~horizontal"
+  },
+  "notosansbamum": {
+    "e-angle": "vertical"
+  },
+  "karla": {
+    "e-angle": "horizontal"
+  },
+  "fjallaone": {
+    "Kk-shape": "univers/frutiger (symmetric)",
+    "e-angle": "horizontal"
+  },
+  "glory": {
+    "e-angle": "angled"
+  },
+  "fresca": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "angled"
+  },
+  "dosis": {
+    "e-angle": "angled"
+  },
+  "geo": {
+    "Kk-shape": "univers/frutiger (symmetric)",
+    "e-angle": "vertical"
+  },
+  "lunasima": {
+    "e-angle": "vertical"
+  },
+  "didactgothic": {
+    "e-angle": "angled"
+  },
+  "jockeyone": {
+    "e-angle": "vertical"
+  },
+  "homenaje": {
+    "e-angle": "vertical"
+  },
+  "mergeone": {
+    "e-angle": "~vertical"
+  },
+  "ballet": {
+    "e-angle": "angled"
+  },
+  "mavenpro": {
+    "e-angle": "vertical"
+  },
+  "amaranth": {
+    "e-angle": "~vertical"
+  },
+  "balsamiqsans": {
+    "e-angle": "angled"
+  },
+  "aleo": {
+    "g-shape": "classical (double story)",
+    "e-angle": "angled"
+  },
+  "lexendgiga": {
+    "e-angle": "angled"
+  },
+  "firasans": {
+    "Kk-shape": "univers/frutiger (symmetric)",
+    "e-angle": "angled"
+  },
+  "manrope": {
+    "e-angle": "~horizontal"
+  },
+  "biryani": {
+    "e-angle": "angled"
+  },
+  "lexenddeca": {
+    "e-angle": "angled"
+  },
+  "chakrapetch": {
+    "e-angle": "horizontal"
+  },
+  "moulpali": {
+    "e-angle": "vertical"
+  },
+  "baskervville": {
+    "e-angle": "~horizontal"
+  },
+  "amiko": {
+    "e-angle": "vertical"
+  },
+  "anekgurmukhi": {
+    "e-angle": "vertical"
+  },
+  "asset": {
+    "e-angle": "horizontal"
+  },
+  "lohittamil": {
+    "e-angle": "angled"
+  },
+  "ibmplexsanskr": {
+    "e-angle": "~horizontal"
+  },
+  "baumans": {
+    "e-angle": "angled"
+  },
+  "hankengrotesk": {
+    "e-angle": "angled"
+  },
+  "albertsans": {
+    "g-shape": "modern (single story)",
+    "e-angle": "angled"
+  },
+  "oxygen": {
+    "e-angle": "angled"
+  },
+  "khand": {
+    "e-angle": "vertical"
+  },
+  "denkone": {
+    "e-angle": "horizontal"
+  },
+  "gafata": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "~vertical"
+  },
+  "chivomono": {
+    "e-angle": "horizontal"
+  },
+  "amarante": {
+    "e-angle": "~horizontal"
+  },
+  "averiaseriflibre": {
+    "e-angle": "~vertical"
+  },
+  "gruppo": {
+    "e-angle": "angled"
+  },
+  "monda": {
+    "e-angle": "horizontal"
+  },
+  "hindsiliguri": {
+    "e-angle": "vertical"
+  },
+  "bayon": {
+    "M-tip": "above"
+  },
+  "elmessiri": {
+    "e-angle": "angled"
+  },
+  "notokufiarabic": {
+    "e-angle": "vertical"
+  },
+  "philosopher": {
+    "Kk-shape": "univers/frutiger (symmetric)"
+  },
+  "firasanscondensed": {
+    "Kk-shape": "univers/frutiger (symmetric)",
+    "e-angle": "angled"
+  },
+  "exo": {
+    "Kk-shape": "other",
+    "e-angle": "vertical"
+  },
+  "jost": {
+    "e-angle": "angled"
+  },
+  "lalezar": {
+    "e-angle": "~vertical"
+  },
+  "mohave": {
+    "e-angle": "horizontal"
+  },
+  "notosansarabic": {
+    "e-angle": "~vertical"
+  },
+  "mplus1p": {
+    "e-angle": "horizontal"
+  },
+  "inter": {
+    "e-angle": "~horizontal"
+  },
+  "genos": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "vertical"
+  },
+  "opensans": {
+    "e-angle": "vertical"
+  },
+  "onest": {
+    "e-angle": "horizontal"
+  },
+  "laila": {
+    "e-angle": "angled"
+  },
+  "alike": {
+    "g-shape": "classical (double story)",
+    "x-height": "neutra"
+  },
+  "hindmysuru": {
+    "e-angle": "vertical"
+  },
+  "lato": {
+    "e-angle": "~vertical"
+  },
+  "averiasanslibre": {
+    "e-angle": "~vertical"
+  },
+  "leaguegothic": {
+    "e-angle": "horizontal"
+  },
+  "gantari": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "angled"
+  },
+  "niramit": {
+    "e-angle": "angled"
+  },
+  "ibmplexsanscondensed": {
+    "e-angle": "~horizontal"
+  },
+  "alexbrush": {
+    "g-shape": "modern (single story)",
+    "e-angle": "angled"
+  },
+  "gudea": {
+    "e-angle": "~vertical"
+  },
+  "intertight": {
+    "e-angle": "~horizontal"
+  },
+  "alikeangular": {
+    "g-shape": "classical (double story)",
+    "x-height": "reasonable"
+  },
+  "mochiypoppone": {
+    "e-angle": "angled"
+  },
+  "almarai": {
+    "e-angle": "horizontal",
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "alatsi": {
+    "g-shape": "modern (single story)",
+    "e-angle": "~vertical"
+  },
+  "ibmplexsansjp": {
+    "e-angle": "~horizontal"
+  },
+  "agdasima": {
+    "e-angle": "horizontal",
+    "g-shape": "classical (double story)"
+  },
+  "k2d": {
+    "e-angle": "~horizontal"
+  },
+  "marvel": {
+    "e-angle": "~vertical"
+  },
+  "cairo": {
+    "e-angle": "vertical"
+  },
+  "blackhansans": {
+    "e-angle": "~vertical"
+  },
+  "anuphan": {
+    "e-angle": "angled"
+  },
+  "akronim": {
+    "g-shape": "modern (single story)",
+    "e-angle": "~vertical"
+  },
+  "mochiypopone": {
+    "e-angle": "angled"
+  },
+  "mandali": {
+    "e-angle": "~vertical"
+  },
+  "babylonica": {
+    "e-angle": "angled"
+  },
+  "baloo2": {
+    "e-angle": "angled"
+  },
+  "athiti": {
+    "e-angle": "~vertical"
+  },
+  "antonio": {
+    "e-angle": "horizontal"
+  },
+  "khula": {
+    "e-angle": "vertical"
+  },
+  "nunitosans": {
+    "e-angle": "angled"
+  },
+  "puritan": {
+    "Kk-shape": "helvetica/grotesk"
+  },
+  "dhurjati": {
+    "e-angle": "horizontal"
+  },
+  "leaguespartan": {
+    "e-angle": "angled"
+  },
+  "jaldi": {
+    "e-angle": "angled"
+  },
+  "nokora": {
+    "e-angle": "~vertical"
+  },
+  "abeezee": {
+    "e-angle": "angled",
+    "x-height": "reasonable"
+  },
+  "atma": {
+    "e-angle": "angled"
+  },
+  "averagesans": {
+    "e-angle": "angled"
+  },
+  "barlowsemicondensed": {
+    "e-angle": "~horizontal"
+  },
+  "notomusic": {
+    "e-angle": "vertical"
+  },
+  "monomaniacone": {
+    "e-angle": "vertical"
+  },
+  "lohitbengali": {
+    "e-angle": "angled"
+  },
+  "notosansanatolianhieroglyphs": {
+    "e-angle": "vertical"
+  },
+  "archivonarrow": {
+    "e-angle": "horizontal"
+  },
+  "cairoplay": {
+    "e-angle": "vertical"
+  },
+  "martianmono": {
+    "e-angle": "horizontal"
+  },
+  "gemunulibre": {
+    "Kk-shape": "other",
+    "e-angle": "vertical"
+  },
+  "ptsans": {
+    "Kk-shape": "other"
+  },
+  "hindmadurai": {
+    "e-angle": "vertical"
+  },
+  "hindvadodara": {
+    "e-angle": "vertical"
+  },
+  "jua": {
+    "e-angle": "~vertical"
+  },
+  "lexendmega": {
+    "e-angle": "angled"
+  },
+  "ibmplexsansdevanagari": {
+    "e-angle": "~horizontal"
+  },
+  "barriecito": {
+    "e-angle": "~vertical"
+  },
+  "abyssinicasil": {
+    "e-angle": "vertical"
+  },
+  "electrolize": {
+    "e-angle": "angled"
+  },
+  "fragmentmono": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "horizontal"
+  },
+  "anton": {
+    "e-angle": "horizontal"
+  },
+  "inconsolata": {
+    "e-angle": "angled"
+  },
+  "hindjalandhar": {
+    "e-angle": "vertical"
+  },
+  "agbalumo": {
+    "g-shape": "modern (single story)",
+    "e-angle": "angled"
+  },
+  "notosans": {
+    "e-angle": "vertical"
+  },
+  "aubrey": {
+    "e-angle": "vertical"
+  },
+  "mulish": {
+    "e-angle": "angled"
+  },
+  "abrilfatface": {
+    "e-angle": "~horizontal"
+  },
+  "kumbhsans": {
+    "e-angle": "angled"
+  },
+  "anekgujarati": {
+    "e-angle": "vertical"
+  },
+  "lexendtera": {
+    "e-angle": "angled"
+  },
+  "ptsanscaption": {
+    "Kk-shape": "other"
+  },
+  "orbitron": {
+    "e-angle": "vertical"
+  },
+  "nanumgothic": {
+    "e-angle": "vertical"
+  },
+  "fredoka": {
+    "Kk-shape": "helvetica/grotesk",
+    "e-angle": "angled"
+  },
+  "mukta": {
+    "e-angle": "~vertical"
+  }
+}
