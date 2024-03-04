@@ -2,8 +2,7 @@
     <ul class="filters">
         <li *ngFor="let filter of activeFilters">
             @if (filter?.type == 'select') {
-            <app-active-filter [filter]="filter" [formcontrol]="_fc[filter.title]"
-                (remove)="removeFilter(filter.title)"></app-active-filter>
+            <app-active-filter [filter]="filter" [formcontrol]="_fc[filter.title]"></app-active-filter>
             } @else if (filter.type == 'range') {
             <!-- todo: toggle to indclude or exclude fonts without this axis present -->
             <mat-label>{{filter.title}}</mat-label>
@@ -13,6 +12,11 @@
             </mat-slider>
 
             }
+
+            <button mat-icon-button color="primary" (click)="removeFilter(filter.title)"
+                aria-label="Example icon button with a menu icon">
+                <mat-icon>delete</mat-icon>
+            </button>
         </li>
         <app-searchable-filterlist [availableFilters]="availableFilters"
             (activate)="activateFilter($event)"></app-searchable-filterlist>

@@ -10,6 +10,7 @@ import { NgFor } from '@angular/common';
 import { SearchableFilterlistComponent } from "./searchable-filterlist/searchable-filterlist.component";
 import { ActiveSelectFilterComponent } from "./active-filter/active-filter.component";
 import { MatSliderModule } from '@angular/material/slider';
+import { MatIconModule } from '@angular/material/icon';
 
 type Axis = {
   tag: string
@@ -37,7 +38,7 @@ export type AFilter = {
   templateUrl: './fontfilters.component.html',
   styleUrls: ['./fontfilters.component.scss'],
   standalone: true,
-  imports: [NgFor, AxisFontfilterComponent, MatFormFieldModule, MatSliderModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatOptionModule, SearchableFilterlistComponent, ActiveSelectFilterComponent]
+  imports: [NgFor, AxisFontfilterComponent, MatFormFieldModule, MatIconModule, MatSliderModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatOptionModule, SearchableFilterlistComponent, ActiveSelectFilterComponent]
 })
 
 

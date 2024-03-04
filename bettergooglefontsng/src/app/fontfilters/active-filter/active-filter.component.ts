@@ -11,7 +11,7 @@ import { NgComponentOutlet } from '@angular/common';
 @Component({
   selector: 'app-active-filter',
   standalone: true,
-  imports: [MatInputModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatIconModule, NgComponentOutlet, MatSliderModule],
+  imports: [MatInputModule, MatSelectModule, FormsModule, ReactiveFormsModule,  NgComponentOutlet, MatSliderModule],
   templateUrl: './active-filter.component.html',
   styleUrl: './active-filter.component.scss'
 })
@@ -22,9 +22,6 @@ export class ActiveSelectFilterComponent implements AfterViewInit {
 
   @Input()
   filter!: AFilter;
-
-  @Output()
-  remove = new EventEmitter()
 
   @ViewChild('daSelect')
   daSelect!: MatSelect
