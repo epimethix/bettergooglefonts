@@ -39,30 +39,31 @@ export class MongofontService {
   constructor(private http: HttpClient) {
     this.db = new MemoryDb();
     this.db.addCollection('fonts')
-    this.db.addCollection('classification')
 
-    this.http.get('/assets/fontmeta.json').subscribe(res => {
-      this.db.collections['fonts'].upsert(res, (docs) => { console.log(docs.length); this.dbready.next(true) }, (err) => { console.log(err) })
-    })
+    this.http.get('/assets/fontmeta.json').pipe(combineLatestWith(this.http.get('/assets/classification.json')))
+      .subscribe(([metas, classification]) => {
+        for (const meta of (metas as FontInfo[])) {
+          meta['classification'] = classification[meta['dir']]
+        }
+        this.db.collections['fonts'].upsert(metas,
+          (docs) => { console.log(docs.length); this.dbready.next(true) },
+          (err) => { console.log(err); }
+        )
+      })
 
-    this.http.get('/assets/classification.json').subscribe(res => {
-      const cls = Object.entries(res).map(([name, items]) => ({ name, items }))
-      this.db.collections['classification'].upsert(cls, (docs) => { console.log(docs.length); this.dbready.next(true) }, (err) => { console.log(err) })
-    })
   }
 
   getFonts(filterS?: FilterSelection): Observable<FontNameUrl[]> {
 
     const sub = new Subject<FontNameUrl[]>()
 
-    let selector = from([{}])
-    if (filterS?.toggles) {
-      selector = this.getFontNamesForSelectedToggles(filterS.toggles)
-        .pipe(map(arr => ({ dir: { $in: arr } })))
-    }
+    let selector = {}
 
-    this.dbready.pipe(filter<boolean>(v => v)).pipe(combineLatestWith(selector))
-      .subscribe(([dbready, selector]) => {
+    this.dbready.pipe(filter<boolean>(v => v))
+      .subscribe((dbready) => {
+        if (filterS?.toggles) {
+          selector = { ...selector, ...this.getClassificationSelector(filterS.toggles) }
+        }
         if (filterS?.ranges) {
           selector = { ...selector, ...this.getSelectorForAxes(filterS.ranges) }
         }
@@ -80,22 +81,12 @@ export class MongofontService {
     return sub.asObservable()
   }
 
-  getFontNamesForSelectedToggles(toggles) {
-    const sub = new Subject<string[]>()
-    this.dbready.subscribe(ready => {
-      if (ready) {
-        const selector = {}
-        for (const [name, values] of Object.entries(toggles)) {
-          selector['items.' + name] = { $in: values }
-        }
-        this.db.collections['classification']
-          .find(selector, { fields: { 'name': 1 } }).fetch().then(f => {
-            sub.next(f.map(f => f.name))
-            sub.complete()
-          })
-      }
-    })
-    return sub.asObservable();
+  getClassificationSelector(toggles) {
+    const selector = {}
+    for (const [name, values] of Object.entries(toggles)) {
+      selector['classification.' + name] = { $in: values }
+    }
+    return selector
   }
 
   getFontByName(name: string): Observable<FontInfo> {
