@@ -1,5 +1,20 @@
-<div [style]="{'font-family': font.name}">
-    <div class="axes"><span *ngFor="let axe of font.axes">{{axe.tag}}</span></div>
-    <h5><a [href]="'https://fonts.google.com/specimen/'+font.name+'/tester'">{{font.name}}</a></h5>
-    CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8
+<div>
+    <h5>
+        <a [href]="'https://fonts.google.com/specimen/'+font.name+'/tester'">{{font.name}}</a>
+        <span class="axes">
+            @for( axis of font.axes; track axis.tag) {
+            <div class="axis">
+                <span class="axis-tag">{{axis.tag}}</span>
+                <div class="axis-values">
+                    <b>{{axis.max_value}}</b>
+                    <b>{{axis.min_value}}</b>
+                </div>
+            </div>
+            }
+        </span>
+    </h5>
+    <div>
+        <span
+            [style]="{'font-family': font.name}">CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8</span>
+    </div>
 </div>
