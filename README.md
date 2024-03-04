@@ -6,15 +6,24 @@
 ## installation
 
 Clone this repo and the subrepo fonts (which is google fonts itself)
+```
+git clone --recurse-submodules https://github.com/akkurat/bettergooglefonts.git
+```
+(submodule will take it's time as it is ~1GB to clone)
+
+
 
 ## combine all meta font data into one fat json
+Installation is needed for protobuf parser
 ```bash
+npm i
 node gf.js bettergooglefontsng/assets/fonts-meta.json
 ```
 
 ## start angular app to serve font files and overview
 ```bash
 cd bettergooglefontsng
+npm i
 ng serve
 ```
 
