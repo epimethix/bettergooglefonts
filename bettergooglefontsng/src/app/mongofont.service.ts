@@ -172,6 +172,6 @@ export class MongofontService {
 }
 
 export function getUrlForFirstFont(d: FontInfo) {
-  return `/assets/fonts/ofl/${d.dir}/${d.meta.fonts[0].filename}`;
+  return `/assets/${d.dir}/${d.meta.fonts[0].filename}`;
 }
 

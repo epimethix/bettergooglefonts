@@ -17,7 +17,7 @@ git clone --recurse-submodules https://github.com/akkurat/bettergooglefonts.git
 Installation is needed for protobuf parser
 ```bash
 npm i
-node gf.js bettergooglefontsng/assets/fonts-meta.json
+node gf.js bettergooglefontsng/assets/
 ```
 
 ## start angular app to serve font files and overview
@@ -30,7 +30,7 @@ ng serve
 # Roadmap
 ## Bugish
 * Axes to not trigger filter when added
-* only fonts unter ofl are considred at the moment
+
 ## Reasonable TODOs
 * Questionaire: Initialize localstorage from classification.json. could be even done automatically for keys that exist only locally or in .json. 
 * Questionaire: Characterizations for Serif fonts
@@ -52,7 +52,7 @@ ng serve
 
 
 # Limitations
-* Scrolling through all fonts results in a traffic of roughly 1GB as all fonts are taken directly from the repo as ttf/otf without web optimization. Hence it's not possible yet to serve it remotely due to bad performance and unbeareable traffic costs
+* Scrolling through all fonts results in a traffic of roughly 1GB as all fonts are taken directly from the repo as ttf/otf without web optimization. Hence it's not possible yet to serve it remotely due to bad performance and unbeareable traffic costs -> Github page ftw!
 
 
 # Structure

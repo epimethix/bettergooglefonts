@@ -8,21 +8,12 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "list fonts",
+            "name": "collect font infos",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/gf.js",
             "args": ["${workspaceFolder}/bettergooglefontsng/src/assets/"]
         },
-        {
-            "type": "pwa-node",
-            "request": "launch",
-            "name": "run express fonts server",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/server.js"
-        }
     ]
 }

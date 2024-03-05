@@ -1,4 +1,5 @@
-const fs = require('fs');
+const fs = require('node:fs');
+const path = require('node:path')
 const ProtoBuf = require('protobufjs')
 const sut = require('protobufjs-textformat')
 const fqn = 'google.fonts_public.FamilyProto';
@@ -7,10 +8,9 @@ async function listMetaData() {
     // load protobuf definition
     const root = await (new ProtoBuf.Root()).load('fonts_public.proto', { keepCase: true })
 
-    // TODO: read all licences
-    const fontsBasePath = './fonts/ofl/';
+    const fontsBasePaths = ['./fonts/ofl/', './fonts/apache/', './fonts/ufl/'];
 
-    const fontDirs = fs.readdirSync(fontsBasePath);
+    const fontDirs = fontsBasePaths.flatMap(d => fs.readdirSync(d).map(sub => path.join(d, sub)));
 
     // console.log(fontDirs);
 
@@ -19,7 +19,7 @@ async function listMetaData() {
     const parsingErrors = [], parsed = []
 
     for (const fontDirName of fontDirs) {
-        const fullName = fontsBasePath + fontDirName + '/METADATA.pb';
+        const fullName = path.join(fontDirName, '/METADATA.pb');
         if (fs.existsSync(fullName)) {
             const metaContents = fs.readFileSync(fullName, 'utf-8');
             const result = sut.parse(root, fqn, metaContents)
@@ -52,18 +52,16 @@ async function parseAxesRegistry() {
     const parseerrors = []
 
     for (const axe of axes) {
-       if( axe.endsWith('.textproto')) {
-         contents = fs.readFileSync(dataFolder + '/' + axe, 'utf-8')
-         const out = sut.parse(root, 'AxisProto', contents)
-         if(out.status)
-         {
-            outs.push(out.message)
-         }
-         else
-         {
-            parseerrors.push([axe,out.error])
-         }
-       }
+        if (axe.endsWith('.textproto')) {
+            contents = fs.readFileSync(dataFolder + '/' + axe, 'utf-8')
+            const out = sut.parse(root, 'AxisProto', contents)
+            if (out.status) {
+                outs.push(out.message)
+            }
+            else {
+                parseerrors.push([axe, out.error])
+            }
+        }
 
     }
     console.log(parseerrors)
