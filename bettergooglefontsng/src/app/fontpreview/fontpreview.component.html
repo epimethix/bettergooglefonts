@@ -1,7 +1,7 @@
-<div>
+<div class="mat-typography">
     <h5>
         <a [href]="'https://fonts.google.com/specimen/'+font.name+'/tester'">{{font.name}}</a>
-        <span class="axes">
+        <!-- <span class="axes"> -->
             @for( axis of font.axes; track axis.tag) {
             <div class="axis">
                 <span class="axis-tag">{{axis.tag}}</span>
@@ -11,7 +11,7 @@
                 </div>
             </div>
             }
-        </span>
+        <!-- </span> -->
     </h5>
     <div>
         <span
