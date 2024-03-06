@@ -40,7 +40,7 @@ export class MongofontService {
     this.db = new MemoryDb();
     this.db.addCollection('fonts')
 
-    this.http.get('/assets/fontmeta.json').pipe(combineLatestWith(this.http.get('/assets/classification.json')))
+    this.http.get('assets/fontmeta.json').pipe(combineLatestWith(this.http.get('assets/classification.json')))
       .subscribe(([metas, classification]) => {
         for (const meta of (metas as FontInfo[])) {
           meta['classification'] = classification[meta['dir']]
@@ -172,7 +172,7 @@ export class MongofontService {
 }
 
 export function getUrlForFirstFont(d: FontInfo) {
-  return `/assets/gf-subsets/ascii_us/${d.meta.fonts[0].filename.replace(/\.ttf$/, "-subset.woff2")}`;
-  return `/assets/${d.dir}/${d.meta.fonts[0].filename}`;
+  return `assets/gf-subsets/ascii_us/${d.meta.fonts[0].filename.replace(/\.ttf$/, "-subset.woff2")}`;
+  return `assets/${d.dir}/${d.meta.fonts[0].filename}`;
 }
 

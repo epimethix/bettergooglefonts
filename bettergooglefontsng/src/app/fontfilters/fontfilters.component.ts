@@ -58,7 +58,7 @@ export class FontfiltersComponent implements OnInit {
     this.availableFilters = classifier.getQuestions().map(q => ({ ...q, type: 'select' }))
   }
   ngOnInit(): void {
-    this.http.get('/assets/axesmeta.json').subscribe(
+    this.http.get('assets/axesmeta.json').subscribe(
       a => {
         const axes: AFilter[] = (a as Axis[])
           .filter(a => a.tag.toLowerCase() === a.tag)
