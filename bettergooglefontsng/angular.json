@@ -30,17 +30,9 @@
               "src/assets",
               {
                 "followSymlinks": true,
-                "glob": "**/*",
-                "input": "src/assets/fonts",
-                "output": "/assets/fonts"
-
-              },
-              {
-                "followSymlinks": true,
-                "glob": "**/*",
+                "glob": "**/*.woff2",
                 "input": "src/assets/gf-subsets",
                 "output": "/assets/gf-subsets"
-
               }
             ],
             "styles": [
@@ -54,7 +46,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",
