@@ -1,7 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { HostListener, Injectable, OnInit, inject } from '@angular/core';
-import { Router } from '@angular/router';
-import { IndexedDb } from 'minimongo';
+import { Injectable, inject } from '@angular/core';
 import { map } from 'rxjs';
 
 const LOCALSTORAGE_PREFIX = 'fontquestionnaire_'

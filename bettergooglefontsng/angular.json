@@ -34,6 +34,13 @@
                 "input": "src/assets/fonts",
                 "output": "/assets/fonts"
 
+              },
+              {
+                "followSymlinks": true,
+                "glob": "**/*",
+                "input": "src/assets/gf-subsets",
+                "output": "/assets/gf-subsets"
+
               }
             ],
             "styles": [

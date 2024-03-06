@@ -172,6 +172,7 @@ export class MongofontService {
 }
 
 export function getUrlForFirstFont(d: FontInfo) {
+  return `/assets/gf-subsets/ascii_us/${d.meta.fonts[0].filename.replace(/\.ttf$/, "-subset.woff2")}`;
   return `/assets/${d.dir}/${d.meta.fonts[0].filename}`;
 }
 

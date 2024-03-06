@@ -2,19 +2,20 @@
     <h5>
         <a [href]="'https://fonts.google.com/specimen/'+font.name+'/tester'">{{font.name}}</a>
         <!-- <span class="axes"> -->
-            @for( axis of font.axes; track axis.tag) {
-            <div class="axis">
-                <span class="axis-tag">{{axis.tag}}</span>
-                <div class="axis-values">
-                    <b>{{axis.max_value}}</b>
-                    <b>{{axis.min_value}}</b>
-                </div>
+        @for( axis of font.axes; track axis.tag) {
+        <div class="axis">
+            <span class="axis-tag">{{axis.tag}}</span>
+            <div class="axis-values">
+                <b>{{axis.max_value}}</b>
+                <b>{{axis.min_value}}</b>
             </div>
-            }
+        </div>
+        }
         <!-- </span> -->
     </h5>
     <div>
-        <span
-            [style]="{'font-family': font.name}">CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8</span>
+        <span [style]="{'font-family': font.name}">
+            &excl;&quot;&num;&dollar;&percnt;&amp;&bsol;&apos;&lpar;&rpar;&ast;&plus;&comma;&#x2D;&period;&sol;&#x30;&#x31;&#x32;&#x33;&#x34;&#x35;&#x36;&#x37;&#x38;&#x39;&colon;&semi;&lt;&equals;&gt;&quest;&commat;&#x41;&#x42;&#x43;&#x44;&#x45;&#x46;&#x47;&#x48;&#x49;&#x4A;&#x4B;&#x4C;&#x4D;&#x4E;&#x4F;&#x50;&#x51;&#x52;&#x53;&#x54;&#x55;&#x56;&#x57;&#x58;&#x59;&#x5A;&lsqb;&bsol;&bsol;&rsqb;&Hat;&lowbar;&grave;&#x61;&#x62;&#x63;&#x64;&#x65;&#x66;&#x67;&#x68;&#x69;&#x6A;&#x6B;&#x6C;&#x6D;&#x6E;&#x6F;&#x70;&#x71;&#x72;&#x73;&#x74;&#x75;&#x76;&#x77;&#x78;&#x79;&#x7A;&lcub;&vert;&rcub;&#x7E;
+        </span>
     </div>
 </div>
