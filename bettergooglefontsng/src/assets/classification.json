@@ -1,466 +1,466 @@
 {
-  "cantarell": {
+  "fonts/ofl/cantarell": {
     "e-angle": "~vertical"
   },
-  "alumnisans": {
+  "fonts/ofl/alumnisans": {
     "e-angle": "horizontal",
     "Kk-shape": "helvetica/grotesk"
   },
-  "ibmplexsans": {
+  "fonts/ofl/ibmplexsans": {
     "e-angle": "~horizontal"
   },
-  "montserrat": {
+  "fonts/ofl/montserrat": {
     "e-angle": "angled"
   },
-  "bahianita": {
+  "fonts/ofl/bahianita": {
     "e-angle": "horizontal"
   },
-  "hindkochi": {
+  "fonts/ofl/hindkochi": {
     "e-angle": "vertical"
   },
-  "paytoneone": {
+  "fonts/ofl/paytoneone": {
     "Kk-shape": "other"
   },
-  "kronaone": {
+  "fonts/ofl/kronaone": {
     "e-angle": "~vertical"
   },
-  "englebert": {
+  "fonts/ofl/englebert": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "~horizontal"
   },
-  "carlito": {
+  "fonts/ofl/carlito": {
     "e-angle": "angled"
   },
-  "aronesans": {
+  "fonts/ofl/aronesans": {
     "e-angle": "~vertical"
   },
-  "karlatamilupright": {
+  "fonts/ofl/karlatamilupright": {
     "e-angle": "angled"
   },
-  "pathwayextreme": {
+  "fonts/ofl/pathwayextreme": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "gothica1": {
+  "fonts/ofl/gothica1": {
     "e-angle": "angled"
   },
-  "encodesanssemicondensed": {
+  "fonts/ofl/encodesanssemicondensed": {
     "e-angle": "vertical"
   },
-  "arya": {
+  "fonts/ofl/arya": {
     "e-angle": "horizontal"
   },
-  "pangolin": {
+  "fonts/ofl/pangolin": {
     "x-height": "reasonable"
   },
-  "archivo": {
+  "fonts/ofl/archivo": {
     "e-angle": "horizontal"
   },
-  "khmer": {
+  "fonts/ofl/khmer": {
     "e-angle": "angled"
   },
-  "cabin": {
+  "fonts/ofl/cabin": {
     "e-angle": "~vertical"
   },
-  "anybody": {
+  "fonts/ofl/anybody": {
     "e-angle": "~horizontal"
   },
-  "bizudgothic": {
+  "fonts/ofl/bizudgothic": {
     "e-angle": "angled"
   },
-  "newscycle": {
+  "fonts/ofl/newscycle": {
     "e-angle": "angled"
   },
-  "mallanna": {
+  "fonts/ofl/mallanna": {
     "e-angle": "~vertical"
   },
-  "notosansbalinese": {
+  "fonts/ofl/notosansbalinese": {
     "e-angle": "vertical"
   },
-  "parisienne": {
+  "fonts/ofl/parisienne": {
     "x-height": "reasonable"
   },
-  "montserratalternates": {
+  "fonts/ofl/montserratalternates": {
     "e-angle": "angled"
   },
-  "chauphilomeneone": {
+  "fonts/ofl/chauphilomeneone": {
     "e-angle": "~vertical"
   },
-  "capriola": {
+  "fonts/ofl/capriola": {
     "e-angle": "~vertical"
   },
-  "fahkwang": {
+  "fonts/ofl/fahkwang": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "horizontal"
   },
-  "asul": {
+  "fonts/ofl/asul": {
     "e-angle": "angled"
   },
-  "bacasimeantique": {
+  "fonts/ofl/bacasimeantique": {
     "e-angle": "angled"
   },
-  "alumnisansinlineone": {
+  "fonts/ofl/alumnisansinlineone": {
     "e-angle": "horizontal"
   },
-  "nobile": {
+  "fonts/ofl/nobile": {
     "e-angle": "angled"
   },
-  "changa": {
+  "fonts/ofl/changa": {
     "e-angle": "~vertical"
   },
-  "lekton": {
+  "fonts/ofl/lekton": {
     "e-angle": "~vertical"
   },
-  "bebasneue": {
+  "fonts/ofl/bebasneue": {
     "M-tip": "baseline"
   },
-  "inder": {
+  "fonts/ofl/inder": {
     "e-angle": "vertical"
   },
-  "miriamlibre": {
+  "fonts/ofl/miriamlibre": {
     "e-angle": "vertical"
   },
-  "alegreya": {
+  "fonts/ofl/alegreya": {
     "g-shape": "classical (double story)",
     "M-stems": "angled",
     "e-angle": "angled"
   },
-  "plusjakartasans": {
+  "fonts/ofl/plusjakartasans": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "meerainimai": {
+  "fonts/ofl/meerainimai": {
     "e-angle": "~horizontal"
   },
-  "kufam": {
+  "fonts/ofl/kufam": {
     "e-angle": "vertical"
   },
-  "battambang": {
+  "fonts/ofl/battambang": {
     "e-angle": "~vertical"
   },
-  "notosansadlam": {
+  "fonts/ofl/notosansadlam": {
     "e-angle": "vertical"
   },
-  "kulimpark": {
+  "fonts/ofl/kulimpark": {
     "e-angle": "~vertical"
   },
-  "jura": {
+  "fonts/ofl/jura": {
     "e-angle": "horizontal"
   },
-  "inclusivesans": {
+  "fonts/ofl/inclusivesans": {
     "e-angle": "angled"
   },
-  "catamaran": {
+  "fonts/ofl/catamaran": {
     "e-angle": "angled"
   },
-  "francoisone": {
+  "fonts/ofl/francoisone": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "angled"
   },
-  "arsenal": {
+  "fonts/ofl/arsenal": {
     "e-angle": "angled"
   },
-  "manjari": {
+  "fonts/ofl/manjari": {
     "e-angle": "~vertical"
   },
-  "mplus2": {
+  "fonts/ofl/mplus2": {
     "e-angle": "horizontal"
   },
-  "chathura": {
+  "fonts/ofl/chathura": {
     "e-angle": "vertical"
   },
-  "bricolagegrotesque": {
+  "fonts/ofl/bricolagegrotesque": {
     "e-angle": "~horizontal"
   },
-  "kodemono": {
+  "fonts/ofl/kodemono": {
     "e-angle": "angled"
   },
-  "dongle": {
+  "fonts/ofl/dongle": {
     "e-angle": "angled"
   },
-  "lexendexa": {
+  "fonts/ofl/lexendexa": {
     "e-angle": "angled"
   },
-  "ibmplexsanshebrew": {
+  "fonts/ofl/ibmplexsanshebrew": {
     "e-angle": "~horizontal"
   },
-  "amethysta": {
+  "fonts/ofl/amethysta": {
     "x-height": "reasonable"
   },
-  "asapcondensed": {
+  "fonts/ofl/asapcondensed": {
     "e-angle": "~vertical"
   },
-  "b612mono": {
+  "fonts/ofl/b612mono": {
     "e-angle": "angled"
   },
-  "blinker": {
+  "fonts/ofl/blinker": {
     "e-angle": "~vertical"
   },
-  "antic": {
+  "fonts/ofl/antic": {
     "e-angle": "~vertical"
   },
-  "otomanopeeone": {
+  "fonts/ofl/otomanopeeone": {
     "e-angle": "angled"
   },
-  "metrophobic": {
+  "fonts/ofl/metrophobic": {
     "e-angle": "horizontal"
   },
-  "basic": {
+  "fonts/ofl/basic": {
     "e-angle": "~vertical"
   },
-  "anaheim": {
+  "fonts/ofl/anaheim": {
     "e-angle": "~vertical"
   },
-  "ojuju": {
+  "fonts/ofl/ojuju": {
     "e-angle": "vertical"
   },
-  "candal": {
+  "fonts/ofl/candal": {
     "e-angle": "vertical"
   },
-  "adlamdisplay": {
+  "fonts/ofl/adlamdisplay": {
     "e-angle": "angled",
     "g-shape": "modern (single story)"
   },
-  "portlligatsans": {
+  "fonts/ofl/portlligatsans": {
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "gidugu": {
+  "fonts/ofl/gidugu": {
     "e-angle": "horizontal"
   },
-  "commissioner": {
+  "fonts/ofl/commissioner": {
     "e-angle": "vertical"
   },
-  "alice": {
+  "fonts/ofl/alice": {
     "g-shape": "classical (double story)",
     "x-height": "reasonable"
   },
-  "almendrasc": {
+  "fonts/ofl/almendrasc": {
     "e-angle": "angled"
   },
-  "livvic": {
+  "fonts/ofl/livvic": {
     "e-angle": "angled"
   },
-  "koho": {
+  "fonts/ofl/koho": {
     "e-angle": "angled"
   },
-  "murecho": {
+  "fonts/ofl/murecho": {
     "e-angle": "angled"
   },
-  "bevietnampro": {
+  "fonts/ofl/bevietnampro": {
     "e-angle": "horizontal"
   },
-  "almendradisplay": {
+  "fonts/ofl/almendradisplay": {
     "e-angle": "angled"
   },
-  "dohyeon": {
+  "fonts/ofl/dohyeon": {
     "e-angle": "vertical"
   },
-  "ekmukta": {
+  "fonts/ofl/ekmukta": {
     "e-angle": "~vertical"
   },
-  "hind": {
+  "fonts/ofl/hind": {
     "e-angle": "vertical"
   },
-  "paprika": {
+  "fonts/ofl/paprika": {
     "x-height": "reasonable",
     "Kk-shape": "helvetica/grotesk"
   },
-  "akshar": {
+  "fonts/ofl/akshar": {
     "e-angle": "~horizontal",
     "g-shape": "modern (single story)"
   },
-  "gotu": {
+  "fonts/ofl/gotu": {
     "e-angle": "angled"
   },
-  "anekmalayalam": {
+  "fonts/ofl/anekmalayalam": {
     "e-angle": "vertical"
   },
-  "hammersmithone": {
+  "fonts/ofl/hammersmithone": {
     "e-angle": "vertical"
   },
-  "darkergrotesque": {
+  "fonts/ofl/darkergrotesque": {
     "e-angle": "horizontal"
   },
-  "notosansadlamunjoined": {
+  "fonts/ofl/notosansadlamunjoined": {
     "e-angle": "vertical"
   },
-  "amaticsc": {
+  "fonts/ofl/amaticsc": {
     "x-height": "neutra"
   },
-  "barlowcondensed": {
+  "fonts/ofl/barlowcondensed": {
     "e-angle": "~horizontal"
   },
-  "adamina": {
+  "fonts/ofl/adamina": {
     "e-angle": "angled",
     "x-height": "reasonable",
     "g-shape": "classical (double story)"
   },
-  "aboreto": {
+  "fonts/ofl/aboreto": {
     "e-angle": "horizontal"
   },
-  "mplus1": {
+  "fonts/ofl/mplus1": {
     "e-angle": "~vertical"
   },
-  "ibmplexsansthailooped": {
+  "fonts/ofl/ibmplexsansthailooped": {
     "e-angle": "~horizontal"
   },
-  "almendra": {
+  "fonts/ofl/almendra": {
     "e-angle": "angled"
   },
-  "gfsneohellenic": {
+  "fonts/ofl/gfsneohellenic": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "angled"
   },
-  "karlatamilinclined": {
+  "fonts/ofl/karlatamilinclined": {
     "e-angle": "angled"
   },
-  "krub": {
+  "fonts/ofl/krub": {
     "e-angle": "~horizontal"
   },
-  "alexandria": {
+  "fonts/ofl/alexandria": {
     "g-shape": "modern (single story)",
     "e-angle": "angled",
     "Kk-shape": "helvetica/grotesk"
   },
-  "assistant": {
+  "fonts/ofl/assistant": {
     "e-angle": "angled"
   },
-  "encodesanscondensed": {
+  "fonts/ofl/encodesanscondensed": {
     "e-angle": "vertical"
   },
-  "mousememoirs": {
+  "fonts/ofl/mousememoirs": {
     "e-angle": "~vertical"
   },
-  "preahvihear": {
+  "fonts/ofl/preahvihear": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "balthazar": {
+  "fonts/ofl/balthazar": {
     "e-angle": "vertical"
   },
-  "baijamjuree": {
+  "fonts/ofl/baijamjuree": {
     "e-angle": "horizontal"
   },
-  "imprima": {
+  "fonts/ofl/imprima": {
     "e-angle": "angled"
   },
-  "afacad": {
+  "fonts/ofl/afacad": {
     "e-angle": "~vertical",
     "g-shape": "modern (single story)"
   },
-  "gayathri": {
+  "fonts/ofl/gayathri": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "horizontal"
   },
-  "allison": {
+  "fonts/ofl/allison": {
     "e-angle": "angled"
   },
-  "anekodia": {
+  "fonts/ofl/anekodia": {
     "e-angle": "vertical"
   },
-  "josefinsans": {
+  "fonts/ofl/josefinsans": {
     "e-angle": "~vertical"
   },
-  "kdamthmorpro": {
+  "fonts/ofl/kdamthmorpro": {
     "e-angle": "vertical"
   },
-  "barlow": {
+  "fonts/ofl/barlow": {
     "e-angle": "~horizontal"
   },
-  "figtree": {
+  "fonts/ofl/figtree": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "angled"
   },
-  "alfaslabone": {
+  "fonts/ofl/alfaslabone": {
     "g-shape": "modern (single story)",
     "x-height": "neutra",
     "e-angle": "vertical"
   },
-  "armata": {
+  "fonts/ofl/armata": {
     "e-angle": "~vertical"
   },
-  "anektelugu": {
+  "fonts/ofl/anektelugu": {
     "e-angle": "vertical"
   },
-  "kanit": {
+  "fonts/ofl/kanit": {
     "e-angle": "vertical"
   },
-  "acme": {
+  "fonts/ofl/acme": {
     "e-angle": "angled",
     "x-height": "reasonable",
     "g-shape": "classical (double story)"
   },
-  "comme": {
+  "fonts/ofl/comme": {
     "e-angle": "angled"
   },
-  "mooli": {
+  "fonts/ofl/mooli": {
     "e-angle": "angled"
   },
-  "economica": {
+  "fonts/ofl/economica": {
     "e-angle": "vertical"
   },
-  "lexendpeta": {
+  "fonts/ofl/lexendpeta": {
     "e-angle": "angled"
   },
-  "pragatinarrow": {
+  "fonts/ofl/pragatinarrow": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "anekdevanagari": {
+  "fonts/ofl/anekdevanagari": {
     "e-angle": "vertical"
   },
-  "mako": {
+  "fonts/ofl/mako": {
     "e-angle": "vertical"
   },
-  "cantoraone": {
+  "fonts/ofl/cantoraone": {
     "e-angle": "vertical"
   },
-  "muktamahee": {
+  "fonts/ofl/muktamahee": {
     "e-angle": "angled"
   },
-  "orbit": {
+  "fonts/ofl/orbit": {
     "e-angle": "horizontal"
   },
-  "familjengrotesk": {
+  "fonts/ofl/familjengrotesk": {
     "Kk-shape": "other",
     "e-angle": "horizontal"
   },
-  "aladin": {
+  "fonts/ofl/aladin": {
     "l-shape": "helvetica",
     "g-shape": "modern (single story)",
     "e-angle": "angled"
   },
-  "encodesans": {
+  "fonts/ofl/encodesans": {
     "e-angle": "vertical"
   },
-  "pavanam": {
+  "fonts/ofl/pavanam": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "martelsans": {
+  "fonts/ofl/martelsans": {
     "e-angle": "angled"
   },
-  "allertastencil": {
+  "fonts/ofl/allertastencil": {
     "e-angle": "angled",
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "federo": {
+  "fonts/ofl/federo": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "vertical"
   },
-  "merriweathersans": {
+  "fonts/ofl/merriweathersans": {
     "e-angle": "~vertical"
   },
-  "notosansbassavah": {
+  "fonts/ofl/notosansbassavah": {
     "e-angle": "vertical"
   },
-  "georama": {
+  "fonts/ofl/georama": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "~vertical"
   },
-  "gasoekone": {
+  "fonts/ofl/gasoekone": {
     "Kk-shape": "univers/frutiger (symmetric)",
     "e-angle": "~horizontal"
   },
-  "nats": {
+  "fonts/ofl/nats": {
     "e-angle": "angled"
   },
-  "allerta": {
+  "fonts/ofl/allerta": {
     "g-shape": "modern (single story)",
     "Kk-shape": "univers/frutiger (symmetric)",
     "a-shape": "double story",
@@ -473,827 +473,827 @@
     "W-tip": "on tip",
     "l-shape": "akkurat"
   },
-  "cabincondensed": {
+  "fonts/ofl/cabincondensed": {
     "e-angle": "vertical"
   },
-  "heebo": {
+  "fonts/ofl/heebo": {
     "e-angle": "angled"
   },
-  "exo2": {
+  "fonts/ofl/exo2": {
     "Kk-shape": "other",
     "e-angle": "vertical"
   },
-  "asar": {
+  "fonts/ofl/asar": {
     "e-angle": "~vertical"
   },
-  "alegreyasans": {
+  "fonts/ofl/alegreyasans": {
     "g-shape": "classical (double story)",
     "M-tip": "above",
     "e-angle": "angled",
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "adventpro": {
+  "fonts/ofl/adventpro": {
     "e-angle": "~vertical",
     "g-shape": "modern (single story)"
   },
-  "kantumruypro": {
+  "fonts/ofl/kantumruypro": {
     "e-angle": "angled"
   },
-  "hubballi": {
+  "fonts/ofl/hubballi": {
     "e-angle": "~vertical"
   },
-  "alegreyasanssc": {
+  "fonts/ofl/alegreyasanssc": {
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "publicsans": {
+  "fonts/ofl/publicsans": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "carme": {
+  "fonts/ofl/carme": {
     "e-angle": "vertical"
   },
-  "averialibre": {
+  "fonts/ofl/averialibre": {
     "e-angle": "~vertical"
   },
-  "mada": {
+  "fonts/ofl/mada": {
     "e-angle": "~vertical"
   },
-  "bizudpgothic": {
+  "fonts/ofl/bizudpgothic": {
     "e-angle": "angled"
   },
-  "lexendzetta": {
+  "fonts/ofl/lexendzetta": {
     "e-angle": "~horizontal"
   },
-  "benchnine": {
+  "fonts/ofl/benchnine": {
     "e-angle": "~horizontal"
   },
-  "kiteone": {
+  "fonts/ofl/kiteone": {
     "e-angle": "angled"
   },
-  "aguafinascript": {
+  "fonts/ofl/aguafinascript": {
     "e-angle": "angled"
   },
-  "ibmplexsansthai": {
+  "fonts/ofl/ibmplexsansthai": {
     "e-angle": "~horizontal"
   },
-  "anekbangla": {
+  "fonts/ofl/anekbangla": {
     "e-angle": "vertical"
   },
-  "abel": {
+  "fonts/ofl/abel": {
     "e-angle": "horizontal",
     "x-height": "reasonable"
   },
-  "aldrich": {
+  "fonts/ofl/aldrich": {
     "g-shape": "modern (single story)",
     "e-angle": "vertical",
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "dorsa": {
+  "fonts/ofl/dorsa": {
     "e-angle": "horizontal"
   },
-  "carroisgothic": {
+  "fonts/ofl/carroisgothic": {
     "e-angle": "angled"
   },
-  "prozalibre": {
+  "fonts/ofl/prozalibre": {
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "averiagruesalibre": {
+  "fonts/ofl/averiagruesalibre": {
     "e-angle": "~vertical"
   },
-  "ptsansnarrow": {
+  "fonts/ofl/ptsansnarrow": {
     "Kk-shape": "other"
   },
-  "geologica": {
+  "fonts/ofl/geologica": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "angled"
   },
-  "badscript": {
+  "fonts/ofl/badscript": {
     "e-angle": "~horizontal"
   },
-  "instrumentsans": {
+  "fonts/ofl/instrumentsans": {
     "e-angle": "horizontal"
   },
-  "astloch": {
+  "fonts/ofl/astloch": {
     "e-angle": "angled"
   },
-  "orienta": {
+  "fonts/ofl/orienta": {
     "e-angle": "angled"
   },
-  "encodesansexpanded": {
+  "fonts/ofl/encodesansexpanded": {
     "e-angle": "vertical"
   },
-  "notosansbengali": {
+  "fonts/ofl/notosansbengali": {
     "e-angle": "vertical"
   },
-  "ibmplexsansarabic": {
+  "fonts/ofl/ibmplexsansarabic": {
     "e-angle": "~horizontal"
   },
-  "andika": {
+  "fonts/ofl/andika": {
     "e-angle": "~vertical"
   },
-  "bagelfatone": {
+  "fonts/ofl/bagelfatone": {
     "e-angle": "~vertical"
   },
-  "bubblerone": {
+  "fonts/ofl/bubblerone": {
     "e-angle": "vertical"
   },
-  "alumnisanscollegiateone": {
+  "fonts/ofl/alumnisanscollegiateone": {
     "e-angle": "horizontal"
   },
-  "madimione": {
+  "fonts/ofl/madimione": {
     "e-angle": "vertical"
   },
-  "alkalami": {
+  "fonts/ofl/alkalami": {
     "g-shape": "classical (double story)",
     "e-angle": "~vertical"
   },
-  "istokweb": {
+  "fonts/ofl/istokweb": {
     "e-angle": "angled"
   },
-  "doppioone": {
+  "fonts/ofl/doppioone": {
     "e-angle": "vertical"
   },
-  "hindcolombo": {
+  "fonts/ofl/hindcolombo": {
     "e-angle": "vertical"
   },
-  "librefranklin": {
+  "fonts/ofl/librefranklin": {
     "e-angle": "angled"
   },
-  "anta": {
+  "fonts/ofl/anta": {
     "e-angle": "vertical"
   },
-  "autourone": {
+  "fonts/ofl/autourone": {
     "e-angle": "angled"
   },
-  "actor": {
+  "fonts/ofl/actor": {
     "e-angle": "~vertical",
     "x-height": "reasonable",
     "g-shape": "modern (single story)"
   },
-  "notosansarmenian": {
+  "fonts/ofl/notosansarmenian": {
     "e-angle": "vertical"
   },
-  "pathwaygothicone": {
+  "fonts/ofl/pathwaygothicone": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "outfit": {
+  "fonts/ofl/outfit": {
     "e-angle": "angled"
   },
-  "akatab": {
+  "fonts/ofl/akatab": {
     "e-angle": "~vertical",
     "g-shape": "classical (double story)"
   },
-  "farro": {
+  "fonts/ofl/farro": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "~vertical"
   },
-  "golostext": {
+  "fonts/ofl/golostext": {
     "e-angle": "horizontal"
   },
-  "epilogue": {
+  "fonts/ofl/epilogue": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "horizontal"
   },
-  "dotgothic16": {
+  "fonts/ofl/dotgothic16": {
     "e-angle": "horizontal"
   },
-  "anektamil": {
+  "fonts/ofl/anektamil": {
     "e-angle": "vertical"
   },
-  "encodesanssemiexpanded": {
+  "fonts/ofl/encodesanssemiexpanded": {
     "Kk-shape": "other",
     "e-angle": "vertical"
   },
-  "muktavaani": {
+  "fonts/ofl/muktavaani": {
     "e-angle": "angled"
   },
-  "finlandica": {
+  "fonts/ofl/finlandica": {
     "Kk-shape": "other",
     "e-angle": "angled"
   },
-  "dmsans": {
+  "fonts/ofl/dmsans": {
     "e-angle": "horizontal"
   },
-  "durusans": {
+  "fonts/ofl/durusans": {
     "e-angle": "~vertical"
   },
-  "chivo": {
+  "fonts/ofl/chivo": {
     "e-angle": "horizontal"
   },
-  "belleza": {
+  "fonts/ofl/belleza": {
     "e-angle": "~vertical"
   },
-  "magra": {
+  "fonts/ofl/magra": {
     "e-angle": "~vertical"
   },
-  "akayakanadaka": {
+  "fonts/ofl/akayakanadaka": {
     "e-angle": "angled",
     "g-shape": "classical (double story)"
   },
-  "gowundodum": {
+  "fonts/ofl/gowundodum": {
     "e-angle": "angled"
   },
-  "cuprum": {
+  "fonts/ofl/cuprum": {
     "e-angle": "vertical"
   },
-  "nuosusil": {
+  "fonts/ofl/nuosusil": {
     "e-angle": "angled"
   },
-  "galdeano": {
+  "fonts/ofl/galdeano": {
     "Kk-shape": "univers/frutiger (symmetric)",
     "e-angle": "angled"
   },
-  "alumnisanspinstripe": {
+  "fonts/ofl/alumnisanspinstripe": {
     "e-angle": "horizontal"
   },
-  "firasansextracondensed": {
+  "fonts/ofl/firasansextracondensed": {
     "Kk-shape": "univers/frutiger (symmetric)",
     "e-angle": "angled"
   },
-  "hindguntur": {
+  "fonts/ofl/hindguntur": {
     "e-angle": "vertical"
   },
-  "alkatra": {
+  "fonts/ofl/alkatra": {
     "g-shape": "modern (single story)",
     "e-angle": "angled"
   },
-  "anekkannada": {
+  "fonts/ofl/anekkannada": {
     "e-angle": "vertical"
   },
-  "pattaya": {
+  "fonts/ofl/pattaya": {
     "Kk-shape": "other"
   },
-  "lexend": {
+  "fonts/ofl/lexend": {
     "e-angle": "angled"
   },
-  "convergence": {
+  "fonts/ofl/convergence": {
     "e-angle": "angled"
   },
-  "mingzat": {
+  "fonts/ofl/mingzat": {
     "e-angle": "horizontal"
   },
-  "play": {
+  "fonts/ofl/play": {
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "alef": {
+  "fonts/ofl/alef": {
     "g-shape": "classical (double story)",
     "e-angle": "~vertical",
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "hedvigletterssans": {
+  "fonts/ofl/hedvigletterssans": {
     "e-angle": "horizontal"
   },
-  "alata": {
+  "fonts/ofl/alata": {
     "g-shape": "modern (single story)",
     "e-angle": "~vertical"
   },
-  "b612": {
+  "fonts/ofl/b612": {
     "e-angle": "angled"
   },
-  "hermeneusone": {
+  "fonts/ofl/hermeneusone": {
     "e-angle": "horizontal"
   },
-  "molengo": {
+  "fonts/ofl/molengo": {
     "e-angle": "~vertical"
   },
-  "aneklatin": {
+  "fonts/ofl/aneklatin": {
     "e-angle": "vertical"
   },
-  "qahiri": {
+  "fonts/ofl/qahiri": {
     "Kk-shape": "other"
   },
-  "allan": {
+  "fonts/ofl/allan": {
     "g-shape": "modern (single story)",
     "e-angle": "angled"
   },
-  "asap": {
+  "fonts/ofl/asap": {
     "e-angle": "~vertical"
   },
-  "poppins": {
+  "fonts/ofl/poppins": {
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "harmattan": {
+  "fonts/ofl/harmattan": {
     "e-angle": "~vertical"
   },
-  "azeretmono": {
+  "fonts/ofl/azeretmono": {
     "e-angle": "horizontal"
   },
-  "oswald": {
+  "fonts/ofl/oswald": {
     "e-angle": "horizontal"
   },
-  "cagliostro": {
+  "fonts/ofl/cagliostro": {
     "e-angle": "angled"
   },
-  "dhyana": {
+  "fonts/ofl/dhyana": {
     "e-angle": "angled"
   },
-  "belanosima": {
+  "fonts/ofl/belanosima": {
     "M-tip": "above",
     "e-angle": "angled"
   },
-  "cambay": {
+  "fonts/ofl/cambay": {
     "e-angle": "~vertical"
   },
-  "archivoblack": {
+  "fonts/ofl/archivoblack": {
     "e-angle": "horizontal"
   },
-  "mina": {
+  "fonts/ofl/mina": {
     "e-angle": "vertical"
   },
-  "notosansbatak": {
+  "fonts/ofl/notosansbatak": {
     "e-angle": "vertical"
   },
-  "overpass": {
+  "fonts/ofl/overpass": {
     "e-angle": "angled"
   },
-  "abhayalibre": {
+  "fonts/ofl/abhayalibre": {
     "e-angle": "~horizontal"
   },
-  "mitr": {
+  "fonts/ofl/mitr": {
     "e-angle": "angled"
   },
-  "daysone": {
+  "fonts/ofl/daysone": {
     "e-angle": "horizontal"
   },
-  "braahone": {
+  "fonts/ofl/braahone": {
     "e-angle": "~vertical"
   },
-  "notosansavestan": {
+  "fonts/ofl/notosansavestan": {
     "e-angle": "vertical"
   },
-  "average": {
+  "fonts/ofl/average": {
     "e-angle": "angled"
   },
-  "pontanosans": {
+  "fonts/ofl/pontanosans": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "muktamalar": {
+  "fonts/ofl/muktamalar": {
     "e-angle": "angled"
   },
-  "mpluscodelatin": {
+  "fonts/ofl/mpluscodelatin": {
     "e-angle": "vertical"
   },
-  "prompt": {
+  "fonts/ofl/prompt": {
     "e-angle": "vertical",
     "g-shape": "classical (double story)",
     "x-height": "reasonable",
     "l-shape": "akkurat",
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "kodchasan": {
+  "fonts/ofl/kodchasan": {
     "e-angle": "angled"
   },
-  "atkinsonhyperlegible": {
+  "fonts/ofl/atkinsonhyperlegible": {
     "e-angle": "~horizontal"
   },
-  "akayatelivigala": {
+  "fonts/ofl/akayatelivigala": {
     "e-angle": "angled"
   },
-  "audiowide": {
+  "fonts/ofl/audiowide": {
     "e-angle": "vertical"
   },
-  "michroma": {
+  "fonts/ofl/michroma": {
     "e-angle": "horizontal"
   },
-  "passionone": {
+  "fonts/ofl/passionone": {
     "x-height": "reasonable",
     "g-shape": "classical (double story)",
     "e-angle": "vertical"
   },
-  "bakbakone": {
+  "fonts/ofl/bakbakone": {
     "e-angle": "vertical"
   },
-  "allura": {
+  "fonts/ofl/allura": {
     "e-angle": "angled"
   },
-  "atomicage": {
+  "fonts/ofl/atomicage": {
     "e-angle": "vertical"
   },
-  "inriasans": {
+  "fonts/ofl/inriasans": {
     "e-angle": "~vertical"
   },
-  "marmelad": {
+  "fonts/ofl/marmelad": {
     "e-angle": "~horizontal"
   },
-  "notosansbamum": {
+  "fonts/ofl/notosansbamum": {
     "e-angle": "vertical"
   },
-  "karla": {
+  "fonts/ofl/karla": {
     "e-angle": "horizontal"
   },
-  "fjallaone": {
+  "fonts/ofl/fjallaone": {
     "Kk-shape": "univers/frutiger (symmetric)",
     "e-angle": "horizontal"
   },
-  "glory": {
+  "fonts/ofl/glory": {
     "e-angle": "angled"
   },
-  "fresca": {
+  "fonts/ofl/fresca": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "angled"
   },
-  "dosis": {
+  "fonts/ofl/dosis": {
     "e-angle": "angled"
   },
-  "geo": {
+  "fonts/ofl/geo": {
     "Kk-shape": "univers/frutiger (symmetric)",
     "e-angle": "vertical"
   },
-  "lunasima": {
+  "fonts/ofl/lunasima": {
     "e-angle": "vertical"
   },
-  "didactgothic": {
+  "fonts/ofl/didactgothic": {
     "e-angle": "angled"
   },
-  "jockeyone": {
+  "fonts/ofl/jockeyone": {
     "e-angle": "vertical"
   },
-  "homenaje": {
+  "fonts/ofl/homenaje": {
     "e-angle": "vertical"
   },
-  "mergeone": {
+  "fonts/ofl/mergeone": {
     "e-angle": "~vertical"
   },
-  "ballet": {
+  "fonts/ofl/ballet": {
     "e-angle": "angled"
   },
-  "mavenpro": {
+  "fonts/ofl/mavenpro": {
     "e-angle": "vertical"
   },
-  "amaranth": {
+  "fonts/ofl/amaranth": {
     "e-angle": "~vertical"
   },
-  "balsamiqsans": {
+  "fonts/ofl/balsamiqsans": {
     "e-angle": "angled"
   },
-  "aleo": {
+  "fonts/ofl/aleo": {
     "g-shape": "classical (double story)",
     "e-angle": "angled"
   },
-  "lexendgiga": {
+  "fonts/ofl/lexendgiga": {
     "e-angle": "angled"
   },
-  "firasans": {
+  "fonts/ofl/firasans": {
     "Kk-shape": "univers/frutiger (symmetric)",
     "e-angle": "angled"
   },
-  "manrope": {
+  "fonts/ofl/manrope": {
     "e-angle": "~horizontal"
   },
-  "biryani": {
+  "fonts/ofl/biryani": {
     "e-angle": "angled"
   },
-  "lexenddeca": {
+  "fonts/ofl/lexenddeca": {
     "e-angle": "angled"
   },
-  "chakrapetch": {
+  "fonts/ofl/chakrapetch": {
     "e-angle": "horizontal"
   },
-  "moulpali": {
+  "fonts/ofl/moulpali": {
     "e-angle": "vertical"
   },
-  "baskervville": {
+  "fonts/ofl/baskervville": {
     "e-angle": "~horizontal"
   },
-  "amiko": {
+  "fonts/ofl/amiko": {
     "e-angle": "vertical"
   },
-  "anekgurmukhi": {
+  "fonts/ofl/anekgurmukhi": {
     "e-angle": "vertical"
   },
-  "asset": {
+  "fonts/ofl/asset": {
     "e-angle": "horizontal"
   },
-  "lohittamil": {
+  "fonts/ofl/lohittamil": {
     "e-angle": "angled"
   },
-  "ibmplexsanskr": {
+  "fonts/ofl/ibmplexsanskr": {
     "e-angle": "~horizontal"
   },
-  "baumans": {
+  "fonts/ofl/baumans": {
     "e-angle": "angled"
   },
-  "hankengrotesk": {
+  "fonts/ofl/hankengrotesk": {
     "e-angle": "angled"
   },
-  "albertsans": {
+  "fonts/ofl/albertsans": {
     "g-shape": "modern (single story)",
     "e-angle": "angled"
   },
-  "oxygen": {
+  "fonts/ofl/oxygen": {
     "e-angle": "angled"
   },
-  "khand": {
+  "fonts/ofl/khand": {
     "e-angle": "vertical"
   },
-  "denkone": {
+  "fonts/ofl/denkone": {
     "e-angle": "horizontal"
   },
-  "gafata": {
+  "fonts/ofl/gafata": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "~vertical"
   },
-  "chivomono": {
+  "fonts/ofl/chivomono": {
     "e-angle": "horizontal"
   },
-  "amarante": {
+  "fonts/ofl/amarante": {
     "e-angle": "~horizontal"
   },
-  "averiaseriflibre": {
+  "fonts/ofl/averiaseriflibre": {
     "e-angle": "~vertical"
   },
-  "gruppo": {
+  "fonts/ofl/gruppo": {
     "e-angle": "angled"
   },
-  "monda": {
+  "fonts/ofl/monda": {
     "e-angle": "horizontal"
   },
-  "hindsiliguri": {
+  "fonts/ofl/hindsiliguri": {
     "e-angle": "vertical"
   },
-  "bayon": {
+  "fonts/ofl/bayon": {
     "M-tip": "above"
   },
-  "elmessiri": {
+  "fonts/ofl/elmessiri": {
     "e-angle": "angled"
   },
-  "notokufiarabic": {
+  "fonts/ofl/notokufiarabic": {
     "e-angle": "vertical"
   },
-  "philosopher": {
+  "fonts/ofl/philosopher": {
     "Kk-shape": "univers/frutiger (symmetric)"
   },
-  "firasanscondensed": {
+  "fonts/ofl/firasanscondensed": {
     "Kk-shape": "univers/frutiger (symmetric)",
     "e-angle": "angled"
   },
-  "exo": {
+  "fonts/ofl/exo": {
     "Kk-shape": "other",
     "e-angle": "vertical"
   },
-  "jost": {
+  "fonts/ofl/jost": {
     "e-angle": "angled"
   },
-  "lalezar": {
+  "fonts/ofl/lalezar": {
     "e-angle": "~vertical"
   },
-  "mohave": {
+  "fonts/ofl/mohave": {
     "e-angle": "horizontal"
   },
-  "notosansarabic": {
+  "fonts/ofl/notosansarabic": {
     "e-angle": "~vertical"
   },
-  "mplus1p": {
+  "fonts/ofl/mplus1p": {
     "e-angle": "horizontal"
   },
-  "inter": {
+  "fonts/ofl/inter": {
     "e-angle": "~horizontal"
   },
-  "genos": {
+  "fonts/ofl/genos": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "vertical"
   },
-  "opensans": {
+  "fonts/ofl/opensans": {
     "e-angle": "vertical"
   },
-  "onest": {
+  "fonts/ofl/onest": {
     "e-angle": "horizontal"
   },
-  "laila": {
+  "fonts/ofl/laila": {
     "e-angle": "angled"
   },
-  "alike": {
+  "fonts/ofl/alike": {
     "g-shape": "classical (double story)",
     "x-height": "neutra"
   },
-  "hindmysuru": {
+  "fonts/ofl/hindmysuru": {
     "e-angle": "vertical"
   },
-  "lato": {
+  "fonts/ofl/lato": {
     "e-angle": "~vertical"
   },
-  "averiasanslibre": {
+  "fonts/ofl/averiasanslibre": {
     "e-angle": "~vertical"
   },
-  "leaguegothic": {
+  "fonts/ofl/leaguegothic": {
     "e-angle": "horizontal"
   },
-  "gantari": {
+  "fonts/ofl/gantari": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "angled"
   },
-  "niramit": {
+  "fonts/ofl/niramit": {
     "e-angle": "angled"
   },
-  "ibmplexsanscondensed": {
+  "fonts/ofl/ibmplexsanscondensed": {
     "e-angle": "~horizontal"
   },
-  "alexbrush": {
+  "fonts/ofl/alexbrush": {
     "g-shape": "modern (single story)",
     "e-angle": "angled"
   },
-  "gudea": {
+  "fonts/ofl/gudea": {
     "e-angle": "~vertical"
   },
-  "intertight": {
+  "fonts/ofl/intertight": {
     "e-angle": "~horizontal"
   },
-  "alikeangular": {
+  "fonts/ofl/alikeangular": {
     "g-shape": "classical (double story)",
     "x-height": "reasonable"
   },
-  "mochiypoppone": {
+  "fonts/ofl/mochiypoppone": {
     "e-angle": "angled"
   },
-  "almarai": {
+  "fonts/ofl/almarai": {
     "e-angle": "horizontal",
     "Kk-shape": "helvetica/grotesk"
   },
-  "alatsi": {
+  "fonts/ofl/alatsi": {
     "g-shape": "modern (single story)",
     "e-angle": "~vertical"
   },
-  "ibmplexsansjp": {
+  "fonts/ofl/ibmplexsansjp": {
     "e-angle": "~horizontal"
   },
-  "agdasima": {
+  "fonts/ofl/agdasima": {
     "e-angle": "horizontal",
     "g-shape": "classical (double story)"
   },
-  "k2d": {
+  "fonts/ofl/k2d": {
     "e-angle": "~horizontal"
   },
-  "marvel": {
+  "fonts/ofl/marvel": {
     "e-angle": "~vertical"
   },
-  "cairo": {
+  "fonts/ofl/cairo": {
     "e-angle": "vertical"
   },
-  "blackhansans": {
+  "fonts/ofl/blackhansans": {
     "e-angle": "~vertical"
   },
-  "anuphan": {
+  "fonts/ofl/anuphan": {
     "e-angle": "angled"
   },
-  "akronim": {
+  "fonts/ofl/akronim": {
     "g-shape": "modern (single story)",
     "e-angle": "~vertical"
   },
-  "mochiypopone": {
+  "fonts/ofl/mochiypopone": {
     "e-angle": "angled"
   },
-  "mandali": {
+  "fonts/ofl/mandali": {
     "e-angle": "~vertical"
   },
-  "babylonica": {
+  "fonts/ofl/babylonica": {
     "e-angle": "angled"
   },
-  "baloo2": {
+  "fonts/ofl/baloo2": {
     "e-angle": "angled"
   },
-  "athiti": {
+  "fonts/ofl/athiti": {
     "e-angle": "~vertical"
   },
-  "antonio": {
+  "fonts/ofl/antonio": {
     "e-angle": "horizontal"
   },
-  "khula": {
+  "fonts/ofl/khula": {
     "e-angle": "vertical"
   },
-  "nunitosans": {
+  "fonts/ofl/nunitosans": {
     "e-angle": "angled"
   },
-  "puritan": {
+  "fonts/ofl/puritan": {
     "Kk-shape": "helvetica/grotesk"
   },
-  "dhurjati": {
+  "fonts/ofl/dhurjati": {
     "e-angle": "horizontal"
   },
-  "leaguespartan": {
+  "fonts/ofl/leaguespartan": {
     "e-angle": "angled"
   },
-  "jaldi": {
+  "fonts/ofl/jaldi": {
     "e-angle": "angled"
   },
-  "nokora": {
+  "fonts/ofl/nokora": {
     "e-angle": "~vertical"
   },
-  "abeezee": {
+  "fonts/ofl/abeezee": {
     "e-angle": "angled",
     "x-height": "reasonable"
   },
-  "atma": {
+  "fonts/ofl/atma": {
     "e-angle": "angled"
   },
-  "averagesans": {
+  "fonts/ofl/averagesans": {
     "e-angle": "angled"
   },
-  "barlowsemicondensed": {
+  "fonts/ofl/barlowsemicondensed": {
     "e-angle": "~horizontal"
   },
-  "notomusic": {
+  "fonts/ofl/notomusic": {
     "e-angle": "vertical"
   },
-  "monomaniacone": {
+  "fonts/ofl/monomaniacone": {
     "e-angle": "vertical"
   },
-  "lohitbengali": {
+  "fonts/ofl/lohitbengali": {
     "e-angle": "angled"
   },
-  "notosansanatolianhieroglyphs": {
+  "fonts/ofl/notosansanatolianhieroglyphs": {
     "e-angle": "vertical"
   },
-  "archivonarrow": {
+  "fonts/ofl/archivonarrow": {
     "e-angle": "horizontal"
   },
-  "cairoplay": {
+  "fonts/ofl/cairoplay": {
     "e-angle": "vertical"
   },
-  "martianmono": {
+  "fonts/ofl/martianmono": {
     "e-angle": "horizontal"
   },
-  "gemunulibre": {
+  "fonts/ofl/gemunulibre": {
     "Kk-shape": "other",
     "e-angle": "vertical"
   },
-  "ptsans": {
+  "fonts/ofl/ptsans": {
     "Kk-shape": "other"
   },
-  "hindmadurai": {
+  "fonts/ofl/hindmadurai": {
     "e-angle": "vertical"
   },
-  "hindvadodara": {
+  "fonts/ofl/hindvadodara": {
     "e-angle": "vertical"
   },
-  "jua": {
+  "fonts/ofl/jua": {
     "e-angle": "~vertical"
   },
-  "lexendmega": {
+  "fonts/ofl/lexendmega": {
     "e-angle": "angled"
   },
-  "ibmplexsansdevanagari": {
+  "fonts/ofl/ibmplexsansdevanagari": {
     "e-angle": "~horizontal"
   },
-  "barriecito": {
+  "fonts/ofl/barriecito": {
     "e-angle": "~vertical"
   },
-  "abyssinicasil": {
+  "fonts/ofl/abyssinicasil": {
     "e-angle": "vertical"
   },
-  "electrolize": {
+  "fonts/ofl/electrolize": {
     "e-angle": "angled"
   },
-  "fragmentmono": {
+  "fonts/ofl/fragmentmono": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "horizontal"
   },
-  "anton": {
+  "fonts/ofl/anton": {
     "e-angle": "horizontal"
   },
-  "inconsolata": {
+  "fonts/ofl/inconsolata": {
     "e-angle": "angled"
   },
-  "hindjalandhar": {
+  "fonts/ofl/hindjalandhar": {
     "e-angle": "vertical"
   },
-  "agbalumo": {
+  "fonts/ofl/agbalumo": {
     "g-shape": "modern (single story)",
     "e-angle": "angled"
   },
-  "notosans": {
+  "fonts/ofl/notosans": {
     "e-angle": "vertical"
   },
-  "aubrey": {
+  "fonts/ofl/aubrey": {
     "e-angle": "vertical"
   },
-  "mulish": {
+  "fonts/ofl/mulish": {
     "e-angle": "angled"
   },
-  "abrilfatface": {
+  "fonts/ofl/abrilfatface": {
     "e-angle": "~horizontal"
   },
-  "kumbhsans": {
+  "fonts/ofl/kumbhsans": {
     "e-angle": "angled"
   },
-  "anekgujarati": {
+  "fonts/ofl/anekgujarati": {
     "e-angle": "vertical"
   },
-  "lexendtera": {
+  "fonts/ofl/lexendtera": {
     "e-angle": "angled"
   },
-  "ptsanscaption": {
+  "fonts/ofl/ptsanscaption": {
     "Kk-shape": "other"
   },
-  "orbitron": {
+  "fonts/ofl/orbitron": {
     "e-angle": "vertical"
   },
-  "nanumgothic": {
+  "fonts/ofl/nanumgothic": {
     "e-angle": "vertical"
   },
-  "fredoka": {
+  "fonts/ofl/fredoka": {
     "Kk-shape": "helvetica/grotesk",
     "e-angle": "angled"
   },
-  "mukta": {
+  "fonts/ofl/mukta": {
     "e-angle": "~vertical"
   }
 }
