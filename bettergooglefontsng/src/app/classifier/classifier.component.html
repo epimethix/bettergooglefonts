@@ -5,11 +5,12 @@
     </div>
     @if(answers) {
     <div>
-        <div>
+        <mat-toolbar>
             <mat-slide-toggle [(ngModel)]="autoNext">
                 Auto Next
             </mat-slide-toggle>
-        </div>
+            <button mat-button (click)="importToLocalStorage($event)">Import to Local Storage</button>
+        </mat-toolbar>
         <ul>
             <li *ngFor="let q of questions">
                 <div class="sample" [style]="{fontFamily: font?.meta?.name, fontSize: '150pt', height: '100pt'}">{{q.samples}}</div>
@@ -28,7 +29,7 @@
     }
     <div>
         <!-- todo angular 17 routerLink -->
-        <div class="prev"><a [href]="'/classify/'+fontPrev?.dir">Previous Font: {{fontPrev?.meta?.name}}</a></div>
-        <div class="next"><a [href]="'/classify/'+fontNext?.dir">Next Font: {{fontNext?.meta?.name}}</a></div>
+        <div class="prev"><a [href]="'/classify/'+encode(fontPrev?.dir)">Previous Font: {{fontPrev?.meta?.name}}</a></div>
+        <div class="next"><a [href]="'/classify/'+encode(fontNext?.dir)">Next Font: {{fontNext?.meta?.name}}</a></div>
     </div>
 </div>

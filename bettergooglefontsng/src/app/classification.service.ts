@@ -1,6 +1,8 @@
-import { HostListener, Injectable, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { HostListener, Injectable, OnInit, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { IndexedDb } from 'minimongo';
+import { map } from 'rxjs';
 
 const LOCALSTORAGE_PREFIX = 'fontquestionnaire_'
 
@@ -35,6 +37,15 @@ export type FontQuestion = {
   providedIn: 'root'
 })
 export class ClassificationService {
+
+
+  private _http = inject(HttpClient)
+  importIntoLocalStorage() {
+    return this._http.get('/assets/classification.json')
+      .pipe(
+        map(Object.entries),
+        map(e => { e.forEach(([f, qa]) => this.saveAllAnswers(f, qa)); return e.length }))
+  }
   getQuestions(): FontQuestion[] {
     return JSON.parse(JSON.stringify(this.questions))
   }
@@ -51,13 +62,25 @@ export class ClassificationService {
     return LOCALSTORAGE_PREFIX + fontName;
   }
 
+
+  /**
+   * 
+   * Overwrites local storage entry
+   * @param fontName 
+   * @param question 
+   * @param answer 
+   */
+  // todo: remove this, no need for explicit 3 param method
   saveAnswer(fontName: string, question: string, answer: string) {
+    this.saveAllAnswers(fontName, { [question]: answer })
+  }
+  saveAllAnswers(fontName: string, qa: { [question: string]: string }) {
     const answers_str = this.getLocalStorageItem(fontName)
     let answers = {}
     if (answers_str) {
       answers = JSON.parse(answers_str)
     }
-    answers[question] = answer
+    answers = { ...answers, ...qa }
     localStorage.setItem(this.storageKey(fontName), JSON.stringify(answers))
   }
 

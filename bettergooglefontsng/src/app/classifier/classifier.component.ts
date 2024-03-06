@@ -1,5 +1,6 @@
-import { ChangeDetectorRef, Component, HostListener, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, HostListener, OnInit, inject } from '@angular/core';
 import { MatRadioChange, MatRadioModule } from '@angular/material/radio';
+import { MatButtonModule } from '@angular/material/button';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ClassificationService, FontQuestion, fontParamsSans } from '../classification.service';
 import { appendStyleTag, generateFontCss } from '../FontNameUrl';
@@ -7,13 +8,15 @@ import { FontInfo, MongofontService, getUrlForFirstFont } from '../mongofont.ser
 import { NgModel, FormsModule } from '@angular/forms';
 import { NgFor } from '@angular/common';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSnackBar, MatSnackBarModule, MatSnackBarRef } from '@angular/material/snack-bar';
 
 @Component({
-    selector: 'app-classifier',
-    templateUrl: './classifier.component.html',
-    styleUrls: ['./classifier.component.scss'],
-    standalone: true,
-    imports: [MatSlideToggleModule, FormsModule, NgFor, MatRadioModule]
+  selector: 'app-classifier',
+  templateUrl: './classifier.component.html',
+  styleUrls: ['./classifier.component.scss'],
+  standalone: true,
+  imports: [MatSlideToggleModule, FormsModule, NgFor, MatRadioModule, MatButtonModule, MatToolbarModule, MatSnackBarModule]
 })
 export class ClassifierComponent implements OnInit {
   questions: FontQuestion[] = [];
@@ -23,13 +26,13 @@ export class ClassifierComponent implements OnInit {
   fontNameByRouting = ''
   answers: any
   autoNext = true
-  constructor(private route: ActivatedRoute, private fontService: MongofontService, private router: Router, private classifier: ClassificationService,
+  constructor(private route: ActivatedRoute, private fontService: MongofontService, private router: Router, private classifierService: ClassificationService,
   ) {
   }
   ngOnInit(): void {
     console.log(this.route)
     this.route.params.subscribe(p => {
-      this.questions = this.classifier.getQuestions()
+      this.questions = this.classifierService.getQuestions()
       this.fontNameByRouting = p['name']
       // so far probably a memoryleak -> reuse the same subject at service... but how?
       this.fontService.getFontByName(p['name']).subscribe(f => {
@@ -44,7 +47,7 @@ export class ClassifierComponent implements OnInit {
       },
         err => console.log("sad error noises", err)
       )
-      this.answers = this.classifier.answersFor(p['name'])
+      this.answers = this.classifierService.answersFor(p['name'])
     })
   }
 
@@ -53,7 +56,7 @@ export class ClassifierComponent implements OnInit {
   }
 
   saveAnswer(ev: MatRadioChange, option: string) {
-    this.classifier.saveAnswer(this.fontNameByRouting, option, ev.value)
+    this.classifierService.saveAnswer(this.fontNameByRouting, option, ev.value)
     if (this.autoNext) {
       this.navigateToNextFont()
     }
@@ -63,13 +66,29 @@ export class ClassifierComponent implements OnInit {
   onKeyDown(event: KeyboardEvent) {
     // TODO: this should be no absolute path
     if (event.key === 'k') {
-      this.router.navigateByUrl('/classify/' + this.fontPrev?.dir)
+      this.navigateToPreviousFont();
     } else if (event.key === 'j') {
       this.navigateToNextFont();
     }
   }
 
+  private navigateToPreviousFont() {
+    if (this.fontPrev)
+      this.router.navigateByUrl('/classify/' + encodeURIComponent(this.fontPrev?.dir));
+  }
+
+  private _snackBar = inject(MatSnackBar)
+  public importToLocalStorage(ev: any) {
+    this.classifierService.importIntoLocalStorage()
+      .subscribe(a => this._snackBar.open(`imported ${a} fonts`))
+  }
+
   private navigateToNextFont() {
-    this.router.navigateByUrl('/classify/' + this.fontNext?.dir);
+    if (this.fontNext) {
+      this.router.navigateByUrl('/classify/' + encodeURIComponent(this.fontNext?.dir));
+    }
+  }
+  encode(part: string | undefined) {
+    return part && encodeURIComponent(part)
   }
 }
