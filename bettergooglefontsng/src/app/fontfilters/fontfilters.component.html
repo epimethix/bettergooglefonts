@@ -2,14 +2,14 @@
     <ul class="filters">
         <li *ngFor="let filter of activeFilters">
             @if (filter?.type == 'select') {
-            <app-active-filter [filter]="filter" [formcontrol]="_fc[filter.title]"></app-active-filter>
+            <app-active-filter [filter]="filter" [formcontrol]="$any(fg.get(filter.title))"></app-active-filter>
             } @else if (filter.type == 'range') {
             <!-- todo: toggle to indclude or exclude fonts without this axis present  -> Wrap to its own component-->
             <!-- todo: show numeric value of slider (also when not active) -->
             <mat-label>{{filter.title}}</mat-label>
             <mat-slider [min]="filter.min_value" [max]="filter.max_value" discrete>
-                <input matSliderStartThumb [formControl]="_fcg[filter.title].min">
-                <input matSliderEndThumb [formControl]="_fcg[filter.title].max">
+                <input matSliderStartThumb [formControl]="$any(fg.get(filter.title)?.get('min'))">
+                <input matSliderEndThumb [formControl]="$any(fg.get(filter.title)?.get('max'))">
             </mat-slider>
 
             }
@@ -19,7 +19,7 @@
                 <mat-icon>delete</mat-icon>
             </button>
         </li>
-        <app-searchable-filterlist [availableFilters]="availableFilters"
+        <app-searchable-filterlist [availableFilters]="availableFilterNames"
             (activate)="activateFilter($event)"></app-searchable-filterlist>
     </ul>
 </div>

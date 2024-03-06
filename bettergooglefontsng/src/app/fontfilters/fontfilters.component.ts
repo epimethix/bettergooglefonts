@@ -43,22 +43,19 @@ export type AFilter = {
 
 
 export class FontfiltersComponent implements OnInit {
-  filters: AFilter[] = []
-  _fc: { [k: string]: FormControl } = {};
-  _fcg: { [k: string]: { min: FormControl, max: FormControl } } = {};
 
   @Output()
   selectionChange = new EventEmitter<FilterSelection>
-  availableFilters: { name: string }[] = [];
+  availableFilters: AFilter[] = []
+  availableFilterNames: { name: string }[] = [];
   // maybe rather a function and just a string for the selection
   activeFilters: AFilter[] = []
-  fg!: FormGroup<{ [x: string]: FormControl<any> | FormGroup<any>; }>;
+  // fg!: FormGroup<{ [x: string]: FormControl<any> | FormGroup<any>; }>;
+  fg: FormGroup = new FormGroup({})
 
   constructor(private http: HttpClient, private classifier: ClassificationService) {
     // TODO: filterservice (not using classifications directly)
-    this.filters = classifier.getQuestions().map(q => ({ ...q, type: 'select' }))
-
-
+    this.availableFilters = classifier.getQuestions().map(q => ({ ...q, type: 'select' }))
   }
   ngOnInit(): void {
     this.http.get('/assets/axesmeta.json').subscribe(
@@ -71,38 +68,36 @@ export class FontfiltersComponent implements OnInit {
             min_value: a.min_value,
             max_value: a.max_value
           }))
-        this.filters.push(...axes)
-        this.availableFilters = this.filters.map(t => ({ name: t.title }))
+        this.availableFilters.push(...axes)
+        this.availableFilterNames = this.availableFilters.map(t => ({ name: t.title }))
         // better on demand
-        for (let filter of this.filters) {
-          if (filter.type === 'range') {
-            this._fcg[filter.title] = { min: new FormControl(), max: new FormControl() }
-          } else if (filter.type === 'select') {
-            this._fc[filter.title] = new FormControl()
-          }
-        }
-        const rangeGroups = {}
-        for (const [k, v] of Object.entries(this._fcg)) {
-          rangeGroups[k] = new FormGroup(v)
-        }
-        this.fg = new FormGroup({ ...this._fc, ...rangeGroups })
         this.fg.valueChanges.subscribe(v => this.selectionChange.emit(mapFormEvent(v)))
       }
     )
   }
 
-  activateFilter(value: string) {
-    const filter = this.filters.find(v => v.title === value)
+  activateFilter(name: string) {
+    const filter = this.availableFilters.find(v => v.title === name)
     if (filter) {
-      this.activeFilters.push(filter)
+      let control: null | FormControl<any> | FormGroup<any> | FormGroup<{ min: FormControl<any>; max: FormControl<any>; }> = null
+      if (filter.type === 'range') {
+        control = new FormGroup({ min: new FormControl(filter.min_value), max: new FormControl(filter.max_value) })
+      } else if (filter.type === 'select') {
+        control = new FormControl()
+      }
+
+      if (control) {
+        this.fg.addControl(filter.title, control, {emitEvent: true} )
+        this.activeFilters.push(filter)
+      }
     }
   }
 
-  removeFilter(value: string) {
-    const idx = this.activeFilters.findIndex(v => v.title === value)
+  removeFilter(name: string) {
+    const idx = this.activeFilters.findIndex(v => v.title === name)
     if (idx > -1) {
       this.activeFilters.splice(idx, 1)
-      this._fc[value].setValue(undefined)
+      this.fg.removeControl(name)
     }
   }
 }
