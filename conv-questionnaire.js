@@ -10,11 +10,18 @@ if (require.main === module) {
     const fontQuestionnaire = JSON.parse(fs.readFileSync(path.join(outputfolder, 'classification.json')))
 
     const fontnameLookup = new Map(fontMeta.map(v => [v.dir, v.meta.name]))
+    const fontNames = new Set(fontMeta.map(v => v.meta.name))
 
 
     const fontQOut = {}
-    for (const [dir, qs] of Object.entries(fontQuestionnaire)) {
-        const fname = fontnameLookup.get(dir)
+    for (const [dir, qs] of Object.entries(fontQuestionnaire)
+        .sort(([a,], [b,]) => a.localeCompare(b))) {
+        let fname = fontnameLookup.get(dir)
+        if (!fname) {
+            if (fontNames.has(dir)) {
+                fname = dir
+            }
+        }
         fontQOut[fname] = qs
     }
 

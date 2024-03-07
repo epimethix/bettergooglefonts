@@ -9,9 +9,9 @@ const LOCALSTORAGE_PREFIX = 'fontquestionnaire_'
 // TODO: separate description and key 
 export const fontParamsSans = {
   "e-angle": { a: ["horizontal", "~horizontal", "angled", "~vertical", "vertical"], s: "ea" },
-  "x-height": { a: ["neutra", "reasonable"], s: "Hx7" },
+  "x-height": { a: ["neutra", "reasonable"], s: "EARae" },
   "g-shape": { a: ["modern (single story)", "classical (double story)", "both"], s: "g" },
-  "l-shape": { a: ["helvetica", "akkurat"], s: "l" },
+  "l-shape": { a: ["helvetica", "akkurat", "mono"], s: "l" },
   "Kk-shape": { a: ["helvetica/grotesk", "univers/frutiger (symmetric)", "other"], s: "K k" },
   "a-shape": { a: ["double story", "double story extensive tail", "single story"], s: "a" },
   "G-shape": { a: ["Helvetica", "Univers"], s: "G" },

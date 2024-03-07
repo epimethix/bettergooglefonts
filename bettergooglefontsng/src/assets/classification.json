@@ -1,385 +1,22 @@
 {
-    "Cantarell": {
-        "e-angle": "~vertical"
+    "ABeeZee": {
+        "e-angle": "angled",
+        "x-height": "reasonable"
     },
-    "Alumni Sans": {
+    "Abel": {
         "e-angle": "horizontal",
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "IBM Plex Sans": {
-        "e-angle": "~horizontal"
-    },
-    "Montserrat": {
-        "e-angle": "angled"
-    },
-    "Bahianita": {
-        "e-angle": "horizontal"
-    },
-    "Hind Kochi": {
-        "e-angle": "vertical"
-    },
-    "Paytone One": {
-        "Kk-shape": "other"
-    },
-    "Krona One": {
-        "e-angle": "~vertical"
-    },
-    "Englebert": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "~horizontal"
-    },
-    "Carlito": {
-        "e-angle": "angled"
-    },
-    "AR One Sans": {
-        "e-angle": "~vertical"
-    },
-    "Karla Tamil Upright": {
-        "e-angle": "angled"
-    },
-    "Pathway Extreme": {
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "Gothic A1": {
-        "e-angle": "angled"
-    },
-    "Encode Sans Semi Condensed": {
-        "e-angle": "vertical"
-    },
-    "Arya": {
-        "e-angle": "horizontal"
-    },
-    "Pangolin": {
         "x-height": "reasonable"
     },
-    "Archivo": {
-        "e-angle": "horizontal"
-    },
-    "Khmer": {
-        "e-angle": "angled"
-    },
-    "Cabin": {
-        "e-angle": "~vertical"
-    },
-    "Anybody": {
+    "Abhaya Libre": {
         "e-angle": "~horizontal"
-    },
-    "BIZ UDGothic": {
-        "e-angle": "angled"
-    },
-    "News Cycle": {
-        "e-angle": "angled"
-    },
-    "Mallanna": {
-        "e-angle": "~vertical"
-    },
-    "Noto Sans Balinese": {
-        "e-angle": "vertical"
-    },
-    "Parisienne": {
-        "x-height": "reasonable"
-    },
-    "Montserrat Alternates": {
-        "e-angle": "angled"
-    },
-    "Chau Philomene One": {
-        "e-angle": "~vertical"
-    },
-    "Capriola": {
-        "e-angle": "~vertical"
-    },
-    "Fahkwang": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "horizontal"
-    },
-    "Asul": {
-        "e-angle": "angled"
-    },
-    "Bacasime Antique": {
-        "e-angle": "angled"
-    },
-    "Alumni Sans Inline One": {
-        "e-angle": "horizontal"
-    },
-    "Nobile": {
-        "e-angle": "angled"
-    },
-    "Changa": {
-        "e-angle": "~vertical"
-    },
-    "Lekton": {
-        "e-angle": "~vertical"
-    },
-    "Bebas Neue": {
-        "M-tip": "baseline"
-    },
-    "Inder": {
-        "e-angle": "vertical"
-    },
-    "Miriam Libre": {
-        "e-angle": "vertical"
-    },
-    "Alegreya": {
-        "g-shape": "classical (double story)",
-        "M-stems": "angled",
-        "e-angle": "angled"
-    },
-    "Plus Jakarta Sans": {
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "Meera Inimai": {
-        "e-angle": "~horizontal"
-    },
-    "Kufam": {
-        "e-angle": "vertical"
-    },
-    "Battambang": {
-        "e-angle": "~vertical"
-    },
-    "Noto Sans Adlam": {
-        "e-angle": "vertical"
-    },
-    "Kulim Park": {
-        "e-angle": "~vertical"
-    },
-    "Jura": {
-        "e-angle": "horizontal"
-    },
-    "Inclusive Sans": {
-        "e-angle": "angled"
-    },
-    "Catamaran": {
-        "e-angle": "angled"
-    },
-    "Francois One": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "angled"
-    },
-    "Arsenal": {
-        "e-angle": "angled"
-    },
-    "Manjari": {
-        "e-angle": "~vertical"
-    },
-    "M PLUS 2": {
-        "e-angle": "horizontal"
-    },
-    "Chathura": {
-        "e-angle": "vertical"
-    },
-    "Bricolage Grotesque": {
-        "e-angle": "~horizontal"
-    },
-    "Kode Mono": {
-        "e-angle": "angled"
-    },
-    "Dongle": {
-        "e-angle": "angled"
-    },
-    "Lexend Exa": {
-        "e-angle": "angled"
-    },
-    "IBM Plex Sans Hebrew": {
-        "e-angle": "~horizontal"
-    },
-    "Amethysta": {
-        "x-height": "reasonable"
-    },
-    "Asap Condensed": {
-        "e-angle": "~vertical"
-    },
-    "B612 Mono": {
-        "e-angle": "angled"
-    },
-    "Blinker": {
-        "e-angle": "~vertical"
-    },
-    "Antic": {
-        "e-angle": "~vertical"
-    },
-    "Otomanopee One": {
-        "e-angle": "angled"
-    },
-    "Metrophobic": {
-        "e-angle": "horizontal"
-    },
-    "Basic": {
-        "e-angle": "~vertical"
-    },
-    "Anaheim": {
-        "e-angle": "~vertical"
-    },
-    "Ojuju": {
-        "e-angle": "vertical"
-    },
-    "Candal": {
-        "e-angle": "vertical"
-    },
-    "ADLaM Display": {
-        "e-angle": "angled",
-        "g-shape": "modern (single story)"
-    },
-    "Port Lligat Sans": {
-        "Kk-shape": "univers/frutiger (symmetric)"
-    },
-    "Gidugu": {
-        "e-angle": "horizontal"
-    },
-    "Commissioner": {
-        "e-angle": "vertical"
-    },
-    "Alice": {
-        "g-shape": "classical (double story)",
-        "x-height": "reasonable"
-    },
-    "Almendra SC": {
-        "e-angle": "angled"
-    },
-    "Livvic": {
-        "e-angle": "angled"
-    },
-    "KoHo": {
-        "e-angle": "angled"
-    },
-    "Murecho": {
-        "e-angle": "angled"
-    },
-    "Be Vietnam Pro": {
-        "e-angle": "horizontal"
-    },
-    "Almendra Display": {
-        "e-angle": "angled"
-    },
-    "Do Hyeon": {
-        "e-angle": "vertical"
-    },
-    "Ek Mukta": {
-        "e-angle": "~vertical"
-    },
-    "Hind": {
-        "e-angle": "vertical"
-    },
-    "Paprika": {
-        "x-height": "reasonable",
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "Akshar": {
-        "e-angle": "~horizontal",
-        "g-shape": "modern (single story)"
-    },
-    "Gotu": {
-        "e-angle": "angled"
-    },
-    "Anek Malayalam": {
-        "e-angle": "vertical"
-    },
-    "Hammersmith One": {
-        "e-angle": "vertical"
-    },
-    "Darker Grotesque": {
-        "e-angle": "horizontal"
-    },
-    "Noto Sans Adlam Unjoined": {
-        "e-angle": "vertical"
-    },
-    "Amatic SC": {
-        "x-height": "neutra"
-    },
-    "Barlow Condensed": {
-        "e-angle": "~horizontal"
-    },
-    "Adamina": {
-        "e-angle": "angled",
-        "x-height": "reasonable",
-        "g-shape": "classical (double story)"
     },
     "Aboreto": {
         "e-angle": "horizontal"
     },
-    "M PLUS 1": {
-        "e-angle": "~vertical"
-    },
-    "IBM Plex Sans Thai Looped": {
+    "Abril Fatface": {
         "e-angle": "~horizontal"
     },
-    "Almendra": {
-        "e-angle": "angled"
-    },
-    "GFS Neohellenic": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "angled"
-    },
-    "Karla Tamil Inclined": {
-        "e-angle": "angled"
-    },
-    "Krub": {
-        "e-angle": "~horizontal"
-    },
-    "Alexandria": {
-        "g-shape": "modern (single story)",
-        "e-angle": "angled",
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "Assistant": {
-        "e-angle": "angled"
-    },
-    "Encode Sans Condensed": {
-        "e-angle": "vertical"
-    },
-    "Mouse Memoirs": {
-        "e-angle": "~vertical"
-    },
-    "Preahvihear": {
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "Balthazar": {
-        "e-angle": "vertical"
-    },
-    "Bai Jamjuree": {
-        "e-angle": "horizontal"
-    },
-    "Imprima": {
-        "e-angle": "angled"
-    },
-    "Afacad": {
-        "e-angle": "~vertical",
-        "g-shape": "modern (single story)"
-    },
-    "Gayathri": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "horizontal"
-    },
-    "Allison": {
-        "e-angle": "angled"
-    },
-    "Anek Odia": {
-        "e-angle": "vertical"
-    },
-    "Josefin Sans": {
-        "e-angle": "~vertical"
-    },
-    "Kdam Thmor Pro": {
-        "e-angle": "vertical"
-    },
-    "Barlow": {
-        "e-angle": "~horizontal"
-    },
-    "Figtree": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "angled"
-    },
-    "Alfa Slab One": {
-        "g-shape": "modern (single story)",
-        "x-height": "neutra",
-        "e-angle": "vertical"
-    },
-    "Armata": {
-        "e-angle": "~vertical"
-    },
-    "Anek Telugu": {
-        "e-angle": "vertical"
-    },
-    "Kanit": {
+    "Abyssinica SIL": {
         "e-angle": "vertical"
     },
     "Acme": {
@@ -387,77 +24,139 @@
         "x-height": "reasonable",
         "g-shape": "classical (double story)"
     },
-    "Comme": {
+    "Actor": {
+        "e-angle": "~vertical",
+        "x-height": "reasonable",
+        "g-shape": "modern (single story)"
+    },
+    "Adamina": {
+        "e-angle": "angled",
+        "x-height": "reasonable",
+        "g-shape": "classical (double story)"
+    },
+    "ADLaM Display": {
+        "e-angle": "angled",
+        "g-shape": "modern (single story)"
+    },
+    "Advent Pro": {
+        "e-angle": "~vertical",
+        "g-shape": "modern (single story)"
+    },
+    "Afacad": {
+        "e-angle": "~vertical",
+        "g-shape": "modern (single story)"
+    },
+    "Agbalumo": {
+        "g-shape": "modern (single story)",
         "e-angle": "angled"
     },
-    "Mooli": {
+    "Agdasima": {
+        "e-angle": "horizontal",
+        "g-shape": "classical (double story)"
+    },
+    "Aguafina Script": {
         "e-angle": "angled"
     },
-    "Economica": {
-        "e-angle": "vertical"
+    "Akatab": {
+        "e-angle": "~vertical",
+        "g-shape": "classical (double story)"
     },
-    "Lexend Peta": {
+    "Akaya Kanadaka": {
+        "e-angle": "angled",
+        "g-shape": "classical (double story)"
+    },
+    "Akaya Telivigala": {
         "e-angle": "angled"
     },
-    "Pragati Narrow": {
-        "Kk-shape": "helvetica/grotesk"
+    "Akronim": {
+        "g-shape": "modern (single story)",
+        "e-angle": "~vertical"
     },
-    "Anek Devanagari": {
-        "e-angle": "vertical"
-    },
-    "Mako": {
-        "e-angle": "vertical"
-    },
-    "Cantora One": {
-        "e-angle": "vertical"
-    },
-    "Mukta Mahee": {
-        "e-angle": "angled"
-    },
-    "Orbit": {
-        "e-angle": "horizontal"
-    },
-    "Familjen Grotesk": {
-        "Kk-shape": "other",
-        "e-angle": "horizontal"
+    "Akshar": {
+        "e-angle": "~horizontal",
+        "g-shape": "modern (single story)"
     },
     "Aladin": {
         "l-shape": "helvetica",
         "g-shape": "modern (single story)",
         "e-angle": "angled"
     },
-    "Encode Sans": {
-        "e-angle": "vertical"
+    "Alata": {
+        "g-shape": "modern (single story)",
+        "e-angle": "~vertical"
     },
-    "Pavanam": {
-        "Kk-shape": "helvetica/grotesk"
+    "Alatsi": {
+        "g-shape": "modern (single story)",
+        "e-angle": "~vertical"
     },
-    "Martel Sans": {
+    "Albert Sans": {
+        "g-shape": "modern (single story)",
         "e-angle": "angled"
     },
-    "Allerta Stencil": {
+    "Aldrich": {
+        "g-shape": "modern (single story)",
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Alef": {
+        "g-shape": "classical (double story)",
+        "e-angle": "~vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Alegreya": {
+        "g-shape": "classical (double story)",
+        "M-stems": "angled",
+        "e-angle": "angled"
+    },
+    "Alegreya Sans": {
+        "g-shape": "classical (double story)",
+        "M-tip": "above",
         "e-angle": "angled",
         "Kk-shape": "univers/frutiger (symmetric)"
     },
-    "Federo": {
-        "Kk-shape": "helvetica/grotesk",
+    "Alegreya Sans SC": {
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Aleo": {
+        "g-shape": "classical (double story)",
+        "e-angle": "angled"
+    },
+    "Alex Brush": {
+        "g-shape": "modern (single story)",
+        "e-angle": "angled"
+    },
+    "Alexandria": {
+        "g-shape": "modern (single story)",
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Alfa Slab One": {
+        "g-shape": "modern (single story)",
+        "x-height": "neutra",
         "e-angle": "vertical"
     },
-    "Merriweather Sans": {
+    "Alice": {
+        "g-shape": "classical (double story)",
+        "x-height": "reasonable"
+    },
+    "Alike": {
+        "g-shape": "classical (double story)",
+        "x-height": "neutra"
+    },
+    "Alike Angular": {
+        "g-shape": "classical (double story)",
+        "x-height": "reasonable"
+    },
+    "Alkalami": {
+        "g-shape": "classical (double story)",
         "e-angle": "~vertical"
     },
-    "Noto Sans Bassa Vah": {
-        "e-angle": "vertical"
+    "Alkatra": {
+        "g-shape": "modern (single story)",
+        "e-angle": "angled"
     },
-    "Georama": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "~vertical"
-    },
-    "Gasoek One": {
-        "Kk-shape": "univers/frutiger (symmetric)",
-        "e-angle": "~horizontal"
-    },
-    "NATS": {
+    "Allan": {
+        "g-shape": "modern (single story)",
         "e-angle": "angled"
     },
     "Allerta": {
@@ -473,364 +172,1159 @@
         "W-tip": "on tip",
         "l-shape": "akkurat"
     },
-    "Cabin Condensed": {
-        "e-angle": "vertical"
-    },
-    "Heebo": {
-        "e-angle": "angled"
-    },
-    "Exo 2": {
-        "Kk-shape": "other",
-        "e-angle": "vertical"
-    },
-    "Asar": {
-        "e-angle": "~vertical"
-    },
-    "Alegreya Sans": {
-        "g-shape": "classical (double story)",
-        "M-tip": "above",
+    "Allerta Stencil": {
         "e-angle": "angled",
         "Kk-shape": "univers/frutiger (symmetric)"
     },
-    "Advent Pro": {
-        "e-angle": "~vertical",
-        "g-shape": "modern (single story)"
-    },
-    "Kantumruy Pro": {
+    "Allison": {
         "e-angle": "angled"
     },
-    "Hubballi": {
-        "e-angle": "~vertical"
+    "Allura": {
+        "e-angle": "angled"
     },
-    "Alegreya Sans SC": {
-        "Kk-shape": "univers/frutiger (symmetric)"
-    },
-    "Public Sans": {
+    "Almarai": {
+        "e-angle": "horizontal",
         "Kk-shape": "helvetica/grotesk"
     },
-    "Carme": {
-        "e-angle": "vertical"
-    },
-    "Averia Libre": {
-        "e-angle": "~vertical"
-    },
-    "Mada": {
-        "e-angle": "~vertical"
-    },
-    "BIZ UDPGothic": {
+    "Almendra": {
         "e-angle": "angled"
     },
-    "Lexend Zetta": {
-        "e-angle": "~horizontal"
-    },
-    "BenchNine": {
-        "e-angle": "~horizontal"
-    },
-    "Kite One": {
+    "Almendra Display": {
         "e-angle": "angled"
     },
-    "Aguafina Script": {
+    "Almendra SC": {
         "e-angle": "angled"
     },
-    "IBM Plex Sans Thai": {
-        "e-angle": "~horizontal"
-    },
-    "Anek Bangla": {
-        "e-angle": "vertical"
-    },
-    "Abel": {
+    "Alumni Sans": {
         "e-angle": "horizontal",
-        "x-height": "reasonable"
-    },
-    "Aldrich": {
-        "g-shape": "modern (single story)",
-        "e-angle": "vertical",
-        "Kk-shape": "univers/frutiger (symmetric)"
-    },
-    "Dorsa": {
-        "e-angle": "horizontal"
-    },
-    "Carrois Gothic": {
-        "e-angle": "angled"
-    },
-    "Proza Libre": {
-        "Kk-shape": "univers/frutiger (symmetric)"
-    },
-    "Averia Gruesa Libre": {
-        "e-angle": "~vertical"
-    },
-    "PT Sans Narrow": {
-        "Kk-shape": "other"
-    },
-    "Geologica": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "angled"
-    },
-    "Bad Script": {
-        "e-angle": "~horizontal"
-    },
-    "Instrument Sans": {
-        "e-angle": "horizontal"
-    },
-    "Astloch": {
-        "e-angle": "angled"
-    },
-    "Orienta": {
-        "e-angle": "angled"
-    },
-    "Encode Sans Expanded": {
-        "e-angle": "vertical"
-    },
-    "Noto Sans Bengali": {
-        "e-angle": "vertical"
-    },
-    "IBM Plex Sans Arabic": {
-        "e-angle": "~horizontal"
-    },
-    "Andika": {
-        "e-angle": "~vertical"
-    },
-    "Bagel Fat One": {
-        "e-angle": "~vertical"
-    },
-    "Bubbler One": {
-        "e-angle": "vertical"
+        "Kk-shape": "helvetica/grotesk"
     },
     "Alumni Sans Collegiate One": {
         "e-angle": "horizontal"
     },
-    "Madimi One": {
-        "e-angle": "vertical"
+    "Alumni Sans Inline One": {
+        "e-angle": "horizontal"
     },
-    "Alkalami": {
-        "g-shape": "classical (double story)",
+    "Alumni Sans Pinstripe": {
+        "e-angle": "horizontal"
+    },
+    "Amarante": {
+        "e-angle": "~horizontal"
+    },
+    "Amaranth": {
         "e-angle": "~vertical"
     },
-    "Istok Web": {
-        "e-angle": "angled"
+    "Amatic SC": {
+        "x-height": "neutra"
     },
-    "Doppio One": {
+    "Amethysta": {
+        "x-height": "reasonable"
+    },
+    "Amiko": {
         "e-angle": "vertical"
     },
-    "Hind Colombo": {
+    "Anaheim": {
+        "e-angle": "~vertical"
+    },
+    "Andika": {
+        "e-angle": "~vertical"
+    },
+    "Anek Bangla": {
         "e-angle": "vertical"
     },
-    "Libre Franklin": {
-        "e-angle": "angled"
+    "Anek Devanagari": {
+        "e-angle": "vertical"
+    },
+    "Anek Gujarati": {
+        "e-angle": "vertical"
+    },
+    "Anek Gurmukhi": {
+        "e-angle": "vertical"
+    },
+    "Anek Kannada": {
+        "e-angle": "vertical"
+    },
+    "Anek Latin": {
+        "e-angle": "vertical"
+    },
+    "Anek Malayalam": {
+        "e-angle": "vertical"
+    },
+    "Anek Odia": {
+        "e-angle": "vertical"
+    },
+    "Anek Tamil": {
+        "e-angle": "vertical"
+    },
+    "Anek Telugu": {
+        "e-angle": "vertical"
     },
     "Anta": {
+        "e-angle": "vertical"
+    },
+    "Antic": {
+        "e-angle": "~vertical"
+    },
+    "Anton": {
+        "e-angle": "horizontal"
+    },
+    "Antonio": {
+        "e-angle": "horizontal"
+    },
+    "Anuphan": {
+        "e-angle": "angled"
+    },
+    "Anybody": {
+        "e-angle": "~horizontal"
+    },
+    "AR One Sans": {
+        "e-angle": "~vertical"
+    },
+    "Archivo": {
+        "e-angle": "horizontal"
+    },
+    "Archivo Black": {
+        "e-angle": "horizontal"
+    },
+    "Archivo Narrow": {
+        "e-angle": "horizontal"
+    },
+    "Armata": {
+        "e-angle": "~vertical"
+    },
+    "Arsenal": {
+        "e-angle": "angled"
+    },
+    "Arya": {
+        "e-angle": "horizontal"
+    },
+    "Asap": {
+        "e-angle": "~vertical"
+    },
+    "Asap Condensed": {
+        "e-angle": "~vertical"
+    },
+    "Asar": {
+        "e-angle": "~vertical"
+    },
+    "Asset": {
+        "e-angle": "horizontal"
+    },
+    "Assistant": {
+        "e-angle": "angled"
+    },
+    "Astloch": {
+        "e-angle": "angled"
+    },
+    "Asul": {
+        "e-angle": "angled"
+    },
+    "Athiti": {
+        "e-angle": "~vertical"
+    },
+    "Atkinson Hyperlegible": {
+        "e-angle": "~horizontal"
+    },
+    "Atma": {
+        "e-angle": "angled"
+    },
+    "Atomic Age": {
+        "e-angle": "vertical"
+    },
+    "Aubrey": {
+        "e-angle": "vertical"
+    },
+    "Audiowide": {
         "e-angle": "vertical"
     },
     "Autour One": {
         "e-angle": "angled"
     },
-    "Actor": {
-        "e-angle": "~vertical",
-        "x-height": "reasonable",
-        "g-shape": "modern (single story)"
-    },
-    "Noto Sans Armenian": {
-        "e-angle": "vertical"
-    },
-    "Pathway Gothic One": {
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "Outfit": {
+    "Average": {
         "e-angle": "angled"
     },
-    "Akatab": {
-        "e-angle": "~vertical",
-        "g-shape": "classical (double story)"
+    "Average Sans": {
+        "e-angle": "angled"
     },
-    "Farro": {
-        "Kk-shape": "helvetica/grotesk",
+    "Averia Gruesa Libre": {
         "e-angle": "~vertical"
     },
-    "Golos Text": {
+    "Averia Libre": {
+        "e-angle": "~vertical"
+    },
+    "Averia Sans Libre": {
+        "e-angle": "~vertical"
+    },
+    "Averia Serif Libre": {
+        "e-angle": "~vertical"
+    },
+    "Azeret Mono": {
         "e-angle": "horizontal"
     },
-    "Epilogue": {
-        "Kk-shape": "helvetica/grotesk",
+    "B612": {
+        "e-angle": "angled"
+    },
+    "B612 Mono": {
+        "e-angle": "angled"
+    },
+    "Babylonica": {
+        "e-angle": "angled"
+    },
+    "Bacasime Antique": {
+        "e-angle": "angled"
+    },
+    "Bad Script": {
+        "e-angle": "~horizontal"
+    },
+    "Bagel Fat One": {
+        "e-angle": "~vertical"
+    },
+    "Bahianita": {
         "e-angle": "horizontal"
+    },
+    "Bai Jamjuree": {
+        "e-angle": "horizontal"
+    },
+    "Bakbak One": {
+        "e-angle": "vertical"
+    },
+    "Ballet": {
+        "e-angle": "angled"
+    },
+    "Baloo 2": {
+        "e-angle": "angled"
+    },
+    "Balsamiq Sans": {
+        "e-angle": "angled"
+    },
+    "Balthazar": {
+        "e-angle": "vertical"
+    },
+    "Barlow": {
+        "e-angle": "~horizontal"
+    },
+    "Barlow Condensed": {
+        "e-angle": "~horizontal"
+    },
+    "Barlow Semi Condensed": {
+        "e-angle": "~horizontal"
+    },
+    "Barriecito": {
+        "e-angle": "~vertical"
+    },
+    "Basic": {
+        "e-angle": "~vertical"
+    },
+    "Baskervville": {
+        "e-angle": "~horizontal"
+    },
+    "Battambang": {
+        "e-angle": "~vertical"
+    },
+    "Baumans": {
+        "e-angle": "angled"
+    },
+    "Bayon": {
+        "M-tip": "above"
+    },
+    "Be Vietnam Pro": {
+        "e-angle": "horizontal"
+    },
+    "Bebas Neue": {
+        "M-tip": "baseline"
+    },
+    "Belanosima": {
+        "M-tip": "above",
+        "e-angle": "angled"
+    },
+    "Belleza": {
+        "e-angle": "~vertical"
+    },
+    "BenchNine": {
+        "e-angle": "~horizontal"
+    },
+    "Biryani": {
+        "e-angle": "angled"
+    },
+    "BIZ UDGothic": {
+        "e-angle": "angled"
+    },
+    "BIZ UDPGothic": {
+        "e-angle": "angled"
+    },
+    "Black Han Sans": {
+        "e-angle": "~vertical"
+    },
+    "Blinker": {
+        "e-angle": "~vertical"
+    },
+    "Braah One": {
+        "e-angle": "~vertical"
+    },
+    "Bricolage Grotesque": {
+        "e-angle": "~horizontal"
+    },
+    "Bubbler One": {
+        "e-angle": "vertical"
+    },
+    "Cabin": {
+        "e-angle": "~vertical"
+    },
+    "Cabin Condensed": {
+        "e-angle": "vertical"
+    },
+    "Cagliostro": {
+        "e-angle": "angled"
+    },
+    "Cairo": {
+        "e-angle": "vertical"
+    },
+    "Cairo Play": {
+        "e-angle": "vertical"
+    },
+    "Cambay": {
+        "e-angle": "~vertical"
+    },
+    "Candal": {
+        "e-angle": "vertical"
+    },
+    "Cantarell": {
+        "e-angle": "~vertical"
+    },
+    "Cantora One": {
+        "e-angle": "vertical"
+    },
+    "Capriola": {
+        "e-angle": "~vertical"
+    },
+    "Carlito": {
+        "e-angle": "angled"
+    },
+    "Carme": {
+        "e-angle": "vertical"
+    },
+    "Carrois Gothic": {
+        "e-angle": "angled"
+    },
+    "Carrois Gothic SC": {
+        "l-shape": "helvetica",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Catamaran": {
+        "e-angle": "angled"
+    },
+    "Chakra Petch": {
+        "e-angle": "horizontal"
+    },
+    "Changa": {
+        "e-angle": "~vertical"
+    },
+    "Chathura": {
+        "e-angle": "vertical"
+    },
+    "Chau Philomene One": {
+        "e-angle": "~vertical"
+    },
+    "Chivo": {
+        "e-angle": "horizontal"
+    },
+    "Chivo Mono": {
+        "e-angle": "horizontal"
+    },
+    "Comme": {
+        "e-angle": "angled"
+    },
+    "Commissioner": {
+        "e-angle": "vertical"
+    },
+    "Convergence": {
+        "e-angle": "angled"
+    },
+    "Cuprum": {
+        "e-angle": "vertical"
+    },
+    "Darker Grotesque": {
+        "e-angle": "horizontal"
+    },
+    "Days One": {
+        "e-angle": "horizontal"
+    },
+    "Denk One": {
+        "e-angle": "horizontal"
+    },
+    "Dhurjati": {
+        "e-angle": "horizontal"
+    },
+    "Dhyana": {
+        "e-angle": "angled"
+    },
+    "Didact Gothic": {
+        "e-angle": "angled"
+    },
+    "DM Sans": {
+        "e-angle": "horizontal"
+    },
+    "Do Hyeon": {
+        "e-angle": "vertical"
+    },
+    "Dongle": {
+        "e-angle": "angled"
+    },
+    "Doppio One": {
+        "e-angle": "vertical"
+    },
+    "Dorsa": {
+        "e-angle": "horizontal"
+    },
+    "Dosis": {
+        "e-angle": "angled"
     },
     "DotGothic16": {
         "e-angle": "horizontal"
     },
-    "Anek Tamil": {
+    "Duru Sans": {
+        "e-angle": "~vertical"
+    },
+    "Economica": {
+        "e-angle": "vertical"
+    },
+    "Ek Mukta": {
+        "e-angle": "~vertical"
+    },
+    "El Messiri": {
+        "e-angle": "angled"
+    },
+    "Electrolize": {
+        "e-angle": "angled"
+    },
+    "Encode Sans": {
+        "e-angle": "vertical"
+    },
+    "Encode Sans Condensed": {
+        "e-angle": "vertical"
+    },
+    "Encode Sans Expanded": {
+        "e-angle": "vertical"
+    },
+    "Encode Sans SC": {
+        "M-tip": "above",
+        "Kk-shape": "other"
+    },
+    "Encode Sans Semi Condensed": {
         "e-angle": "vertical"
     },
     "Encode Sans Semi Expanded": {
         "Kk-shape": "other",
         "e-angle": "vertical"
     },
-    "Mukta Vaani": {
+    "Englebert": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "~horizontal"
+    },
+    "Epilogue": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "horizontal"
+    },
+    "Exo": {
+        "Kk-shape": "other",
+        "e-angle": "vertical"
+    },
+    "Exo 2": {
+        "Kk-shape": "other",
+        "e-angle": "vertical"
+    },
+    "Fahkwang": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "horizontal"
+    },
+    "Familjen Grotesk": {
+        "Kk-shape": "other",
+        "e-angle": "horizontal"
+    },
+    "Farro": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "~vertical"
+    },
+    "Federo": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "vertical"
+    },
+    "Figtree": {
+        "Kk-shape": "helvetica/grotesk",
         "e-angle": "angled"
     },
     "Finlandica": {
         "Kk-shape": "other",
         "e-angle": "angled"
     },
-    "DM Sans": {
-        "e-angle": "horizontal"
-    },
-    "Duru Sans": {
-        "e-angle": "~vertical"
-    },
-    "Chivo": {
-        "e-angle": "horizontal"
-    },
-    "Belleza": {
-        "e-angle": "~vertical"
-    },
-    "Magra": {
-        "e-angle": "~vertical"
-    },
-    "Akaya Kanadaka": {
-        "e-angle": "angled",
-        "g-shape": "classical (double story)"
-    },
-    "Gowun Dodum": {
-        "e-angle": "angled"
-    },
-    "Cuprum": {
-        "e-angle": "vertical"
-    },
-    "Nuosu SIL": {
-        "e-angle": "angled"
-    },
-    "Galdeano": {
+    "Fira Sans": {
         "Kk-shape": "univers/frutiger (symmetric)",
         "e-angle": "angled"
     },
-    "Alumni Sans Pinstripe": {
-        "e-angle": "horizontal"
+    "Fira Sans Condensed": {
+        "Kk-shape": "univers/frutiger (symmetric)",
+        "e-angle": "angled"
     },
     "Fira Sans Extra Condensed": {
         "Kk-shape": "univers/frutiger (symmetric)",
         "e-angle": "angled"
     },
-    "Hind Guntur": {
-        "e-angle": "vertical"
-    },
-    "Alkatra": {
-        "g-shape": "modern (single story)",
-        "e-angle": "angled"
-    },
-    "Anek Kannada": {
-        "e-angle": "vertical"
-    },
-    "Pattaya": {
-        "Kk-shape": "other"
-    },
-    "Lexend": {
-        "e-angle": "angled"
-    },
-    "Convergence": {
-        "e-angle": "angled"
-    },
-    "Mingzat": {
+    "Fjalla One": {
+        "Kk-shape": "univers/frutiger (symmetric)",
         "e-angle": "horizontal"
     },
-    "Play": {
-        "Kk-shape": "univers/frutiger (symmetric)"
+    "Fragment Mono": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "horizontal",
+        "M-tip": "above"
     },
-    "Alef": {
-        "g-shape": "classical (double story)",
+    "Francois One": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "angled"
+    },
+    "Fredoka": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "angled"
+    },
+    "Fresca": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "angled"
+    },
+    "Gafata": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "~vertical"
+    },
+    "Galdeano": {
+        "Kk-shape": "univers/frutiger (symmetric)",
+        "e-angle": "angled"
+    },
+    "Gantari": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "angled"
+    },
+    "Gasoek One": {
+        "Kk-shape": "univers/frutiger (symmetric)",
+        "e-angle": "~horizontal"
+    },
+    "Gayathri": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "horizontal"
+    },
+    "Gemunu Libre": {
+        "Kk-shape": "other",
+        "e-angle": "vertical"
+    },
+    "Genos": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "vertical"
+    },
+    "Geo": {
+        "Kk-shape": "univers/frutiger (symmetric)",
+        "e-angle": "vertical"
+    },
+    "Geologica": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "angled"
+    },
+    "Georama": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "~vertical"
+    },
+    "GFS Neohellenic": {
+        "Kk-shape": "helvetica/grotesk",
+        "e-angle": "angled"
+    },
+    "Gidugu": {
+        "e-angle": "horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Glory": {
+        "e-angle": "angled",
+        "Kk-shape": "other"
+    },
+    "Golos Text": {
+        "e-angle": "horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Gothic A1": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Gotu": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Gowun Dodum": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Gruppo": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Gudea": {
+        "e-angle": "~vertical",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Hammersmith One": {
+        "e-angle": "vertical",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Hanken Grotesk": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Harmattan": {
         "e-angle": "~vertical",
         "Kk-shape": "univers/frutiger (symmetric)"
     },
     "Hedvig Letters Sans": {
-        "e-angle": "horizontal"
+        "e-angle": "horizontal",
+        "Kk-shape": "helvetica/grotesk"
     },
-    "Alata": {
-        "g-shape": "modern (single story)",
-        "e-angle": "~vertical"
-    },
-    "B612": {
-        "e-angle": "angled"
+    "Heebo": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
     },
     "Hermeneus One": {
-        "e-angle": "horizontal"
+        "e-angle": "horizontal",
+        "Kk-shape": "helvetica/grotesk"
     },
-    "Molengo": {
-        "e-angle": "~vertical"
-    },
-    "Anek Latin": {
-        "e-angle": "vertical"
-    },
-    "Qahiri": {
-        "Kk-shape": "other"
-    },
-    "Allan": {
-        "g-shape": "modern (single story)",
-        "e-angle": "angled"
-    },
-    "Asap": {
-        "e-angle": "~vertical"
-    },
-    "Poppins": {
+    "Hind": {
+        "e-angle": "vertical",
         "Kk-shape": "univers/frutiger (symmetric)"
     },
-    "Harmattan": {
+    "Hind Colombo": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Hind Guntur": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Hind Jalandhar": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Hind Kochi": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Hind Madurai": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Hind Mysuru": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Hind Siliguri": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Hind Vadodara": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Homenaje": {
+        "e-angle": "vertical",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Hubballi": {
+        "e-angle": "~vertical",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans Arabic": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans Condensed": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans Devanagari": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans Hebrew": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans JP": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans KR": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans Thai": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "IBM Plex Sans Thai Looped": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Imprima": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Inclusive Sans": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Inconsolata": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Inder": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Inria Sans": {
+        "e-angle": "~vertical",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Instrument Sans": {
+        "e-angle": "horizontal",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Inter": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Inter Tight": {
+        "e-angle": "~horizontal",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Istok Web": {
+        "e-angle": "angled",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Jaldi": {
+        "e-angle": "angled",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Jockey One": {
+        "e-angle": "vertical",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Josefin Sans": {
+        "e-angle": "~vertical",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Jost": {
+        "e-angle": "angled",
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Jua": {
         "e-angle": "~vertical"
     },
-    "Azeret Mono": {
+    "Jura": {
         "e-angle": "horizontal"
     },
-    "Oswald": {
+    "K2D": {
+        "e-angle": "~horizontal"
+    },
+    "Kanit": {
+        "e-angle": "vertical"
+    },
+    "Kantumruy Pro": {
+        "e-angle": "angled"
+    },
+    "Karla": {
         "e-angle": "horizontal"
     },
-    "Cagliostro": {
+    "Karla Tamil Inclined": {
         "e-angle": "angled"
     },
-    "Dhyana": {
+    "Karla Tamil Upright": {
         "e-angle": "angled"
     },
-    "Belanosima": {
-        "M-tip": "above",
+    "Kdam Thmor Pro": {
+        "e-angle": "vertical"
+    },
+    "Khand": {
+        "e-angle": "vertical"
+    },
+    "Khmer": {
         "e-angle": "angled"
     },
-    "Cambay": {
+    "Khula": {
+        "e-angle": "vertical"
+    },
+    "Kite One": {
+        "e-angle": "angled"
+    },
+    "Kodchasan": {
+        "e-angle": "angled"
+    },
+    "Kode Mono": {
+        "e-angle": "angled"
+    },
+    "KoHo": {
+        "e-angle": "angled"
+    },
+    "Krona One": {
         "e-angle": "~vertical"
     },
-    "Archivo Black": {
+    "Krub": {
+        "e-angle": "~horizontal"
+    },
+    "Kufam": {
+        "e-angle": "vertical"
+    },
+    "Kulim Park": {
+        "e-angle": "~vertical"
+    },
+    "Kumbh Sans": {
+        "e-angle": "angled"
+    },
+    "Laila": {
+        "e-angle": "angled"
+    },
+    "Lalezar": {
+        "e-angle": "~vertical"
+    },
+    "Lato": {
+        "e-angle": "~vertical"
+    },
+    "League Gothic": {
+        "e-angle": "horizontal"
+    },
+    "League Spartan": {
+        "e-angle": "angled"
+    },
+    "Lekton": {
+        "e-angle": "~vertical"
+    },
+    "Lexend": {
+        "e-angle": "angled"
+    },
+    "Lexend Deca": {
+        "e-angle": "angled"
+    },
+    "Lexend Exa": {
+        "e-angle": "angled"
+    },
+    "Lexend Giga": {
+        "e-angle": "angled"
+    },
+    "Lexend Mega": {
+        "e-angle": "angled"
+    },
+    "Lexend Peta": {
+        "e-angle": "angled"
+    },
+    "Lexend Tera": {
+        "e-angle": "angled"
+    },
+    "Lexend Zetta": {
+        "e-angle": "~horizontal"
+    },
+    "Libre Franklin": {
+        "e-angle": "angled"
+    },
+    "Livvic": {
+        "e-angle": "angled"
+    },
+    "Lohit Bengali": {
+        "e-angle": "angled"
+    },
+    "Lohit Tamil": {
+        "e-angle": "angled"
+    },
+    "Lunasima": {
+        "e-angle": "vertical"
+    },
+    "Mada": {
+        "e-angle": "~vertical"
+    },
+    "Madimi One": {
+        "e-angle": "vertical"
+    },
+    "Magra": {
+        "e-angle": "~vertical"
+    },
+    "Mako": {
+        "e-angle": "vertical"
+    },
+    "Mallanna": {
+        "e-angle": "~vertical"
+    },
+    "Mandali": {
+        "e-angle": "~vertical"
+    },
+    "Manjari": {
+        "e-angle": "~vertical"
+    },
+    "Manrope": {
+        "e-angle": "~horizontal"
+    },
+    "Marmelad": {
+        "e-angle": "~horizontal"
+    },
+    "Martel Sans": {
+        "e-angle": "angled"
+    },
+    "Martian Mono": {
+        "e-angle": "horizontal"
+    },
+    "Marvel": {
+        "e-angle": "~vertical"
+    },
+    "Maven Pro": {
+        "e-angle": "vertical"
+    },
+    "Meera Inimai": {
+        "e-angle": "~horizontal"
+    },
+    "Merge One": {
+        "e-angle": "~vertical"
+    },
+    "Merriweather Sans": {
+        "e-angle": "~vertical"
+    },
+    "Metrophobic": {
+        "e-angle": "horizontal"
+    },
+    "Michroma": {
         "e-angle": "horizontal"
     },
     "Mina": {
         "e-angle": "vertical"
     },
-    "Noto Sans Batak": {
+    "Mingzat": {
+        "e-angle": "horizontal"
+    },
+    "Miriam Libre": {
         "e-angle": "vertical"
-    },
-    "Overpass": {
-        "e-angle": "angled"
-    },
-    "Abhaya Libre": {
-        "e-angle": "~horizontal"
     },
     "Mitr": {
         "e-angle": "angled"
     },
-    "Days One": {
-        "e-angle": "horizontal"
-    },
-    "Braah One": {
-        "e-angle": "~vertical"
-    },
-    "Noto Sans Avestan": {
-        "e-angle": "vertical"
-    },
-    "Average": {
+    "Mochiy Pop One": {
         "e-angle": "angled"
     },
-    "Pontano Sans": {
-        "Kk-shape": "helvetica/grotesk"
+    "Mochiy Pop P One": {
+        "e-angle": "angled"
+    },
+    "Mohave": {
+        "e-angle": "horizontal"
+    },
+    "Molengo": {
+        "e-angle": "~vertical"
+    },
+    "Monda": {
+        "e-angle": "horizontal"
+    },
+    "Monomaniac One": {
+        "e-angle": "vertical"
+    },
+    "Montserrat": {
+        "e-angle": "angled"
+    },
+    "Montserrat Alternates": {
+        "e-angle": "angled"
+    },
+    "Mooli": {
+        "e-angle": "angled"
+    },
+    "Moulpali": {
+        "e-angle": "vertical"
+    },
+    "Mouse Memoirs": {
+        "e-angle": "~vertical"
+    },
+    "M PLUS 1": {
+        "e-angle": "~vertical"
+    },
+    "M PLUS 1p": {
+        "e-angle": "horizontal"
+    },
+    "M PLUS 2": {
+        "e-angle": "horizontal"
+    },
+    "M PLUS Code Latin": {
+        "e-angle": "vertical"
+    },
+    "Mukta": {
+        "e-angle": "~vertical"
+    },
+    "Mukta Mahee": {
+        "e-angle": "angled"
     },
     "Mukta Malar": {
         "e-angle": "angled"
     },
-    "M PLUS Code Latin": {
+    "Mukta Vaani": {
+        "e-angle": "angled"
+    },
+    "Mulish": {
+        "e-angle": "angled"
+    },
+    "Murecho": {
+        "e-angle": "angled"
+    },
+    "Nanum Gothic": {
         "e-angle": "vertical"
+    },
+    "NATS": {
+        "e-angle": "angled"
+    },
+    "News Cycle": {
+        "e-angle": "angled"
+    },
+    "Niramit": {
+        "e-angle": "angled"
+    },
+    "Nobile": {
+        "e-angle": "angled"
+    },
+    "Nokora": {
+        "e-angle": "~vertical"
+    },
+    "Noto Kufi Arabic": {
+        "e-angle": "vertical"
+    },
+    "Noto Music": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Adlam": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Adlam Unjoined": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Anatolian Hieroglyphs": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Arabic": {
+        "e-angle": "~vertical"
+    },
+    "Noto Sans Armenian": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Avestan": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Balinese": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Bamum": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Bassa Vah": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Batak": {
+        "e-angle": "vertical"
+    },
+    "Noto Sans Bengali": {
+        "e-angle": "vertical"
+    },
+    "Nunito Sans": {
+        "e-angle": "angled"
+    },
+    "Nuosu SIL": {
+        "e-angle": "angled"
+    },
+    "Ojuju": {
+        "e-angle": "vertical"
+    },
+    "Onest": {
+        "e-angle": "horizontal"
+    },
+    "Open Sans": {
+        "e-angle": "vertical"
+    },
+    "Orbit": {
+        "e-angle": "horizontal"
+    },
+    "Orbitron": {
+        "e-angle": "vertical"
+    },
+    "Orienta": {
+        "e-angle": "angled"
+    },
+    "Oswald": {
+        "e-angle": "horizontal"
+    },
+    "Otomanopee One": {
+        "e-angle": "angled"
+    },
+    "Outfit": {
+        "e-angle": "angled",
+        "a-shape": "single story"
+    },
+    "Overpass": {
+        "e-angle": "angled",
+        "a-shape": "double story"
+    },
+    "Oxygen": {
+        "e-angle": "angled"
+    },
+    "Pangolin": {
+        "x-height": "reasonable"
+    },
+    "Paprika": {
+        "x-height": "reasonable",
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Parisienne": {
+        "x-height": "reasonable"
+    },
+    "Passion One": {
+        "x-height": "reasonable",
+        "g-shape": "classical (double story)",
+        "e-angle": "vertical"
+    },
+    "Pathway Extreme": {
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Pathway Gothic One": {
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Pattaya": {
+        "Kk-shape": "other"
+    },
+    "Pavanam": {
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Paytone One": {
+        "Kk-shape": "other"
+    },
+    "Philosopher": {
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Play": {
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Plus Jakarta Sans": {
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Pontano Sans": {
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Poppins": {
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Port Lligat Sans": {
+        "Kk-shape": "univers/frutiger (symmetric)"
+    },
+    "Pragati Narrow": {
+        "Kk-shape": "helvetica/grotesk"
+    },
+    "Preahvihear": {
+        "Kk-shape": "helvetica/grotesk"
     },
     "Prompt": {
         "e-angle": "vertical",
@@ -839,461 +1333,25 @@
         "l-shape": "akkurat",
         "Kk-shape": "univers/frutiger (symmetric)"
     },
-    "Kodchasan": {
-        "e-angle": "angled"
-    },
-    "Atkinson Hyperlegible": {
-        "e-angle": "~horizontal"
-    },
-    "Akaya Telivigala": {
-        "e-angle": "angled"
-    },
-    "Audiowide": {
-        "e-angle": "vertical"
-    },
-    "Michroma": {
-        "e-angle": "horizontal"
-    },
-    "Passion One": {
-        "x-height": "reasonable",
-        "g-shape": "classical (double story)",
-        "e-angle": "vertical"
-    },
-    "Bakbak One": {
-        "e-angle": "vertical"
-    },
-    "Allura": {
-        "e-angle": "angled"
-    },
-    "Atomic Age": {
-        "e-angle": "vertical"
-    },
-    "Inria Sans": {
-        "e-angle": "~vertical"
-    },
-    "Marmelad": {
-        "e-angle": "~horizontal"
-    },
-    "Noto Sans Bamum": {
-        "e-angle": "vertical"
-    },
-    "Karla": {
-        "e-angle": "horizontal"
-    },
-    "Fjalla One": {
-        "Kk-shape": "univers/frutiger (symmetric)",
-        "e-angle": "horizontal"
-    },
-    "Glory": {
-        "e-angle": "angled"
-    },
-    "Fresca": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "angled"
-    },
-    "Dosis": {
-        "e-angle": "angled"
-    },
-    "Geo": {
-        "Kk-shape": "univers/frutiger (symmetric)",
-        "e-angle": "vertical"
-    },
-    "Lunasima": {
-        "e-angle": "vertical"
-    },
-    "Didact Gothic": {
-        "e-angle": "angled"
-    },
-    "Jockey One": {
-        "e-angle": "vertical"
-    },
-    "Homenaje": {
-        "e-angle": "vertical"
-    },
-    "Merge One": {
-        "e-angle": "~vertical"
-    },
-    "Ballet": {
-        "e-angle": "angled"
-    },
-    "Maven Pro": {
-        "e-angle": "vertical"
-    },
-    "Amaranth": {
-        "e-angle": "~vertical"
-    },
-    "Balsamiq Sans": {
-        "e-angle": "angled"
-    },
-    "Aleo": {
-        "g-shape": "classical (double story)",
-        "e-angle": "angled"
-    },
-    "Lexend Giga": {
-        "e-angle": "angled"
-    },
-    "Fira Sans": {
-        "Kk-shape": "univers/frutiger (symmetric)",
-        "e-angle": "angled"
-    },
-    "Manrope": {
-        "e-angle": "~horizontal"
-    },
-    "Biryani": {
-        "e-angle": "angled"
-    },
-    "Lexend Deca": {
-        "e-angle": "angled"
-    },
-    "Chakra Petch": {
-        "e-angle": "horizontal"
-    },
-    "Moulpali": {
-        "e-angle": "vertical"
-    },
-    "Baskervville": {
-        "e-angle": "~horizontal"
-    },
-    "Amiko": {
-        "e-angle": "vertical"
-    },
-    "Anek Gurmukhi": {
-        "e-angle": "vertical"
-    },
-    "Asset": {
-        "e-angle": "horizontal"
-    },
-    "Lohit Tamil": {
-        "e-angle": "angled"
-    },
-    "IBM Plex Sans KR": {
-        "e-angle": "~horizontal"
-    },
-    "Baumans": {
-        "e-angle": "angled"
-    },
-    "Hanken Grotesk": {
-        "e-angle": "angled"
-    },
-    "Albert Sans": {
-        "g-shape": "modern (single story)",
-        "e-angle": "angled"
-    },
-    "Oxygen": {
-        "e-angle": "angled"
-    },
-    "Khand": {
-        "e-angle": "vertical"
-    },
-    "Denk One": {
-        "e-angle": "horizontal"
-    },
-    "Gafata": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "~vertical"
-    },
-    "Chivo Mono": {
-        "e-angle": "horizontal"
-    },
-    "Amarante": {
-        "e-angle": "~horizontal"
-    },
-    "Averia Serif Libre": {
-        "e-angle": "~vertical"
-    },
-    "Gruppo": {
-        "e-angle": "angled"
-    },
-    "Monda": {
-        "e-angle": "horizontal"
-    },
-    "Hind Siliguri": {
-        "e-angle": "vertical"
-    },
-    "Bayon": {
-        "M-tip": "above"
-    },
-    "El Messiri": {
-        "e-angle": "angled"
-    },
-    "Noto Kufi Arabic": {
-        "e-angle": "vertical"
-    },
-    "Philosopher": {
+    "Proza Libre": {
         "Kk-shape": "univers/frutiger (symmetric)"
-    },
-    "Fira Sans Condensed": {
-        "Kk-shape": "univers/frutiger (symmetric)",
-        "e-angle": "angled"
-    },
-    "Exo": {
-        "Kk-shape": "other",
-        "e-angle": "vertical"
-    },
-    "Jost": {
-        "e-angle": "angled"
-    },
-    "Lalezar": {
-        "e-angle": "~vertical"
-    },
-    "Mohave": {
-        "e-angle": "horizontal"
-    },
-    "Noto Sans Arabic": {
-        "e-angle": "~vertical"
-    },
-    "M PLUS 1p": {
-        "e-angle": "horizontal"
-    },
-    "Inter": {
-        "e-angle": "~horizontal"
-    },
-    "Genos": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "vertical"
-    },
-    "Open Sans": {
-        "e-angle": "vertical"
-    },
-    "Onest": {
-        "e-angle": "horizontal"
-    },
-    "Laila": {
-        "e-angle": "angled"
-    },
-    "Alike": {
-        "g-shape": "classical (double story)",
-        "x-height": "neutra"
-    },
-    "Hind Mysuru": {
-        "e-angle": "vertical"
-    },
-    "Lato": {
-        "e-angle": "~vertical"
-    },
-    "Averia Sans Libre": {
-        "e-angle": "~vertical"
-    },
-    "League Gothic": {
-        "e-angle": "horizontal"
-    },
-    "Gantari": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "angled"
-    },
-    "Niramit": {
-        "e-angle": "angled"
-    },
-    "IBM Plex Sans Condensed": {
-        "e-angle": "~horizontal"
-    },
-    "Alex Brush": {
-        "g-shape": "modern (single story)",
-        "e-angle": "angled"
-    },
-    "Gudea": {
-        "e-angle": "~vertical"
-    },
-    "Inter Tight": {
-        "e-angle": "~horizontal"
-    },
-    "Alike Angular": {
-        "g-shape": "classical (double story)",
-        "x-height": "reasonable"
-    },
-    "Mochiy Pop P One": {
-        "e-angle": "angled"
-    },
-    "Almarai": {
-        "e-angle": "horizontal",
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "Alatsi": {
-        "g-shape": "modern (single story)",
-        "e-angle": "~vertical"
-    },
-    "IBM Plex Sans JP": {
-        "e-angle": "~horizontal"
-    },
-    "Agdasima": {
-        "e-angle": "horizontal",
-        "g-shape": "classical (double story)"
-    },
-    "K2D": {
-        "e-angle": "~horizontal"
-    },
-    "Marvel": {
-        "e-angle": "~vertical"
-    },
-    "Cairo": {
-        "e-angle": "vertical"
-    },
-    "Black Han Sans": {
-        "e-angle": "~vertical"
-    },
-    "Anuphan": {
-        "e-angle": "angled"
-    },
-    "Akronim": {
-        "g-shape": "modern (single story)",
-        "e-angle": "~vertical"
-    },
-    "Mochiy Pop One": {
-        "e-angle": "angled"
-    },
-    "Mandali": {
-        "e-angle": "~vertical"
-    },
-    "Babylonica": {
-        "e-angle": "angled"
-    },
-    "Baloo 2": {
-        "e-angle": "angled"
-    },
-    "Athiti": {
-        "e-angle": "~vertical"
-    },
-    "Antonio": {
-        "e-angle": "horizontal"
-    },
-    "Khula": {
-        "e-angle": "vertical"
-    },
-    "Nunito Sans": {
-        "e-angle": "angled"
-    },
-    "Puritan": {
-        "Kk-shape": "helvetica/grotesk"
-    },
-    "Dhurjati": {
-        "e-angle": "horizontal"
-    },
-    "League Spartan": {
-        "e-angle": "angled"
-    },
-    "Jaldi": {
-        "e-angle": "angled"
-    },
-    "Nokora": {
-        "e-angle": "~vertical"
-    },
-    "ABeeZee": {
-        "e-angle": "angled",
-        "x-height": "reasonable"
-    },
-    "Atma": {
-        "e-angle": "angled"
-    },
-    "Average Sans": {
-        "e-angle": "angled"
-    },
-    "Barlow Semi Condensed": {
-        "e-angle": "~horizontal"
-    },
-    "Noto Music": {
-        "e-angle": "vertical"
-    },
-    "Monomaniac One": {
-        "e-angle": "vertical"
-    },
-    "Lohit Bengali": {
-        "e-angle": "angled"
-    },
-    "Noto Sans Anatolian Hieroglyphs": {
-        "e-angle": "vertical"
-    },
-    "Archivo Narrow": {
-        "e-angle": "horizontal"
-    },
-    "Cairo Play": {
-        "e-angle": "vertical"
-    },
-    "Martian Mono": {
-        "e-angle": "horizontal"
-    },
-    "Gemunu Libre": {
-        "Kk-shape": "other",
-        "e-angle": "vertical"
     },
     "PT Sans": {
         "Kk-shape": "other"
     },
-    "Hind Madurai": {
-        "e-angle": "vertical"
-    },
-    "Hind Vadodara": {
-        "e-angle": "vertical"
-    },
-    "Jua": {
-        "e-angle": "~vertical"
-    },
-    "Lexend Mega": {
-        "e-angle": "angled"
-    },
-    "IBM Plex Sans Devanagari": {
-        "e-angle": "~horizontal"
-    },
-    "Barriecito": {
-        "e-angle": "~vertical"
-    },
-    "Abyssinica SIL": {
-        "e-angle": "vertical"
-    },
-    "Electrolize": {
-        "e-angle": "angled"
-    },
-    "Fragment Mono": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "horizontal"
-    },
-    "Anton": {
-        "e-angle": "horizontal"
-    },
-    "Inconsolata": {
-        "e-angle": "angled"
-    },
-    "Hind Jalandhar": {
-        "e-angle": "vertical"
-    },
-    "Agbalumo": {
-        "g-shape": "modern (single story)",
-        "e-angle": "angled"
-    },
-    "Noto Sans": {
-        "e-angle": "vertical"
-    },
-    "Aubrey": {
-        "e-angle": "vertical"
-    },
-    "Mulish": {
-        "e-angle": "angled"
-    },
-    "Abril Fatface": {
-        "e-angle": "~horizontal"
-    },
-    "Kumbh Sans": {
-        "e-angle": "angled"
-    },
-    "Anek Gujarati": {
-        "e-angle": "vertical"
-    },
-    "Lexend Tera": {
-        "e-angle": "angled"
-    },
     "PT Sans Caption": {
         "Kk-shape": "other"
     },
-    "Orbitron": {
-        "e-angle": "vertical"
+    "PT Sans Narrow": {
+        "Kk-shape": "other"
     },
-    "Nanum Gothic": {
-        "e-angle": "vertical"
+    "Public Sans": {
+        "Kk-shape": "helvetica/grotesk"
     },
-    "Fredoka": {
-        "Kk-shape": "helvetica/grotesk",
-        "e-angle": "angled"
+    "Puritan": {
+        "Kk-shape": "helvetica/grotesk"
     },
-    "Mukta": {
-        "e-angle": "~vertical"
+    "Qahiri": {
+        "Kk-shape": "other"
     }
 }
