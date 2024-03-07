@@ -13,7 +13,7 @@ if (require.main === module) {
     const fontNames = new Set(fontMeta.map(v => v.meta.name))
 
 
-    const fontQOut = {}
+    const fontQOut = new Map()
     for (const [dir, qs] of Object.entries(fontQuestionnaire)
         .sort(([a,], [b,]) => a.localeCompare(b))) {
         let fname = fontnameLookup.get(dir)
@@ -22,7 +22,7 @@ if (require.main === module) {
                 fname = dir
             }
         }
-        fontQOut[fname] = qs
+        fontQOut.set(fname,qs)
     }
 
     fs.writeFileSync(path.join(outputfolder, 'classification.json'), JSON.stringify(fontQOut))
