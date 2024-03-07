@@ -1949,6 +1949,30 @@
         }
     ],
     [
+        "M PLUS 1",
+        {
+            "e-angle": "~vertical"
+        }
+    ],
+    [
+        "M PLUS 1p",
+        {
+            "e-angle": "horizontal"
+        }
+    ],
+    [
+        "M PLUS 2",
+        {
+            "e-angle": "horizontal"
+        }
+    ],
+    [
+        "M PLUS Code Latin",
+        {
+            "e-angle": "vertical"
+        }
+    ],
+    [
         "Mada",
         {
             "e-angle": "~vertical"
@@ -2144,30 +2168,6 @@
         "Mouse Memoirs",
         {
             "e-angle": "~vertical"
-        }
-    ],
-    [
-        "M PLUS 1",
-        {
-            "e-angle": "~vertical"
-        }
-    ],
-    [
-        "M PLUS 1p",
-        {
-            "e-angle": "horizontal"
-        }
-    ],
-    [
-        "M PLUS 2",
-        {
-            "e-angle": "horizontal"
-        }
-    ],
-    [
-        "M PLUS Code Latin",
-        {
-            "e-angle": "vertical"
         }
     ],
     [

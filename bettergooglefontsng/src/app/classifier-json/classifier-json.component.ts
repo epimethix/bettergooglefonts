@@ -18,5 +18,4 @@ export class ClassifierJsonComponent implements OnInit {
     this.classifier = Object.entries(this.classifierService.getAllAnswers()).sort()
   }
 
-
 }
