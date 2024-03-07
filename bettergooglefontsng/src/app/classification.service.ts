@@ -41,7 +41,7 @@ export class ClassificationService {
   importIntoLocalStorage() {
     return this._http.get('assets/classification.json')
       .pipe(
-        map(Object.entries),
+        // @ts-ignore
         map(e => { e.forEach(([f, qa]) => this.saveAllAnswers(f, qa)); return e.length }))
   }
   getQuestions(): FontQuestion[] {
