@@ -25,7 +25,7 @@ if (require.main === module) {
         fontQOut.set(fname,qs)
     }
 
-    fs.writeFileSync(path.join(outputfolder, 'classification.json'), JSON.stringify(fontQOut))
+    fs.writeFileSync(path.join(outputfolder, 'classification.json'), JSON.stringify(Array.from(fontQOut)))
 
 
 }

@@ -91,7 +91,7 @@ export class ClassificationService {
     return {}
   }
 
-  getAllAnswers(): { [k: string]: string[] } {
+  getAllAnswers(): { [k: string]: { [v: string]: string } } {
     const lookup = {}
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i)
