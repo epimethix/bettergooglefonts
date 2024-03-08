@@ -109,6 +109,7 @@ export class MongofontService {
       if (ready) {
         this.db.collections['fonts'].findOne({ 'meta.name': name }).then(f => {
           sub.next(f)
+          sub.complete()
         })
       }
     })
@@ -122,6 +123,7 @@ export class MongofontService {
       if (ready) {
         this.db.collections['fonts'].findOne(selector, options).then(f => {
           sub.next(f)
+          sub.complete()
         })
       }
     })
