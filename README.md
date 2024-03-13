@@ -53,7 +53,7 @@ ng serve
 
 # Roadmap
 ## Bugish
-* Alignment of filters: Some sort of grouping the delete buttons with the filters would be helpfull
+* Alignment of filters: Some sort of grouping the delete buttons with the filters would be helpful
 
 
 ## Reasonable TODOs
