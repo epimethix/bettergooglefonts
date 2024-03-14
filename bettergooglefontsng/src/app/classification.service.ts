@@ -14,7 +14,7 @@ export const fontParamsSans = {
   "ij-dot-shape": { a: ["square", "round", "other"], s: "ij" },
   "Kk-shape": { a: ["helvetica", "univers", "other"], s: "K k" },
   "a-shape": { a: ["double story", "double story extensive tail", "single story", "other"], s: "a" },
-  "G-shape": { a: ["Helvetica", "Univers"], s: "G" },
+  "G-shape": { a: ["Helvetica", "Univers", "Other"], s: "G" },
   "R-shape": { a: ["curved", "straight"], s: "R" },
   "M-tip": { a: ["baseline", "above"], s: "M" },
   "M-stems": { a: ["parallel", "angled"], s: "M" },
