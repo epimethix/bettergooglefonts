@@ -87,11 +87,17 @@ export class FontfiltersComponent implements OnInit {
             max_value: a.max_value
           }))
         this.availableFilters.push(...axes)
-        this.availableFilterNames = this.availableFilters.map(t => ({ name: t.title, caption: t.caption }))
+        this.updateAvailableFilterNames();
         // better on demand
         this.fg.valueChanges.subscribe(v => this.selectionChange.emit(mapFormEvent(v)))
       }
     )
+  }
+
+  private updateAvailableFilterNames() {
+    this.availableFilterNames = this.availableFilters
+    .filter( av => !this.activeFilters.some( ac => ac.title === av.title))
+    .map(t => ({ name: t.title, caption: t.caption }));
   }
 
   activateFilter(name: string) {
@@ -107,6 +113,7 @@ export class FontfiltersComponent implements OnInit {
       if (control) {
         this.fg.addControl(filter.title, control, { emitEvent: true })
         this.activeFilters.push(filter)
+        this.updateAvailableFilterNames()
       }
     }
   }
