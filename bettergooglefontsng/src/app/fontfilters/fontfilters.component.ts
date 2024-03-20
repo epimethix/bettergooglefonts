@@ -65,14 +65,6 @@ export class FontfiltersComponent implements OnInit {
     // TODO: filterservice (not using classifications directly)
     this.availableFilters = classifier.getQuestions().map(q => ({ ...q, caption: q.title, type: 'select' }))
 
-    for (const filter of this.availableFilters) {
-      iconRegistry.addSvgIcon(filter.title, sanitizer.bypassSecurityTrustResourceUrl(`assets/prev/${filter.title}.svg`))
-      filter.items?.forEach(item => {
-        const qualifier = filter.title + '-' + item;
-        iconRegistry.addSvgIcon(qualifier, sanitizer.bypassSecurityTrustResourceUrl(`assets/prev/${qualifier}.svg`))
-      })
-
-    }
   }
   ngOnInit(): void {
     this.http.get('assets/axesmeta.json').subscribe(
@@ -88,6 +80,14 @@ export class FontfiltersComponent implements OnInit {
           }))
         this.availableFilters.push(...axes)
         this.updateAvailableFilterNames();
+        for (const filter of this.availableFilters) {
+          this.iconRegistry.addSvgIcon(filter.title, this.sanitizer.bypassSecurityTrustResourceUrl(`assets/prev/${filter.title}.svg`))
+          filter.items?.forEach(item => {
+            const qualifier = filter.title + '-' + item;
+            this.iconRegistry.addSvgIcon(qualifier, this.sanitizer.bypassSecurityTrustResourceUrl(`assets/prev/${qualifier}.svg`))
+          })
+
+        }
         // better on demand
         this.fg.valueChanges.subscribe(v => this.selectionChange.emit(mapFormEvent(v)))
       }
@@ -96,8 +96,8 @@ export class FontfiltersComponent implements OnInit {
 
   private updateAvailableFilterNames() {
     this.availableFilterNames = this.availableFilters
-    .filter( av => !this.activeFilters.some( ac => ac.title === av.title))
-    .map(t => ({ name: t.title, caption: t.caption }));
+      .filter(av => !this.activeFilters.some(ac => ac.title === av.title))
+      .map(t => ({ name: t.title, caption: t.caption }));
   }
 
   activateFilter(name: string) {

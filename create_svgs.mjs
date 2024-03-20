@@ -11,7 +11,7 @@ const fontParamsSans = {
     "g-shape": { a: ["modern (single story)", "classical (double story)", "both", "other"], s: "g", c: "lower case g shape" },
     "l-shape": { a: ["helvetica", "akkurat", "mono", "other"], s: "l", c: "lower case l shape" },
     "ij-dot-shape": { a: ["square", "round", "other"], s: "ij", c: "dot shape of lower case i & j" },
-    "Kk-shape": { a: ["helvetica", "univers", "other"], s: "K k", c: "shape of upper and lower case k / K" },
+    "Kk-shape": { a: ["helvetica", "univers", "other"], s: "Kk", c: "shape of upper and lower case k / K" },
     "a-shape": { a: ["double story", "double story extensive tail", "single story", "other"], s: "a", c: "shape of lower case a" },
     "g-up-shape": { a: ["Helvetica", "Univers", "Other"], s: "G", c: "shape of uppercase G" },
     "R-shape": { a: ["curved", "straight"], s: "R", c: "shape of uppercase R" },
@@ -45,11 +45,14 @@ async function createSvgs(db) {
     for (const [k, v] of Object.entries(fontParamsSans)) {
 
         console.log(`${k}`)
+
+        const letters = []
+
         for (const value of v.a) {
             const firstMatch = await db.fonts.findOne({ ['classification.' + k]: value })
-            if( !firstMatch) {
+            if (!firstMatch) {
                 continue
-            } 
+            }
             console.log(firstMatch)
 
             const prevsvgname = `${k}-${value}.svg`;
@@ -59,14 +62,65 @@ async function createSvgs(db) {
             // const textToSVG = TextToSVG.loadSync()
 
             const attributes = { fill: 'black' };
-            const options = { x: 0, y: 0, fontSize: 72, attributes: attributes };
 
-            const metrics = textToSVG.getMetrics(v.s, options)
+            const fs = 50
 
-            const svg = textToSVG.getSVG(v.s, {...options,y: -metrics.y});
+            const metrics = textToSVG.getMetrics(v.s, { fontSize: fs })
 
+            const scale = 100 / metrics.height;
+            const options = { x: 50, y: 50, fontSize: fs * scale, attributes: attributes, anchor: 'center middle' };
 
+            // const svg = textToSVG.getSVG(v.s, {...options,y: -metrics.y});
+            const path = textToSVG.getPath(v.s, options)
+
+            const svg = svgHeaderSquare(path)
+
+            letters.push({ textToSVG, letter: v.s, width: metrics.width * scale, fontSize: fs * scale })
             writeFileSync(join('prevsvgs', prevsvgname), svg)
+
         }
+        const totalwidth = letters
+            .map(l => l.width)
+            .reduce((sum, w) => sum + w, 0)
+
+        let x = 10; // startx
+        let paths = ""
+        for (const letter of letters) {
+            const options = { x, y: 50, anchor: 'left middle', fontSize: letter.fontSize * (180 / totalwidth) }
+            x += letter.textToSVG.getWidth(letter.letter, options)
+            paths += letter.textToSVG.getPath(letter.letter, options)
+        }
+
+        writeFileSync(join('prevsvgs', `${k}.svg`), svgHeader(paths))
     }
 }
+function svgHeaderSquare(path) {
+    return `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:svg="http://www.w3.org/2000/svg"
+               width="100"
+               height="100"
+               version="1.1"
+               id="svg1"
+               viewBox="0 0 100 100"
+               >
+               ${path}
+            </svg>`;
+}
+
+function svgHeader(path) {
+    return `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:svg="http://www.w3.org/2000/svg"
+               width="200"
+               height="100"
+               version="1.1"
+               id="svg1"
+               viewBox="0 0 200 100"
+               >
+               ${path}
+            </svg>`;
+}
+

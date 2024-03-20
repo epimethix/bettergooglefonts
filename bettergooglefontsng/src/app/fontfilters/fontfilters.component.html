@@ -1,5 +1,7 @@
 <div>
     <ul class="filters">
+            <app-searchable-filterlist [availableFilters]="availableFilterNames"
+            (activate)="activateFilter($event)"></app-searchable-filterlist>
         <li *ngFor="let filter of activeFilters">
             <mat-card>
                 <mat-card-header class="stretch">
@@ -27,7 +29,5 @@
                 }
             </mat-card>
         </li>
-        <app-searchable-filterlist [availableFilters]="availableFilterNames"
-            (activate)="activateFilter($event)"></app-searchable-filterlist>
     </ul>
 </div>
