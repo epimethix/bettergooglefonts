@@ -19,7 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
   templateUrl: './searchable-filterlist.component.html',
   styleUrl: './searchable-filterlist.component.scss'
 })
-export class SearchableFilterlistComponent implements OnInit, AfterViewInit {
+export class SearchableFilterlistComponent implements OnInit{
 
   selectedFilter = new FormControl<string>('')
 
@@ -29,26 +29,7 @@ export class SearchableFilterlistComponent implements OnInit, AfterViewInit {
   @Output()
   activate = new EventEmitter<string>()
 
-  @ViewChild(CdkPortal) ovRef
   isOpen = false
-
-
-  overlayRef: any;
-  constructor() {
-    this.overlayRef = inject(Overlay).create({
-      height: '300px',
-      width: '400px',
-      positionStrategy: inject(OverlayPositionBuilder).global(),
-      scrollStrategy: inject( ScrollStrategyOptions).reposition()
-
-
-    })
-  }
-
-  ngAfterViewInit(): void {
-    this.overlayRef.attach(this.ovRef);
-  }
-
 
   ngOnInit(): void {
     this.selectedFilter.valueChanges

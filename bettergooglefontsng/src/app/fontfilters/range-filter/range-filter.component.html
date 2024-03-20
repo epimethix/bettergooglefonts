@@ -1,0 +1,15 @@
+<div class="filter">
+    <!-- todo: toggle to indclude or exclude fonts without this axis present  -> Wrap to its own component-->
+    <!-- todo: show numeric value of slider (also when not active) -->
+    <mat-slider [min]="filter.min_value" [max]="filter.max_value">
+        <input matSliderThumb [formControl]="$any(fg?.get('min'))">
+    </mat-slider>
+    <mat-slider [min]="filter.min_value" [max]="filter.max_value">
+        <input matSliderThumb [formControl]="$any(fg?.get('max'))">
+    </mat-slider>
+
+    <div class="stretch">
+        <div>{{$any(fg?.get('min')).value}}</div>
+        <div>{{$any(fg?.get('max')).value}}</div>
+    </div>
+</div>

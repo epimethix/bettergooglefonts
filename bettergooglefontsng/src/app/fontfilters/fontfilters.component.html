@@ -1,7 +1,9 @@
 <div>
     <ul class="filters">
+        <li>
             <app-searchable-filterlist [availableFilters]="availableFilterNames"
-            (activate)="activateFilter($event)"></app-searchable-filterlist>
+                (activate)="activateFilter($event)"></app-searchable-filterlist>
+        </li>
         <li *ngFor="let filter of activeFilters">
             <mat-card>
                 <mat-card-header class="stretch">
@@ -11,21 +13,9 @@
                     </button>
                 </mat-card-header>
                 @if (filter?.type == 'select') {
-                <app-active-filter [filter]="filter" [formcontrol]="$any(fg.get(filter.title))"></app-active-filter>
+                <app-select-filter [filter]="filter" [formcontrol]="$any(fg.get(filter.title))"></app-select-filter>
                 } @else if (filter.type == 'range') {
-                <div class="filter">
-                    <!-- todo: toggle to indclude or exclude fonts without this axis present  -> Wrap to its own component-->
-                    <!-- todo: show numeric value of slider (also when not active) -->
-                    <mat-slider [min]="filter.min_value" [max]="filter.max_value">
-                        <input matSliderStartThumb [formControl]="$any(fg.get(filter.title)?.get('min'))">
-                        <input matSliderEndThumb [formControl]="$any(fg.get(filter.title)?.get('max'))">
-                    </mat-slider>
-
-                    <div class="stretch">
-                        <div>{{$any(fg.get(filter.title)?.get('min')).value}}</div>
-                        <div>{{$any(fg.get(filter.title)?.get('max')).value}}</div>
-                    </div>
-                </div>
+                    <app-range-filter [filter]="filter" [fg]="$any(fg.get(filter.title))"></app-range-filter>
                 }
             </mat-card>
         </li>

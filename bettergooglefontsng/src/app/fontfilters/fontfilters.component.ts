@@ -7,11 +7,12 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { NgFor } from '@angular/common';
 import { SearchableFilterlistComponent } from "./searchable-filterlist/searchable-filterlist.component";
-import { ActiveSelectFilterComponent } from "./active-filter/active-filter.component";
+import { SelectFilterComponent } from "./select-filter/select-filter.component";
 import { MatSliderModule } from '@angular/material/slider';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card'
 import { DomSanitizer } from '@angular/platform-browser';
+import { RangeFilterComponent } from "./range-filter/range-filter.component";
 
 type Axis = {
   tag: string
@@ -37,11 +38,11 @@ export type AFilter = {
 
 
 @Component({
-  selector: 'app-fontfilters',
-  templateUrl: './fontfilters.component.html',
-  styleUrls: ['./fontfilters.component.scss'],
-  standalone: true,
-  imports: [NgFor, MatFormFieldModule, MatIconModule, MatSliderModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatOptionModule, SearchableFilterlistComponent, ActiveSelectFilterComponent, MatCardModule]
+    selector: 'app-fontfilters',
+    templateUrl: './fontfilters.component.html',
+    styleUrls: ['./fontfilters.component.scss'],
+    standalone: true,
+    imports: [NgFor, MatFormFieldModule, MatIconModule, MatSliderModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatOptionModule, SearchableFilterlistComponent, SelectFilterComponent, MatCardModule, RangeFilterComponent]
 })
 
 
@@ -105,7 +106,7 @@ export class FontfiltersComponent implements OnInit {
     if (filter) {
       let control: null | FormControl<any> | FormGroup<any> | FormGroup<{ min: FormControl<any>; max: FormControl<any>; }> = null
       if (filter.type === 'range') {
-        control = new FormGroup({ min: new FormControl(filter.min_value), max: new FormControl(filter.max_value) })
+        control = new FormGroup({ min: new FormControl(), max: new FormControl() })
       } else if (filter.type === 'select') {
         control = new FormControl()
       }

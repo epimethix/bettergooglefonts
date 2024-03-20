@@ -9,13 +9,13 @@ import { AFilter } from '../fontfilters.component';
 import { NgComponentOutlet } from '@angular/common';
 
 @Component({
-  selector: 'app-active-filter',
+  selector: 'app-select-filter',
   standalone: true,
   imports: [MatInputModule, MatSelectModule, FormsModule, ReactiveFormsModule,  NgComponentOutlet, MatSliderModule, MatIconModule],
-  templateUrl: './active-filter.component.html',
-  styleUrl: './active-filter.component.scss'
+  templateUrl: './select-filter.component.html',
+  styleUrl: './select-filter.component.scss'
 })
-export class ActiveSelectFilterComponent implements AfterViewInit {
+export class SelectFilterComponent implements AfterViewInit {
 
   @Input('formcontrol')
   fc!: FormControl
