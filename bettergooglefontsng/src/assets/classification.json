@@ -11,7 +11,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -30,9 +32,11 @@
             "a-shape": "double story",
             "l-shape": "akkurat",
             "ij-dot-shape": "round",
-            "g-up-shape": "Univers",
+            "G-shape": "Univers",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -47,7 +51,9 @@
             "ij-dot-shape": "square",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -85,7 +91,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -100,7 +107,9 @@
             "ij-dot-shape": "round",
             "W-tip": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -115,7 +124,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -138,7 +149,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -153,7 +166,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -175,7 +190,9 @@
             "ij-dot-shape": "square",
             "W-tip": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -196,7 +213,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -231,7 +250,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -254,7 +275,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -269,7 +292,10 @@
             "ij-dot-shape": "square",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans",
+            "AMW-joints": "sharp"
         }
     ],
     [
@@ -284,7 +310,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -299,7 +327,9 @@
             "ij-dot-shape": "square",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -314,7 +344,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -328,7 +360,9 @@
             "ij-dot-shape": "other",
             "W-tip": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -344,7 +378,9 @@
             "ij-dot-shape": "round",
             "W-tip": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -381,7 +417,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -446,7 +484,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -457,14 +497,15 @@
             "a-shape": "double story",
             "e-angle": "angled",
             "x-height": "reasonable",
-            "g-up-shape": "Univers",
+            "G-shape": "Univers",
             "R-shape": "straight",
             "M-tip": "above",
             "M-stems": "parallel",
             "W-tip": "on tip",
             "l-shape": "akkurat",
             "ij-dot-shape": "round",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -491,7 +532,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -524,7 +567,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved"
         }
     ],
     [
@@ -539,7 +583,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -554,7 +600,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved"
         }
     ],
     [
@@ -569,7 +616,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -590,7 +639,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "curved"
         }
     ],
     [
@@ -617,7 +667,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight"
         }
     ],
     [
@@ -632,7 +683,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "straight"
         }
     ],
     [
@@ -647,7 +699,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight"
         }
     ],
     [
@@ -662,7 +715,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -677,7 +732,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -691,7 +748,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -705,7 +764,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -719,7 +780,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -733,7 +796,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -747,7 +812,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -761,7 +828,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved"
         }
     ],
     [
@@ -775,7 +843,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -789,7 +859,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -803,7 +875,9 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -815,9 +889,11 @@
             "l-shape": "helvetica",
             "a-shape": "double story",
             "ij-dot-shape": "round",
-            "g-up-shape": "Univers",
+            "G-shape": "Univers",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -829,9 +905,10 @@
             "l-shape": "helvetica",
             "a-shape": "double story",
             "ij-dot-shape": "square",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "curved"
         }
     ],
     [
@@ -843,9 +920,11 @@
             "l-shape": "helvetica",
             "a-shape": "double story",
             "ij-dot-shape": "square",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -857,9 +936,11 @@
             "l-shape": "akkurat",
             "a-shape": "double story extensive tail",
             "ij-dot-shape": "round",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -871,9 +952,11 @@
             "l-shape": "helvetica",
             "a-shape": "double story",
             "ij-dot-shape": "square",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -885,9 +968,11 @@
             "a-shape": "double story extensive tail",
             "l-shape": "helvetica",
             "ij-dot-shape": "square",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -899,9 +984,11 @@
             "a-shape": "double story extensive tail",
             "l-shape": "helvetica",
             "ij-dot-shape": "square",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -913,9 +1000,11 @@
             "a-shape": "double story extensive tail",
             "l-shape": "helvetica",
             "ij-dot-shape": "square",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -929,7 +1018,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -941,9 +1031,11 @@
             "a-shape": "double story",
             "l-shape": "helvetica",
             "ij-dot-shape": "round",
-            "g-up-shape": "Univers",
+            "G-shape": "Univers",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -955,9 +1047,11 @@
             "a-shape": "double story extensive tail",
             "l-shape": "helvetica",
             "ij-dot-shape": "round",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -969,9 +1063,10 @@
             "a-shape": "double story",
             "l-shape": "helvetica",
             "ij-dot-shape": "round",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "curved"
         }
     ],
     [
@@ -982,10 +1077,11 @@
             "a-shape": "double story",
             "l-shape": "akkurat",
             "ij-dot-shape": "other",
-            "g-up-shape": "Univers",
+            "G-shape": "Univers",
             "W-tip": "one tip",
             "Kk-shape": "univers",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "curved"
         }
     ],
     [
@@ -997,9 +1093,11 @@
             "a-shape": "double story",
             "l-shape": "akkurat",
             "ij-dot-shape": "other",
-            "g-up-shape": "Univers",
+            "G-shape": "Univers",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1022,10 +1120,12 @@
             "a-shape": "double story",
             "l-shape": "akkurat",
             "ij-dot-shape": "round",
-            "g-up-shape": "Univers",
+            "G-shape": "Univers",
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1045,7 +1145,9 @@
             "Kk-shape": "other",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1059,7 +1161,9 @@
             "Kk-shape": "other",
             "W-tip": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1073,7 +1177,9 @@
             "Kk-shape": "helvetica/grotesk",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1117,7 +1223,9 @@
             "Kk-shape": "helvetica/grotesk",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1173,7 +1281,9 @@
             "Kk-shape": "univers/frutiger (symmetric)",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1187,7 +1297,9 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1202,7 +1314,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1246,7 +1359,9 @@
             "Kk-shape": "helvetica/grotesk",
             "W-tip": "one tip",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1290,7 +1405,9 @@
             "Kk-shape": "helvetica/grotesk",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1304,7 +1421,9 @@
             "Kk-shape": "helvetica/grotesk",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1318,7 +1437,9 @@
             "Kk-shape": "helvetica/grotesk",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1338,7 +1459,9 @@
             "Kk-shape": "univers/frutiger (symmetric)",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1370,7 +1493,9 @@
             "Kk-shape": "helvetica/grotesk",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1384,7 +1509,9 @@
             "W-tip": "one tip",
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1398,7 +1525,9 @@
             "W-tip": "one tip",
             "a-shape": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1413,7 +1542,9 @@
             "Kk-shape": "helvetica/grotesk",
             "W-tip": "one tip",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1427,7 +1558,9 @@
             "W-tip": "other",
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1441,7 +1574,9 @@
             "W-tip": "one tip",
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1455,7 +1590,9 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1470,7 +1607,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1485,7 +1623,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1500,7 +1639,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1515,7 +1655,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1530,7 +1671,8 @@
             "Kk-shape": "other",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1545,7 +1687,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1560,7 +1703,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1575,7 +1719,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1590,7 +1735,8 @@
             "Kk-shape": "other",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1605,7 +1751,8 @@
             "Kk-shape": "other",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1620,7 +1767,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1635,7 +1783,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1650,7 +1799,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1665,7 +1815,8 @@
             "Kk-shape": "other",
             "a-shape": "double story extensive tail",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1680,7 +1831,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1695,7 +1847,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1710,7 +1863,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1723,7 +1877,9 @@
             "W-tip": "one tip",
             "a-shape": "other",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1737,7 +1893,9 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1751,7 +1909,9 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1765,7 +1925,9 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1779,7 +1941,9 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1793,7 +1957,9 @@
             "Kk-shape": "other",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1807,7 +1973,9 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1821,7 +1989,9 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1835,7 +2005,9 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "R-shape": "curved",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1849,7 +2021,9 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "R-shape": "straight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1863,7 +2037,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1877,7 +2052,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "single story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1891,7 +2067,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1906,7 +2083,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1920,7 +2098,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1934,7 +2113,8 @@
             "Kk-shape": "other",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1948,7 +2128,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1962,7 +2143,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1977,7 +2159,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -1992,7 +2175,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2007,7 +2191,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2022,7 +2207,8 @@
             "Kk-shape": "other",
             "a-shape": "single story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2037,7 +2223,7 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -2052,7 +2238,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2067,7 +2254,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2082,7 +2270,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2097,7 +2286,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2112,7 +2302,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2127,7 +2318,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2141,7 +2333,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2156,7 +2349,8 @@
             "Kk-shape": "other",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2170,7 +2364,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2184,7 +2379,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2198,7 +2394,8 @@
             "W-tip": "one tip",
             "a-shape": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2212,7 +2409,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2226,7 +2424,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2240,7 +2439,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2254,7 +2454,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2268,7 +2469,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2282,7 +2484,7 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica"
         }
     ],
     [
@@ -2296,7 +2498,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2311,7 +2514,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2326,7 +2530,8 @@
             "W-tip": "one tip",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2341,7 +2546,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2356,7 +2562,8 @@
             "W-tip": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2371,7 +2578,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2383,13 +2591,14 @@
             "g-shape": "quark",
             "l-shape": "quark",
             "a-shape": "quark",
-            "g-up-shape": "quark",
+            "G-shape": "quark",
             "R-shape": "quark",
             "M-tip": "quark",
             "M-stems": "parallel",
             "W-tip": "quark",
             "ij-dot-shape": "square",
-            "W-tip-level": "below"
+            "W-tip-level": "below",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2405,7 +2614,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2420,7 +2630,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2430,12 +2641,13 @@
             "e-angle": "angled",
             "x-height": "reasonable",
             "g-shape": "classical (double story)",
-            "g-up-shape": "Helvetica",
+            "G-shape": "Helvetica",
             "l-shape": "akkurat",
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2450,7 +2662,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2465,7 +2678,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2480,7 +2694,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2495,7 +2710,8 @@
             "W-tip": "one tip",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2510,7 +2726,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2525,7 +2742,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2540,7 +2758,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2556,7 +2775,8 @@
             "W-tip": "other",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2572,7 +2792,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2588,7 +2809,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2604,7 +2826,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2620,7 +2843,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2636,7 +2860,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2652,7 +2877,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2669,7 +2895,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2685,7 +2912,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2700,7 +2928,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2716,7 +2945,8 @@
             "W-tip": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2732,7 +2962,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2747,7 +2978,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2762,7 +2994,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2777,7 +3010,8 @@
             "W-tip": "other",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2792,7 +3026,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2807,7 +3042,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2823,7 +3059,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2839,7 +3076,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2854,7 +3092,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2868,7 +3107,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2882,7 +3122,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2896,7 +3137,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2910,7 +3152,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2924,7 +3167,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2938,7 +3182,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2952,7 +3197,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2966,7 +3212,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2980,7 +3227,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -2994,7 +3242,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3008,7 +3257,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3022,7 +3272,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3036,7 +3287,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3050,7 +3302,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3064,7 +3317,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3078,7 +3332,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3092,7 +3347,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3106,7 +3362,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3120,7 +3377,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3134,7 +3392,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3148,7 +3407,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3162,7 +3422,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3176,7 +3437,8 @@
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3190,7 +3452,8 @@
             "W-tip": "one tip",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3204,7 +3467,8 @@
             "W-tip": "one tip",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3218,7 +3482,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3231,7 +3496,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "a-shape": "single story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3244,7 +3510,8 @@
             "ij-dot-shape": "square",
             "W-tip": "one tip",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3257,7 +3524,8 @@
             "ij-dot-shape": "square",
             "W-tip": "one tip",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3269,7 +3537,8 @@
             "l-shape": "helvetica",
             "ij-dot-shape": "round",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3282,7 +3551,8 @@
             "ij-dot-shape": "round",
             "W-tip": "one tip",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3296,7 +3566,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3310,7 +3581,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3324,7 +3596,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3338,7 +3611,8 @@
             "W-tip": "other",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3352,7 +3626,8 @@
             "W-tip": "one tip",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3366,7 +3641,8 @@
             "Kk-shape": "univers",
             "a-shape": "single story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3379,7 +3655,8 @@
             "Kk-shape": "univers",
             "a-shape": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3393,7 +3670,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3407,7 +3685,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3421,7 +3700,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3435,7 +3715,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3446,7 +3727,8 @@
             "l-shape": "mono",
             "ij-dot-shape": "round",
             "W-tip": "other",
-            "a-shape": "double story extensive tail"
+            "a-shape": "double story extensive tail",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3457,7 +3739,8 @@
             "l-shape": "mono",
             "ij-dot-shape": "round",
             "W-tip": "other",
-            "a-shape": "double story extensive tail"
+            "a-shape": "double story extensive tail",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3471,7 +3754,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3485,7 +3769,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3499,7 +3784,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3510,7 +3796,8 @@
             "l-shape": "mono",
             "ij-dot-shape": "round",
             "W-tip": "other",
-            "Kk-shape": "other"
+            "Kk-shape": "other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3524,7 +3811,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3538,7 +3826,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3552,7 +3841,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3566,7 +3856,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3580,7 +3871,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3594,7 +3886,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3608,7 +3901,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -3622,7 +3915,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3636,7 +3930,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3650,7 +3945,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3664,7 +3960,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3678,7 +3975,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3692,7 +3990,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3706,7 +4005,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3720,7 +4020,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3734,7 +4035,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3748,7 +4050,8 @@
             "W-tip": "one tip",
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3762,7 +4065,8 @@
             "W-tip": "one tip",
             "Kk-shape": "other",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3776,7 +4080,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3790,7 +4095,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3804,7 +4110,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3818,7 +4125,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3833,7 +4141,7 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -3848,7 +4156,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3863,7 +4172,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3877,7 +4187,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3892,7 +4203,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3907,7 +4219,8 @@
             "Kk-shape": "univers",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3917,7 +4230,8 @@
             "g-shape": "classical (double story)",
             "l-shape": "mono",
             "ij-dot-shape": "round",
-            "W-tip": "other"
+            "W-tip": "other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3927,7 +4241,8 @@
             "g-shape": "classical (double story)",
             "l-shape": "mono",
             "ij-dot-shape": "round",
-            "W-tip": "other"
+            "W-tip": "other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3941,7 +4256,7 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -3955,7 +4270,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3969,7 +4285,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3983,7 +4300,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -3997,7 +4315,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4011,7 +4330,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4025,7 +4345,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4039,7 +4360,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4053,7 +4375,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story extensive tail",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4067,7 +4390,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4081,7 +4405,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4095,7 +4420,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4109,7 +4435,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4123,7 +4450,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4137,7 +4465,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4151,7 +4480,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4165,7 +4495,8 @@
             "Kk-shape": "other",
             "a-shape": "double story extensive tail",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4179,7 +4510,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4193,7 +4525,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4207,7 +4540,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4221,7 +4555,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4235,7 +4570,8 @@
             "Kk-shape": "other",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4249,7 +4585,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4263,7 +4600,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4277,7 +4615,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4291,7 +4630,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4305,7 +4645,8 @@
             "Kk-shape": "univers",
             "a-shape": "single story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4319,7 +4660,8 @@
             "Kk-shape": "univers",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4333,7 +4675,8 @@
             "Kk-shape": "univers",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4347,7 +4690,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4361,7 +4705,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4375,7 +4720,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4389,7 +4735,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4403,7 +4750,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4416,7 +4764,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4430,7 +4779,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4444,7 +4794,8 @@
             "Kk-shape": "other",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4458,7 +4809,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4472,7 +4824,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4486,7 +4839,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4500,7 +4854,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4514,7 +4869,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4528,7 +4884,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4542,7 +4899,8 @@
             "Kk-shape": "univers",
             "a-shape": "single story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4556,7 +4914,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4570,7 +4929,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4584,7 +4944,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4598,7 +4959,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4612,7 +4974,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4626,7 +4989,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story extensive tail",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4640,7 +5004,8 @@
             "Kk-shape": "other",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4654,7 +5019,8 @@
             "Kk-shape": "helvetica",
             "a-shape": "double story",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4667,7 +5033,14 @@
             "Kk-shape": "univers",
             "a-shape": "other",
             "W-tip-level": "capheight",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Color Emoji Compat Test",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4675,7 +5048,14 @@
         {
             "g-shape": "classical (double story)",
             "l-shape": "mono",
-            "ij-dot-shape": "round"
+            "ij-dot-shape": "round",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Emoji",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4687,123 +5067,149 @@
     [
         "Noto Music",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Adlam Unjoined",
         {
             "e-angle": "vertical",
-            "ij-dot-shape": "round"
+            "ij-dot-shape": "round",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Adlam",
         {
             "e-angle": "vertical",
-            "l-shape": "helvetica"
+            "l-shape": "helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Anatolian Hieroglyphs",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Arabic UI",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Arabic",
         {
-            "e-angle": "~vertical"
+            "e-angle": "~vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Armenian",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Avestan",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Balinese",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Bamum",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Bassa Vah",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Batak",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Bengali UI",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Bengali",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Bhaiksuki",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Brahmi",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Buginese",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Buhid",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Canadian Aboriginal",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Carian",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Caucasian Albanian",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4815,61 +5221,797 @@
     [
         "Noto Sans Cham",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Cherokee",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Coptic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Cuneiform",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Cypriot",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Cypro Minoan",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Deseret",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Devanagari UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Devanagari",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Display",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Duployan",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Egyptian Hieroglyphs",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Elbasan",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Elymaic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Ethiopic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Georgian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Glagolitic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Gothic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Grantha",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Gujarati UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Gujarati",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Gunjala Gondi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Gurmukhi UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Gurmukhi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans HK",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Hanifi Rohingya",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Hanunoo",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Hatran",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Hebrew",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Imperial Aramaic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Indic Siyaq Numbers",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Inscriptional Pahlavi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Inscriptional Parthian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans JP",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Javanese",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans KR",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Kaithi",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Kannada UI",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Kannada",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Kawi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Kayah Li",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Kharoshthi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Khmer UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Khmer",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Khojki",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Lao Looped",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Lao UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Lepcha",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Limbu",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Linear A",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Linear B",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Lisu",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Lycian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Lydian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Mahajani",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Malayalam UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Malayalam",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Mandaic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Manichaean",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Marchen",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Masaram Gondi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Math",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Mayan Numerals",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Medefaidrin",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Meetei Mayek",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Mende Kikakui",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Meroitic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Miao",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Modi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Mongolian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Mono",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Mro",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Multani",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Myanmar UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Myanmar",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans N Ko",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans NKo Unjoined",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans NKo",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Nabataean",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Nag Mundari",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Nandinagari",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans New Tai Lue",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Newa",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Nushu",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Ogham",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Ol Chiki",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Old Hungarian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Old Italic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Old North Arabian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Old Permic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Old Persian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Old Sogdian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Old South Arabian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Old Turkic",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Oriya",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Osage",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Osmanya",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Pahawh Hmong",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Palmyrene",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Pau Cin Hau",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans PhagsPa",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Phoenician",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Psalter Pahlavi",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Rejang",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Runic",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans SC",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Samaritan",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Saurashtra",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Sharada",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Shavian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Siddham",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans SignWriting",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Sinhala UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Sinhala",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Sogdian",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Sora Sompeng",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Soyombo",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Sundanese",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Syloti Nagri",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Symbols 2",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Symbols",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Syriac Eastern",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Syriac",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans TC",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Tagalog",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Tagbanwa",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Tai Tham",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Tai Viet",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Takri",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Tamil UI",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Tamil",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4881,7 +6023,8 @@
     [
         "Noto Sans Telugu UI",
         {
-            "W-tip": "other"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4893,13 +6036,21 @@
     [
         "Noto Sans Thaana",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Thai Looped",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Thai UI",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4911,31 +6062,60 @@
     [
         "Noto Sans Tifinagh",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Tirhuta",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Ugaritic",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans Vai",
         {
-            "W-tip": "one tip"
+            "W-tip": "one tip",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Vithkuqi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Wancho",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Warang Citi",
+        {
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Noto Sans Zanabazar Square",
+        {
+            "coarse-classification": "sans"
         }
     ],
     [
         "Noto Sans",
         {
-            "e-angle": "vertical"
+            "e-angle": "vertical",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4954,7 +6134,8 @@
             "g-shape": "modern (single story)",
             "l-shape": "helvetica",
             "W-tip": "one tip",
-            "W-tip-level": "capheight"
+            "W-tip-level": "capheight",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4968,7 +6149,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4982,7 +6164,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -4996,7 +6179,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5007,7 +6191,8 @@
             "l-shape": "other",
             "ij-dot-shape": "round",
             "Kk-shape": "other",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5021,7 +6206,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5035,7 +6221,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5049,7 +6236,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5063,7 +6251,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5077,7 +6266,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5091,7 +6281,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5105,7 +6296,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5119,7 +6311,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5133,7 +6326,8 @@
             "W-tip": "one tip",
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5147,7 +6341,8 @@
             "W-tip": "one tip",
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5161,7 +6356,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5175,7 +6371,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5189,7 +6386,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5203,7 +6401,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5217,7 +6416,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5231,7 +6431,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5245,7 +6446,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -5286,7 +6487,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5300,7 +6502,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5313,7 +6516,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5327,7 +6531,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5341,21 +6546,23 @@
             "W-tip": "one tip",
             "W-tip-level": "below",
             "a-shape": "single story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
         "Philosopher",
         {
-            "Kk-shape": "univers/frutiger (symmetric)",
-            "e-angle": "angled",
-            "g-shape": "classical (double story)",
-            "l-shape": "other",
+            "Kk-shape": "other",
+            "e-angle": "~vertical",
+            "g-shape": "modern (single story)",
+            "l-shape": "akkurat",
             "ij-dot-shape": "round",
-            "W-tip": "other",
-            "W-tip-level": "capheight",
-            "a-shape": "double story",
-            "g-up-shape": "Other"
+            "W-tip": "one tip",
+            "W-tip-level": "below",
+            "a-shape": "single story",
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5369,7 +6576,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5383,7 +6591,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5397,7 +6606,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5411,7 +6621,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5425,7 +6636,8 @@
             "W-tip": "one tip",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5439,7 +6651,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5453,7 +6666,8 @@
             "W-tip": "one tip",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5468,7 +6682,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5482,7 +6697,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5496,7 +6712,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5510,7 +6727,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5524,7 +6742,8 @@
             "W-tip": "one tip",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5538,7 +6757,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5552,7 +6772,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5566,7 +6787,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica"
         }
     ],
     [
@@ -5580,7 +6801,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -5594,7 +6815,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5608,7 +6830,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -5622,7 +6844,7 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -5636,7 +6858,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica"
         }
     ],
     [
@@ -5650,7 +6872,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -5664,7 +6886,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5678,7 +6901,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5692,7 +6916,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5706,7 +6931,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5720,7 +6946,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5734,7 +6961,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5748,7 +6976,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5773,7 +7002,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -5787,7 +7016,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5801,7 +7031,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5815,7 +7046,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5829,7 +7061,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5843,7 +7076,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5857,7 +7091,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5871,7 +7106,7 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica"
         }
     ],
     [
@@ -5885,7 +7120,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5899,7 +7135,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5912,7 +7149,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "other",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5926,7 +7164,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5940,7 +7179,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5954,7 +7194,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5968,7 +7209,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5982,7 +7224,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -5996,7 +7239,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6010,7 +7254,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6024,7 +7269,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6038,7 +7284,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6052,7 +7299,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6066,7 +7314,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6080,7 +7329,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6094,7 +7344,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6108,7 +7359,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6122,7 +7374,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6136,7 +7389,7 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -6150,7 +7403,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6164,7 +7418,7 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -6178,7 +7432,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6192,7 +7447,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6206,7 +7462,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6220,7 +7477,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6234,7 +7492,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6247,7 +7506,8 @@
             "W-tip": "one tip",
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
-            "a-shape": "double story extensive tail"
+            "a-shape": "double story extensive tail",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6261,7 +7521,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6272,7 +7533,8 @@
             "l-shape": "other",
             "ij-dot-shape": "round",
             "W-tip": "other",
-            "a-shape": "other"
+            "a-shape": "other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6286,7 +7548,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "other",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6300,7 +7563,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6314,7 +7578,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "other",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6328,7 +7593,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6342,7 +7608,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6356,7 +7623,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "other",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6370,7 +7638,8 @@
             "Kk-shape": "other",
             "W-tip-level": "below",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6384,7 +7653,8 @@
             "Kk-shape": "other",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6398,7 +7668,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6412,7 +7683,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6426,7 +7698,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6440,7 +7713,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6454,7 +7728,8 @@
             "Kk-shape": "other",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6468,7 +7743,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6482,7 +7758,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6496,7 +7773,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6510,7 +7788,7 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica"
         }
     ],
     [
@@ -6524,7 +7802,8 @@
             "Kk-shape": "other",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6538,7 +7817,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6552,7 +7832,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6566,7 +7847,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6580,7 +7862,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6594,7 +7877,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6608,7 +7892,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6622,7 +7907,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6636,7 +7922,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6650,7 +7937,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6664,7 +7952,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6678,7 +7967,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6692,7 +7982,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6706,7 +7997,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6720,7 +8012,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6734,7 +8027,7 @@
             "Kk-shape": "other",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
@@ -6748,7 +8041,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6762,7 +8056,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6776,7 +8071,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6790,7 +8086,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6804,7 +8101,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6818,7 +8116,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6832,7 +8131,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6846,7 +8146,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6860,7 +8161,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6874,7 +8176,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6888,7 +8191,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6902,7 +8206,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6916,7 +8221,8 @@
             "Kk-shape": "univers",
             "a-shape": "double story",
             "W-tip-level": "below",
-            "g-up-shape": "Other"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6930,7 +8236,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6944,7 +8251,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6958,7 +8266,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6972,7 +8281,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -6986,7 +8296,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7000,7 +8311,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7013,7 +8325,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7027,7 +8340,8 @@
             "Kk-shape": "other",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7041,7 +8355,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7055,7 +8370,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7069,7 +8385,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7083,7 +8400,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7097,7 +8415,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7111,7 +8430,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7125,7 +8445,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7139,7 +8460,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Helvetica"
+            "G-shape": "Helvetica",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7153,7 +8475,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7167,7 +8490,8 @@
             "Kk-shape": "other",
             "W-tip-level": "below",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7181,7 +8505,8 @@
             "Kk-shape": "other",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7195,7 +8520,8 @@
             "Kk-shape": "other",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7209,7 +8535,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7223,7 +8550,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7237,7 +8565,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "other",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7251,7 +8580,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7265,7 +8595,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "single story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7279,7 +8610,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7293,21 +8625,22 @@
             "Kk-shape": "univers",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
         "ZCOOL XiaoWei",
         {
-            "e-angle": "other",
-            "g-shape": "classical (double story)",
-            "l-shape": "other",
+            "e-angle": "vertical",
+            "g-shape": "modern (single story)",
+            "l-shape": "helvetica",
             "ij-dot-shape": "round",
-            "W-tip": "other",
+            "W-tip": "one tip",
             "Kk-shape": "univers",
-            "W-tip-level": "capheight",
+            "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Other"
+            "G-shape": "Other",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7321,7 +8654,8 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ],
     [
@@ -7335,11 +8669,26 @@
             "Kk-shape": "univers",
             "W-tip-level": "capheight",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers"
         }
     ],
     [
         "Zen Kurenaido",
+        {
+            "e-angle": "~horizontal",
+            "g-shape": "modern (single story)",
+            "l-shape": "helvetica",
+            "ij-dot-shape": "round",
+            "W-tip": "one tip",
+            "Kk-shape": "univers",
+            "W-tip-level": "capheight",
+            "a-shape": "double story",
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
+        }
+    ],
+    [
+        "Zen Maru Gothic",
         {
             "e-angle": "angled",
             "g-shape": "modern (single story)",
@@ -7349,21 +8698,8 @@
             "Kk-shape": "helvetica",
             "W-tip-level": "below",
             "a-shape": "double story",
-            "g-up-shape": "Univers"
-        }
-    ],
-    [
-        "Zen Maru Gothic",
-        {
-            "e-angle": "angled",
-            "g-shape": "modern (single story)",
-            "l-shape": "helvetica",
-            "ij-dot-shape": "round",
-            "W-tip": "one tip",
-            "Kk-shape": "univers",
-            "W-tip-level": "capheight",
-            "a-shape": "double story extensive tail",
-            "g-up-shape": "Univers"
+            "G-shape": "Univers",
+            "coarse-classification": "sans"
         }
     ]
 ]

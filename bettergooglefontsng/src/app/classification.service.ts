@@ -22,6 +22,7 @@ export const fontParamsSans = {
   "W-tip-level": { a: ["capheight", "below", "other"], s: "W", c: "position of uppercase W tip" },
   "AMW-joints": { a: ["flat", "sharp", "other"], s: "WAM",c:  "shape of outer joins of uppercase A / W / M"},
   "x-height": { a: ["neutra", "reasonable"], s: "EAR\nae", c: "x height and center of uppercase A" },
+  "coarse-classification": {a: ["sans", "serif", "slab-serif", "handwriting", "script", "mono"], s: "sAp", c: "General Classification"}
 
 }
 const fontQuestions = Object.entries(fontParamsSans)
@@ -75,6 +76,7 @@ export class ClassificationService {
   saveAnswer(fontName: string, question: string, answer: string) {
     this.saveAllAnswers(fontName, { [question]: answer })
   }
+
   saveAllAnswers(fontName: string, qa: { [question: string]: string }) {
     const answers_str = this.getLocalStorageItem(fontName)
     let answers = {}

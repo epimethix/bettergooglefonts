@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Shantell Sans';
+    font-style: italic;
+    font-weight: 300 800;
+    font-display: swap;
+    src: url('assets/Shantell_Sans/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Shantell Sans';
+    font-style: normal;
+    font-weight: 300 800;
+    font-display: swap;
+    src: url('assets/Shantell_Sans/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf');
+}
+
+@import '@angular/cdk/overlay-prebuilt.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover {
+    filter: brightness(1.5);
+}
+
+.btn {
+    @apply bg-slate-200 font-bold py-2 px-4 rounded
+}
+
+.btn:hover {
+    @apply bg-slate-100
+}
+
+.variation-wild {
+    font-variation-settings:
+        "BNCE" -40,
+        "INFM" 100
+}
+
+
