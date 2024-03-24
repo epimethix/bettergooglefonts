@@ -44,7 +44,9 @@ export class ClassifierComponent implements OnInit {
     private classifierService: ClassificationService,
     private iconRegistry: MatIconRegistry
   ) {
-    this.questions = this.classifierService.getQuestions()
+    this.classifierService.getQuestions().subscribe(q =>
+      this.questions = q
+    )
     this.fcs = this.questions.reduce(
       (a, c) => { a[c.title] = new FormControl(); return a },
       {}
@@ -55,6 +57,7 @@ export class ClassifierComponent implements OnInit {
   }
   ngOnInit(): void {
     console.log(this.route)
+
     this.route.params.subscribe(params => {
       // FIXME: angular has some kind of issue
       // this.questions = this.classifierService.getQuestions()

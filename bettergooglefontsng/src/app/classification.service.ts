@@ -1,33 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
-import { map } from 'rxjs';
+import { Observable, map, shareReplay } from 'rxjs';
 
 const LOCALSTORAGE_PREFIX = 'fontquestionnaire_'
 
-// TODO: Common? Specific for Serif?
-// naaa... too complex.. could make sense but let's stick to one type of question so far
-// TODO: separate description and key 
-export const fontParamsSans = {
-  "e-angle": { a: ["horizontal", "~horizontal", "angled", "~vertical", "vertical", "other"], s: "ea", c: "lower case e Angle" },
-  "g-shape": { a: ["modern (single story)", "classical (double story)", "both", "other"], s: "g", c: "lower case g shape" },
-  "l-shape": { a: ["helvetica", "akkurat", "mono", "other"], s: "l", c: "lower case l shape" },
-  "ij-dot-shape": { a: ["square", "round", "other"], s: "ij", c: "dot shape of lower case i & j" },
-  "Kk-shape": { a: ["helvetica", "univers", "other"], s: "K k", c: "shape of upper and lower case k / K" },
-  "a-shape": { a: ["double story", "double story extensive tail", "single story", "other"], s: "a", c: "shape of lower case a" },
-  "g-up-shape": { a: ["Helvetica", "Univers", "Other"], s: "G", c: "shape of uppercase G" },
-  "R-shape": { a: ["curved", "straight"], s: "R", c: "shape of uppercase R" },
-  "M-tip": { a: ["baseline", "above"], s: "M", c: "position of tip of uppercase M" },
-  "M-stems": { a: ["parallel", "angled"], s: "M", c: "angle of outer stems of uppercase M" },
-  "W-tip": { a: ["one tip", "crossed", "other"], s: "W", c: "shape of uppercase w tip" },
-  "W-tip-level": { a: ["capheight", "below", "other"], s: "W", c: "position of uppercase W tip" },
-  "AMW-joints": { a: ["flat", "sharp", "other"], s: "WAM", c: "shape of outer joins of uppercase A / W / M" },
-  "x-height": { a: ["neutra", "reasonable"], s: "EAR\nae", c: "x height and center of uppercase A" },
-  "coarse-classification": { a: ["sans", "serif", "handwriting", "script", "mono"], s: "sAp", c: "General Classification" },
-  "Vox-ATypI": { a: ["humanist serif", "geralde", "transitional", "didone", "mechanistic", "grotesque", "neo-grotesque", "geometric", "humanist sans", "glyphic", "script", "graphic", "blackletter", "other"], s: "ESaest", c: "" }
-
-}
-const fontQuestions = Object.entries(fontParamsSans)
-  .map(([title, value]) => ({ title, items: value.a, samples: value.s }));
 
 
 export type FontQuestion = {
@@ -43,18 +19,23 @@ export class ClassificationService {
 
 
   private _http = inject(HttpClient)
+
+  private fontQuestions = this._http.get('assets/classification_questions.json')
+    .pipe(
+      map(q => Object.entries(q).map(([title, value]) => ({ title, items: value.a.map(i => typeof i === 'string' ? i : i.a), samples: value.s }))),
+      shareReplay(1)
+      )
+      
+      
+
   importIntoLocalStorage() {
     return this._http.get('assets/classification.json')
       .pipe(
         // @ts-ignore
         map(e => { e.forEach(([f, qa]) => this.saveAllAnswers(f, qa)); return e.length }))
   }
-  getQuestions(): FontQuestion[] {
-    return JSON.parse(JSON.stringify(this.questions))
-  }
-  questions: FontQuestion[] = [];
-  constructor() {
-    this.questions = fontQuestions
+  getQuestions(): Observable<FontQuestion[]> {
+    return this.fontQuestions
   }
 
   private getLocalStorageItem(fontName: string) {

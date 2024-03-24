@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, EventEmitter, OnInit, Output, QueryList, ViewChildren } from '@angular/core';
 import { AbstractControl, FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ClassificationService, fontParamsSans } from '../classification.service';
+import { ClassificationService } from '../classification.service';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -65,7 +65,6 @@ export class FontfiltersComponent implements OnInit {
     private iconRegistry: MatIconRegistry,
     private sanitizer: DomSanitizer
   ) {
-    this.availableFilters = classifier.getQuestions().map(q => ({ ...q, caption: q.title, rendering: 'select', type: "classification" }))
     this.availableFilters.push({
       type: "type",
       title: 'type',
@@ -75,6 +74,11 @@ export class FontfiltersComponent implements OnInit {
     })
   }
   ngOnInit(): void {
+
+    this.classifier.getQuestions().subscribe( qs => {
+      this.availableFilters.push( ...qs.map<AFilter>(q => ({ ...q, caption: q.title, rendering: 'select', type: "classification" })) )
+      this.updateAvailableFilterNames()
+    })
     this.http.get('assets/axesmeta.json').subscribe(
       a => {
         const axes: AFilter[] = (a as Axis[])
