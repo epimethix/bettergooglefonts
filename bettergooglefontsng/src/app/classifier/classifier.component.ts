@@ -7,7 +7,7 @@ import { ClassificationService, FontQuestion } from '../classification.service';
 import { appendStyleTag, generateFontCss } from '../FontNameUrl';
 import { FontInfo, MongofontService, getTtfUrlForFirstFont } from '../mongofont.service';
 import { FormsModule, ReactiveFormsModule, FormGroup, FormControl } from '@angular/forms';
-import { NgFor } from '@angular/common';
+import { JsonPipe, NgFor } from '@angular/common';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
@@ -22,7 +22,7 @@ import { MatIconRegistry } from '@angular/material/icon';
   templateUrl: './classifier.component.html',
   styleUrls: ['./classifier.component.scss'],
   standalone: true,
-  imports: [MatSlideToggleModule, FormsModule, NgFor, MatRadioModule, MatFormFieldModule, MatButtonModule, MatToolbarModule, MatSnackBarModule, RouterModule, ReactiveFormsModule, MatTooltipModule]
+  imports: [MatSlideToggleModule, FormsModule, NgFor, MatRadioModule, MatFormFieldModule, MatButtonModule, MatToolbarModule, MatSnackBarModule, RouterModule, ReactiveFormsModule, MatTooltipModule, JsonPipe]
 })
 export class ClassifierComponent implements OnInit {
   questions: FontQuestion[] = [];
@@ -36,10 +36,11 @@ export class ClassifierComponent implements OnInit {
   fg: FormGroup<{}>;
   fcs: { [k: string]: FormControl };
   lastActiveQuestion: string = '';
+  fstyle = '';
   constructor(
-    private route: ActivatedRoute, 
-    private fontService: MongofontService, 
-    private router: Router, 
+    private route: ActivatedRoute,
+    private fontService: MongofontService,
+    private router: Router,
     private classifierService: ClassificationService,
     private iconRegistry: MatIconRegistry
   ) {
@@ -50,7 +51,7 @@ export class ClassifierComponent implements OnInit {
     );
     this.fg = new FormGroup(this.fcs)
     this.fg.valueChanges.subscribe(a => this.saveAnswer(a))
-   // todo: read from json 
+    // todo: read from json 
   }
   ngOnInit(): void {
     console.log(this.route)
@@ -65,6 +66,7 @@ export class ClassifierComponent implements OnInit {
         const url = getTtfUrlForFirstFont(f)
         const css = generateFontCss({ name: f.meta.name, url })
         appendStyleTag(css)
+        this.fstyle = `font-family: "${f.meta.name}"`
         this.fontService.getFontBySkip({ idx: { $lt: f.idx } }, { sort: { idx: -1 } })
           .pipe(combineLatestWith(this.fontService.getFontBySkip({ idx: { $gt: f.idx } })))
           .subscribe(([p, n]) => {
