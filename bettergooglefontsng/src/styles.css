@@ -90,6 +90,8 @@ input[type=checkbox]:focus-visible::before {
         left: 2px;
         @apply bg-orange-400
     }
+
+
 }
 
 @layer components {
@@ -99,6 +101,12 @@ input[type=checkbox]:focus-visible::before {
         @apply bg-slate-200 font-bold py-2 px-3 rounded h-8 flex flex-row items-center;
     }
 
+    /* Use for buttons determined by inner size (e.g. an icon, image */
+    .btn-big {
+        @apply bg-slate-200 font-bold py-2 px-3 rounded flex flex-col items-center;
+    }
+
+    .btn-big:hover,
     .btn:hover {
         @apply bg-slate-100;
     }
@@ -112,4 +120,12 @@ input[type=checkbox]:focus-visible::before {
             "BNCE" -40,
             "INFM" 100
     }
+}
+
+.f-accent {
+    @apply fill-orange-400 mix-blend-multiply
+}
+
+.f-primary {
+    @apply fill-cyan-900 mix-blend-multiply
 }
