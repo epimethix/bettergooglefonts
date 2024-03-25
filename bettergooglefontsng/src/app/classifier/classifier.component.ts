@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit, QueryList, ViewChildren, inject } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, QueryList, ViewChildren, inject } from '@angular/core';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatRadioButton, MatRadioModule } from '@angular/material/radio';
 import { MatButtonModule } from '@angular/material/button';
@@ -20,7 +20,6 @@ import { MatIconRegistry } from '@angular/material/icon';
 @Component({
   selector: 'app-classifier',
   templateUrl: './classifier.component.html',
-  styleUrls: ['./classifier.component.scss'],
   standalone: true,
   imports: [MatSlideToggleModule, FormsModule, NgFor, MatRadioModule, MatFormFieldModule, MatButtonModule, MatToolbarModule, MatSnackBarModule, RouterModule, ReactiveFormsModule, MatTooltipModule, JsonPipe]
 })
@@ -33,8 +32,8 @@ export class ClassifierComponent implements OnInit {
   answers: any
   autoNext = true
   jumpAnswered = true
-  fg: FormGroup<{}>;
-  fcs: { [k: string]: FormControl };
+  fg: FormGroup<{}> = new FormGroup({})
+  fcs: { [k: string]: FormControl; } = {}
   lastActiveQuestion: string = '';
   fstyle = '';
   constructor(
@@ -44,15 +43,16 @@ export class ClassifierComponent implements OnInit {
     private classifierService: ClassificationService,
     private iconRegistry: MatIconRegistry
   ) {
-    this.classifierService.getQuestions().subscribe(q =>
+    this.classifierService.getQuestions().subscribe(q => {
       this.questions = q
-    )
-    this.fcs = this.questions.reduce(
-      (a, c) => { a[c.title] = new FormControl(); return a },
-      {}
-    );
-    this.fg = new FormGroup(this.fcs)
-    this.fg.valueChanges.subscribe(a => this.saveAnswer(a))
+      for (const c of this.questions) {
+        const fc = new FormControl()
+        this.fcs[c.title] = fc
+        this.fg.addControl(c.title, fc)
+      }
+
+      this.fg.valueChanges.subscribe(a => this.saveAnswer(a))
+    })
     // todo: read from json 
   }
   ngOnInit(): void {
@@ -78,7 +78,7 @@ export class ClassifierComponent implements OnInit {
             this.loadPrefilledAnswers()
             if (this.jumpAnswered) {
               if (this.lastActiveQuestion) {
-                if (this.fg.get((this.lastActiveQuestion))?.value) {
+                if (this?.fg?.get((this.lastActiveQuestion))?.value) {
                   setTimeout(() => {
                     console.log('jumping font:' + this.font?.meta.name)
                     this.navigateToNextFont()
@@ -114,25 +114,32 @@ export class ClassifierComponent implements OnInit {
       this.navigateToNextFont();
     }
     else {
-      if (['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].includes(event.key)) {
-        const questionName = document.activeElement?.closest('mat-radio-group')?.getAttribute('ng-reflect-name')
+      if (['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].map(k => 'Digit'+k).includes(event.code)) {
+        const questionName = this.getQuestionInFocus()
         if (questionName) {
-          const idx = parseInt(event.key) - 1
+          const idx = parseInt(event.code.substring('Digit'.length)) - 1 + (event.shiftKey ? 10 : 0)
           const question = this.questions.find(q => q.title === questionName)
-          if (question) {
-            const answer = question.items[idx]
-            if (answer) {
-              this.fcs[questionName].setValue(answer)
-            }
+          const answer = question?.items[idx]
+          if (answer) {
+            this.fcs?.[questionName].setValue(answer)
           }
         }
-
       }
-    }
 
+    }
   }
 
   private _snackBar = inject(MatSnackBar)
+
+  private getQuestionInFocus() {
+    const activeElement = document.activeElement;
+    return this.questionByRadio(activeElement);
+  }
+
+  private questionByRadio(activeElement: Element | null) {
+    return activeElement?.getAttribute('ng-reflect-form-control-name');
+  }
+
   public importToLocalStorage(ev: any) {
     this.classifierService.importIntoLocalStorage()
       .subscribe(a => this._snackBar.open(`imported ${a} fonts`))
@@ -148,7 +155,7 @@ export class ClassifierComponent implements OnInit {
   private navigateToNextFont() {
     if (this.fontNext) {
       // @ts-ignore
-      this.lastActiveQuestion = document.activeElement?.closest('mat-radio-group')?.getAttribute('ng-reflect-name')
+      this.lastActiveQuestion = this.getQuestionInFocus()
       this.router.navigateByUrl('/classify/' + encodeURIComponent(this.fontNext?.meta.name));
     }
   }
@@ -158,18 +165,22 @@ export class ClassifierComponent implements OnInit {
   }
   loadPrefilledAnswers() {
     const _values = {}
-    for (const k of Object.keys(this.fcs)) {
-      _values[k] = this.answers[k] || null
+    if (this.fcs) {
+      for (const k of Object.keys(this.fcs)) {
+        _values[k] = this.answers[k] || null
+      }
+      this.fg?.setValue(_values, { emitEvent: false })
     }
-    this.fg.setValue(_values, { emitEvent: false })
   }
 
   focus(questionName) {
     // some radiobutton with this name
-    const rb = this.matQuestions.find(mrb => mrb.name === questionName)
+    const rb = this.matQuestions
+      .map(ref => ref.nativeElement)
+      .find(inp => this.questionByRadio(inp) === questionName)
     rb?.focus()
   }
 
-  @ViewChildren(MatRadioButton)
-  matQuestions!: QueryList<MatRadioButton>
+  @ViewChildren('qradio')
+  matQuestions!: QueryList<ElementRef<HTMLInputElement>>
 }

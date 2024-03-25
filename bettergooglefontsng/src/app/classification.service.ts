@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
-import { Observable, map, shareReplay } from 'rxjs';
+import { Observable, map, shareReplay, tap } from 'rxjs';
 
 const LOCALSTORAGE_PREFIX = 'fontquestionnaire_'
 
@@ -22,11 +22,17 @@ export class ClassificationService {
 
   private fontQuestions = this._http.get('assets/classification_questions.json')
     .pipe(
-      map(q => Object.entries(q).map(([title, value]) => ({ title, items: value.a.map(i => typeof i === 'string' ? i : i.a), samples: value.s }))),
+      map(q => Object.entries(q)
+        .map(([title, value]) => ({
+          title,
+          items: value.a.map(i => typeof i === 'string' ? i : i.a),
+          samples: value.s
+        }))),
+      tap(console.log),
       shareReplay(1)
-      )
-      
-      
+    )
+
+
 
   importIntoLocalStorage() {
     return this._http.get('assets/classification.json')

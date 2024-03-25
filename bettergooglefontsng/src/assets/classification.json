@@ -24,7 +24,8 @@
       "e-angle": "angled",
       "g-shape": "modern (single story)",
       "M-tip": "above",
-      "Vox-ATypI": "humanist sans"
+      "Vox-ATypI": "humanist sans",
+      "ij-dot-shape": "other"
     }
   ],
   [
@@ -41,7 +42,8 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
@@ -167,7 +169,8 @@
     {
       "coarse-classification": "mono",
       "M-tip": "baseline",
-      "Vox-ATypI": "other"
+      "Vox-ATypI": "other",
+      "ij-dot-shape": "other"
     }
   ],
   [
@@ -534,7 +537,8 @@
       "g-shape": "classical (double story)",
       "x-height": "reasonable",
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
@@ -654,7 +658,8 @@
     {
       "e-angle": "angled",
       "M-tip": "baseline",
-      "Vox-ATypI": "mechanistic"
+      "Vox-ATypI": "mechanistic",
+      "W-tip": "crossed"
     }
   ],
   [
@@ -672,7 +677,8 @@
       "e-angle": "angled",
       "coarse-classification": "serif",
       "M-tip": "above",
-      "Vox-ATypI": "humanist serif"
+      "Vox-ATypI": "humanist serif",
+      "W-tip": "other"
     }
   ],
   [
@@ -947,14 +953,15 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Anek Kannada",
     {
       "e-angle": "vertical",
-      "g-shape": "classical (double story)",
+      "g-shape": "modern (single story)",
       "Kk-shape": "other",
       "l-shape": "helvetica",
       "a-shape": "double story",
@@ -964,7 +971,8 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -981,7 +989,8 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -998,7 +1007,8 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -1014,7 +1024,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Helvetica",
       "R-shape": "curved",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -1031,7 +1042,8 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -1048,33 +1060,43 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Angkor",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "e-angle": "vertical",
+      "M-stems": "parallel",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Annapurna SIL",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "M-stems": "parallel",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Annie Use Your Telescope",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "W-tip-level": "below",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Anonymous Pro",
     {
       "coarse-classification": "mono",
-      "M-tip": "above"
+      "M-tip": "above",
+      "W-tip-level": "below",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
@@ -1091,21 +1113,26 @@
       "G-shape": "Univers",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Antic Didone",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "W-tip-level": "capheight",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Antic Slab",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "W-tip-level": "capheight",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
@@ -1122,7 +1149,8 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -1138,7 +1166,8 @@
       "W-tip": "one tip",
       "W-tip-level": "capheight",
       "R-shape": "curved",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -1155,7 +1184,8 @@
       "W-tip-level": "capheight",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -1163,7 +1193,7 @@
     {
       "e-angle": "angled",
       "g-shape": "classical (double story)",
-      "Kk-shape": "helvetica/grotesk",
+      "Kk-shape": "helvetica",
       "l-shape": "akkurat",
       "a-shape": "double story extensive tail",
       "ij-dot-shape": "round",
@@ -1172,7 +1202,8 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -1189,41 +1220,51 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Aoboshi One",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "W-tip-level": "capheight",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Arapey",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "W-tip-level": "capheight",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Arbutus Slab",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "W-tip-level": "capheight",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Arbutus",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "W-tip-level": "capheight",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Architects Daughter",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "glyphic"
     }
   ],
   [
@@ -1240,7 +1281,8 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -1257,7 +1299,8 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -1274,33 +1317,38 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Are You Serious",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Aref Ruqaa Ink",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist serif"
     }
   ],
   [
     "Aref Ruqaa",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist serif"
     }
   ],
   [
     "Arima",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -1322,7 +1370,8 @@
   [
     "Arizonia",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -1339,7 +1388,8 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -1356,21 +1406,24 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Artifika",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Arvo",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
@@ -1386,7 +1439,8 @@
       "W-tip": "one tip",
       "W-tip-level": "capheight",
       "R-shape": "curved",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -1402,7 +1456,8 @@
       "Kk-shape": "univers",
       "W-tip-level": "capheight",
       "R-shape": "curved",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -1419,7 +1474,8 @@
       "W-tip-level": "capheight",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -1427,14 +1483,16 @@
     {
       "e-angle": "~vertical",
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Asset",
     {
       "e-angle": "horizontal",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -1451,14 +1509,16 @@
       "W-tip-level": "capheight",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Astloch",
     {
       "e-angle": "angled",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -1475,7 +1535,8 @@
       "G-shape": "Other",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
@@ -1492,7 +1553,8 @@
       "G-shape": "Other",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -1509,42 +1571,48 @@
       "G-shape": "Helvetica",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Atma",
     {
       "e-angle": "angled",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Atomic Age",
     {
       "e-angle": "vertical",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Aubrey",
     {
       "e-angle": "vertical",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Audiowide",
     {
       "e-angle": "vertical",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Autour One",
     {
       "e-angle": "angled",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -1561,7 +1629,8 @@
       "G-shape": "Helvetica",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -1569,35 +1638,40 @@
     {
       "e-angle": "angled",
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Averia Gruesa Libre",
     {
       "e-angle": "~vertical",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Averia Libre",
     {
       "e-angle": "~vertical",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Averia Sans Libre",
     {
       "e-angle": "~vertical",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Averia Serif Libre",
     {
       "e-angle": "~vertical",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
@@ -1605,7 +1679,8 @@
     {
       "e-angle": "horizontal",
       "coarse-classification": "mono",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -1613,7 +1688,8 @@
     {
       "e-angle": "angled",
       "coarse-classification": "mono",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -1630,7 +1706,8 @@
       "G-shape": "Helvetica",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -1647,14 +1724,16 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "BIZ UDMincho",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
@@ -1671,21 +1750,24 @@
       "W-tip-level": "below",
       "G-shape": "Helvetica",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "BIZ UDPMincho",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Babylonica",
     {
       "e-angle": "angled",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -1693,14 +1775,16 @@
     {
       "e-angle": "angled",
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Bad Script",
     {
       "e-angle": "~horizontal",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -1720,7 +1804,8 @@
     "Bahianita",
     {
       "e-angle": "horizontal",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -1737,89 +1822,103 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Bakbak One",
     {
       "e-angle": "vertical",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Ballet",
     {
       "e-angle": "angled",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Baloo 2",
     {
       "e-angle": "angled",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Bhai 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Bhaijaan 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Bhaina 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Chettan 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Da 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Paaji 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Tamma 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Tammudu 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Baloo Thambi 2",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Balsamiq Sans",
     {
       "e-angle": "angled",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -1827,13 +1926,15 @@
     {
       "e-angle": "vertical",
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Bangers",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -1850,7 +1951,8 @@
       "G-shape": "Helvetica",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -1867,7 +1969,8 @@
       "G-shape": "Helvetica",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -1884,20 +1987,23 @@
       "G-shape": "Helvetica",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Barriecito",
     {
       "e-angle": "~vertical",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Barrio",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -1914,7 +2020,8 @@
       "G-shape": "Other",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -1922,21 +2029,24 @@
     {
       "e-angle": "~horizontal",
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Battambang",
     {
       "e-angle": "~vertical",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Baumans",
     {
       "e-angle": "angled",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
@@ -1952,7 +2062,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "R-shape": "curved",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -1969,13 +2080,15 @@
       "G-shape": "Univers",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Beau Rivage",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -1991,7 +2104,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "R-shape": "curved",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -2008,21 +2122,24 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "R-shape": "straight",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Belgrano",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Bellefair",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
@@ -2039,19 +2156,22 @@
       "G-shape": "Other",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Bellota Text",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Bellota",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -2068,146 +2188,169 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Benne",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Bentham",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Berkshire Swash",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Besley",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Beth Ellen",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Bevan",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Bhavuka",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "BhuTuka Expanded One",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Big Shoulders Display",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Big Shoulders Inline Display",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Big Shoulders Inline Text",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Big Shoulders Stencil Display",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Big Shoulders Stencil Text",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Big Shoulders Text",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Bigelow Rules",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Bigshot One",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Bilbo Swash Caps",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Bilbo",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "BioRhyme Expanded",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "BioRhyme",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Birthstone Bounce",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Birthstone",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -2224,20 +2367,23 @@
       "G-shape": "Univers",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Bitter",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Black And White Picture",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -2254,31 +2400,36 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Black Ops One",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Blaka Hollow",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "blackletter"
     }
   ],
   [
     "Blaka Ink",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "blackletter"
     }
   ],
   [
     "Blaka",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "blackletter"
     }
   ],
   [
@@ -2295,63 +2446,73 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Bodoni Moda",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Bokor",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "blackletter"
     }
   ],
   [
     "Bona Nova",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Bonbon",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Bonheur Royale",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Boogaloo",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Borel",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Bowlby One SC",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Bowlby One",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -2368,21 +2529,24 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Brawler",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Bree Serif",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
@@ -2399,32 +2563,37 @@
       "W-tip-level": "capheight",
       "G-shape": "Helvetica",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Bruno Ace SC",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Bruno Ace",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Brygada 1918",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Bubblegum Sans",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -2441,74 +2610,86 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Buda",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Buenard",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist serif"
     }
   ],
   [
     "Bungee Color",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Bungee Hairline",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Bungee Inline",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Bungee Outline",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Bungee Shade",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Bungee Spice",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Bungee",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Butcherman",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Butterfly Kids",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -2525,13 +2706,15 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Cabin Sketch",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -2548,13 +2731,15 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Caesar Dressing",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -2571,7 +2756,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Other",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -2588,7 +2774,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -2605,20 +2792,23 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Caladea",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Calistoga",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
@@ -2641,14 +2831,16 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Cambo",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
@@ -2665,7 +2857,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -2682,14 +2875,16 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Cantata One",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
@@ -2706,13 +2901,15 @@
       "W-tip-level": "below",
       "G-shape": "Helvetica",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Caprasimo",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist serif"
     }
   ],
   [
@@ -2729,26 +2926,30 @@
       "W-tip-level": "below",
       "G-shape": "Other",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Caramel",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Carattere",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Cardo",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
@@ -2765,7 +2966,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -2782,7 +2984,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -2798,7 +3001,8 @@
       "G-shape": "Helvetica",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -2815,27 +3019,31 @@
       "G-shape": "Helvetica",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Carter One",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Castoro Titling",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Castoro",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
@@ -2852,38 +3060,44 @@
       "G-shape": "Univers",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Caudex",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Caveat Brush",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Caveat",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Cedarville Cursive",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Ceviche One",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -2900,13 +3114,15 @@
       "G-shape": "Univers",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Changa One",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -2923,32 +3139,37 @@
       "G-shape": "Univers",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Chango",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Charis SIL",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Charm",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Charmonman",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -2965,7 +3186,8 @@
       "G-shape": "Univers",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -2982,37 +3204,43 @@
       "G-shape": "Other",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Chela One",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Chelsea Market",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Chenla",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "other"
     }
   ],
   [
     "Cherish",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Cherry Bomb One",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -3024,7 +3252,8 @@
   [
     "Cherry Swash",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -3036,13 +3265,15 @@
   [
     "Chicle",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Chilanka",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -3059,7 +3290,8 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "mono",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -3076,92 +3308,107 @@
       "G-shape": "Helvetica",
       "R-shape": "curved",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Chokokutai",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Chonburi",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Cinzel Decorative",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "glyphic"
     }
   ],
   [
     "Cinzel",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "glyphic"
     }
   ],
   [
     "Clicker Script",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Climate Crisis",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Coda",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Codystar",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Coiny",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Combo",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Comfortaa",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Comforter Brush",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Comforter",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Comic Neue",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -3184,7 +3431,8 @@
       "G-shape": "Univers",
       "R-shape": "straight",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -3200,31 +3448,36 @@
       "W-tip-level": "capheight",
       "G-shape": "Other",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Concert One",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Condiment",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Content",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "other"
     }
   ],
   [
     "Contrail One",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -3240,87 +3493,100 @@
       "W-tip-level": "below",
       "G-shape": "Other",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Cookie",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Copse",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Corben",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist serif"
     }
   ],
   [
     "Corinthia",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Cormorant Garamond",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Cormorant Infant",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Cormorant SC",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Cormorant Unicase",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Cormorant Upright",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Cormorant",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Courgette",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Courier Prime",
     {
       "coarse-classification": "mono",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
@@ -3334,13 +3600,15 @@
     "Coustard",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Covered By Your Grace",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -3358,34 +3626,39 @@
   [
     "Creepster",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Crete Round",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Crimson Pro",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Crimson Text",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Croissant One",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -3407,27 +3680,31 @@
       "W-tip-level": "below",
       "G-shape": "Other",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Cute Font",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Cutive Mono",
     {
       "coarse-classification": "mono",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
     "Cutive",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "mechanistic"
     }
   ],
   [
@@ -3435,7 +3712,8 @@
     {
       "coarse-classification": "mono",
       "M-stems": "angled",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -3452,46 +3730,53 @@
       "W-tip-level": "capheight",
       "G-shape": "Helvetica",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "DM Serif Display",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "DM Serif Text",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Dai Banna SIL",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Damion",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Dancing Script",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Dangrek",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -3507,26 +3792,30 @@
       "W-tip-level": "capheight",
       "G-shape": "Helvetica",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Darumadrop One",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "David Libre",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Dawning of a New Day",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -3542,50 +3831,58 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Dekko",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Dela Gothic One",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Delicious Handrawn",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Delius Swash Caps",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "Delius Unicase",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Delius",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Della Respira",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "glyphic"
     }
   ],
   [
@@ -3601,13 +3898,15 @@
       "W-tip-level": "capheight",
       "G-shape": "Other",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Devonshire",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -3623,7 +3922,8 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -3640,7 +3940,8 @@
       "W-tip-level": "below",
       "G-shape": "Helvetica",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -3657,33 +3958,38 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geometric"
     }
   ],
   [
     "Digital Numbers",
     {
       "coarse-classification": "mono",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Diphylleia",
     {
       "coarse-classification": "serif",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Diplomata SC",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Diplomata",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -3700,27 +4006,31 @@
       "W-tip-level": "capheight",
       "G-shape": "Helvetica",
       "coarse-classification": "sans",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Dokdo",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Domine",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Donegal One",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
@@ -3753,7 +4063,8 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Univers",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -3770,7 +4081,8 @@
       "W-tip-level": "below",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -3787,7 +4099,8 @@
       "W-tip-level": "below",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -3804,13 +4117,15 @@
       "W-tip-level": "below",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Dr Sugiyama",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -3827,44 +4142,51 @@
       "W-tip-level": "capheight",
       "G-shape": "Univers",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "DynaPuff",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Dynalight",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "script"
     }
   ],
   [
     "EB Garamond",
     {
       "coarse-classification": "serif",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "geralde"
     }
   ],
   [
     "Eagle Lake",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "blackletter"
     }
   ],
   [
     "East Sea Dokdo",
     {
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Eater",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -3881,7 +4203,8 @@
       "W-tip-level": "below",
       "G-shape": "Other",
       "coarse-classification": "sans",
-      "M-tip": "above"
+      "M-tip": "above",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -3889,37 +4212,43 @@
     {
       "coarse-classification": "serif",
       "W-tip": "other",
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Edu NSW ACT Foundation",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Edu QLD Beginner",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Edu SA Beginner",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Edu TAS Beginner",
     {
-      "M-tip": "baseline"
+      "M-tip": "baseline",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Edu VIC WA NT Beginner",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -3935,7 +4264,8 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Univers",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -3950,7 +4280,8 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Other",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -3966,31 +4297,36 @@
       "a-shape": "double story extensive tail",
       "W-tip-level": "capheight",
       "G-shape": "Univers",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Elsie Swash Caps",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Elsie",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "didone"
     }
   ],
   [
     "Emblema One",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Emilys Candy",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
@@ -4005,7 +4341,8 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Other",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -4020,7 +4357,8 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Other",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -4035,7 +4373,8 @@
       "a-shape": "other",
       "W-tip-level": "capheight",
       "G-shape": "Other",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -4050,7 +4389,8 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Other",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -4065,7 +4405,8 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Other",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
@@ -4080,13 +4421,15 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Other",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "humanist sans"
     }
   ],
   [
     "Engagement",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -4101,20 +4444,23 @@
       "a-shape": "double story",
       "W-tip-level": "below",
       "G-shape": "Univers",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Enriqueta",
     {
       "W-tip": "one tip",
-      "coarse-classification": "serif"
+      "coarse-classification": "serif",
+      "Vox-ATypI": "humanist serif"
     }
   ],
   [
     "Ephesis",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -4129,26 +4475,30 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Helvetica",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
     "Erica One",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "graphic"
     }
   ],
   [
     "Esteban",
     {
       "W-tip": "other",
-      "coarse-classification": "serif"
+      "coarse-classification": "serif",
+      "Vox-ATypI": "transitional"
     }
   ],
   [
     "Estonia",
     {
-      "W-tip": "one tip"
+      "W-tip": "one tip",
+      "Vox-ATypI": "script"
     }
   ],
   [
@@ -4272,6 +4622,18 @@
     }
   ],
   [
+    "Fascinate Inline",
+    {
+      "Vox-ATypI": "graphic"
+    }
+  ],
+  [
+    "Fascinate",
+    {
+      "Vox-ATypI": "graphic"
+    }
+  ],
+  [
     "Faster One",
     {
       "Vox-ATypI": "neo-grotesque"
@@ -4378,19 +4740,22 @@
       "W-tip": "quark",
       "ij-dot-shape": "square",
       "W-tip-level": "below",
-      "coarse-classification": "mono"
+      "coarse-classification": "mono",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Fira Code",
     {
-      "coarse-classification": "mono"
+      "coarse-classification": "mono",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
     "Fira Mono",
     {
-      "coarse-classification": "mono"
+      "coarse-classification": "mono",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -4407,7 +4772,8 @@
       "a-shape": "double story extensive tail",
       "W-tip-level": "capheight",
       "G-shape": "Univers",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -4423,7 +4789,8 @@
       "a-shape": "double story extensive tail",
       "W-tip-level": "capheight",
       "G-shape": "Univers",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -4439,7 +4806,8 @@
       "W-tip": "one tip",
       "a-shape": "double story extensive tail",
       "W-tip-level": "capheight",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "neo-grotesque"
     }
   ],
   [
@@ -4455,7 +4823,8 @@
       "a-shape": "double story",
       "W-tip-level": "capheight",
       "G-shape": "Helvetica",
-      "coarse-classification": "sans"
+      "coarse-classification": "sans",
+      "Vox-ATypI": "grotesque"
     }
   ],
   [
@@ -4517,6 +4886,12 @@
     "Fontdiner Swanky",
     {
       "Vox-ATypI": "graphic"
+    }
+  ],
+  [
+    "Forum",
+    {
+      "Vox-ATypI": "glyphic"
     }
   ],
   [
@@ -4809,7 +5184,8 @@
   [
     "Gelasio",
     {
-      "coarse-classification": "serif"
+      "coarse-classification": "serif",
+      "Vox-ATypI": "transitional"
     }
   ],
   [

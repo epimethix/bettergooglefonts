@@ -8,8 +8,8 @@
       "vertical",
       "other"
     ],
-    "s:": "ea",
-    "c:": "lower case e Angle"
+    "s": "ea",
+    "c": "lower case e Angle"
   },
   "g-shape": {
     "a": [
@@ -18,8 +18,8 @@
       "both",
       "other"
     ],
-    "s:": "g",
-    "c:": "lower case g shape"
+    "s": "g",
+    "c": "lower case g shape"
   },
   "l-shape": {
     "a": [
@@ -28,8 +28,8 @@
       "mono",
       "other"
     ],
-    "s:": "l",
-    "c:": "lower case l shape"
+    "s": "l",
+    "c": "lower case l shape"
   },
   "ij-dot-shape": {
     "a": [
@@ -37,8 +37,8 @@
       "round",
       "other"
     ],
-    "s:": "ij",
-    "c:": "dot shape of lower case i & j"
+    "s": "ij",
+    "c": "dot shape of lower case i & j"
   },
   "Kk-shape": {
     "a": [
@@ -46,8 +46,8 @@
       "univers",
       "other"
     ],
-    "s:": "K k",
-    "c:": "shape of upper and lower case k / K"
+    "s": "K k",
+    "c": "shape of upper and lower case k / K"
   },
   "a-shape": {
     "a": [
@@ -56,8 +56,8 @@
       "single story",
       "other"
     ],
-    "s:": "a",
-    "c:": "shape of lower case a"
+    "s": "a",
+    "c": "shape of lower case a"
   },
   "g-up-shape": {
     "a": [
@@ -65,32 +65,32 @@
       "Univers",
       "Other"
     ],
-    "s:": "G",
-    "c:": "shape of uppercase G"
+    "s": "G",
+    "c": "shape of uppercase G"
   },
   "R-shape": {
     "a": [
       "curved",
       "straight"
     ],
-    "s:": "R",
-    "c:": "shape of uppercase R"
+    "s": "R",
+    "c": "shape of uppercase R"
   },
   "M-tip": {
     "a": [
       "baseline",
       "above"
     ],
-    "s:": "M",
-    "c:": "position of tip of uppercase M"
+    "s": "M",
+    "c": "position of tip of uppercase M"
   },
   "M-stems": {
     "a": [
       "parallel",
       "angled"
     ],
-    "s:": "M",
-    "c:": "angle of outer stems of uppercase M"
+    "s": "M",
+    "c": "angle of outer stems of uppercase M"
   },
   "W-tip": {
     "a": [
@@ -98,8 +98,8 @@
       "crossed",
       "other"
     ],
-    "s:": "W",
-    "c:": "shape of uppercase w tip"
+    "s": "W",
+    "c": "shape of uppercase w tip"
   },
   "W-tip-level": {
     "a": [
@@ -107,8 +107,8 @@
       "below",
       "other"
     ],
-    "s:": "W",
-    "c:": "position of uppercase W tip"
+    "s": "W",
+    "c": "position of uppercase W tip"
   },
   "AMW-joints": {
     "a": [
@@ -116,16 +116,16 @@
       "sharp",
       "other"
     ],
-    "s:": "WAM",
-    "c:": "shape of outer joins of uppercase A / W / M"
+    "s": "WAM",
+    "c": "shape of outer joins of uppercase A / W / M"
   },
   "x-height": {
     "a": [
       "neutra",
       "reasonable"
     ],
-    "s:": "EAR\nae",
-    "c:": "x height and center of uppercase A"
+    "s": "EAR\nae",
+    "c": "x height and center of uppercase A"
   },
   "coarse-classification": {
     "a": [
@@ -135,15 +135,15 @@
       "script",
       "mono"
     ],
-    "s:": "sAp",
-    "c:": "General Classification"
+    "s": "sAp",
+    "c": "General Classification"
   },
   "Vox-ATypI": {
     "a": [
       "humanist serif",
       {
         "a": "geralde",
-        "f:": "EB Garamond"
+        "f": "EB Garamond"
       },
       "transitional",
       "didone",
@@ -158,7 +158,7 @@
       "blackletter",
       "other"
     ],
-    "s:": "ESaest",
-    "c:": ""
+    "s": "ESaest",
+    "c": ""
   }
 }

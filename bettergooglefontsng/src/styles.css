@@ -19,22 +19,71 @@
 @tailwind components;
 @tailwind utilities;
 
-a:hover {
-    filter: brightness(1.5);
+
+
+@layer base {
+
+    a:hover {
+        filter: brightness(1.5);
+    }
+
+    input[type=radio],
+    input[type=checkbox] {
+        width: 20px;
+        height: 20px;
+        margin-right: 9px;
+        position: relative;
+        @apply border-2 border-cyan-800 appearance-none outline-none;
+    }
+
+    input[type=radio],
+    input[type=radio]:checked::before {
+        border-radius: 100%;
+    }
+
+    label:focus-within {
+        @apply ring-2 ring-orange-300
+    }
+
+    fieldset:focus-within {
+        @apply ring-2 ring-orange-300
+    }
+
+    /* input[type=radio]:focus-visible::before,
+input[type=checkbox]:focus-visible::before {
+    @apply bg-orange-400
+} */
+
+    input[type=radio]:checked::before,
+    input[type=checkbox]:checked::before {
+        content: "";
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        @apply bg-orange-400
+    }
 }
 
-.btn {
-    @apply bg-slate-200 font-bold py-2 px-4 rounded
+@layer components {
+
+
+    .btn {
+        @apply bg-slate-200 font-bold py-2 px-4 rounded;
+    }
+
+    .btn:hover {
+        @apply bg-slate-100;
+    }
+
 }
 
-.btn:hover {
-    @apply bg-slate-100
+@layer utilities {
+
+    .variation-wild {
+        font-variation-settings:
+            "BNCE" -40,
+            "INFM" 100
+    }
 }
-
-.variation-wild {
-    font-variation-settings:
-        "BNCE" -40,
-        "INFM" 100
-}
-
-
