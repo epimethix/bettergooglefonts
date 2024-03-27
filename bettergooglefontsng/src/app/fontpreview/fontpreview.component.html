@@ -1,4 +1,5 @@
 <div>
+    @if(!specimenOnly) {
     <h5 class="text-2xl font-semibold mb-2 ">
         <a class="variation-wild text-cyan-700"
             [href]="'https://fonts.google.com/specimen/'+font.name+'/tester'">{{font.name}}</a>
@@ -34,8 +35,10 @@
         }
         <!-- </span> -->
     </h5>
-    <div class="text-xl">
-        <span [style]="'font-synthesis: none; font-family: \''+font.name+'\', \'Tofu\';'+(showItalics ? 'font-style: italic':'')">
+    }
+    <div [class]="'text-xl '" [title]="font.name">
+        <span class="break-all"
+            [style]="'font-synthesis: none; font-family: \''+font.name+'\', \'Tofu\';'+(showItalics ? 'font-style: italic':'')">
             @if(waterfall) {
             @for(vweight of vweights; track vweight) {
             <span [style]="{fontWeight: vweight, fontSize: '40px'}">{{customText||'Angae'}}</span>
@@ -49,5 +52,9 @@
             }
         </span>
     </div>
+    @if(!specimenOnly) {
     <a [routerLink]="'classify/'+font.name"><i class="material-icons">mode_edit</i></a>
+
+    }
+
 </div>

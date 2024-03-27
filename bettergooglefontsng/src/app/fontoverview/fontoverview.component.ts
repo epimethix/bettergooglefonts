@@ -9,10 +9,10 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 
-export type inor = '$or'|'$and'|'$in'
+export type inor = '$or' | '$and' | '$in'
 export type MongoSelector = {
-  [s in string]: MongoSelector|[MongoSelector]|string|number
-} 
+  [s in string]: MongoSelector | [MongoSelector] | string | number
+}
 
 @Component({
   selector: 'app-fontoverview',
@@ -27,8 +27,9 @@ export class FontoverviewComponent {
   fc = new FormControl('')
 
   debouncedCustomText: Observable<string | null>;
-showItalics = false;
-showWaterfall = true;
+  showItalics = false;
+  showWaterfall = true;
+  specimenOnly = false;
   constructor(private fontService: MongofontService) {
     this.fonts = this.fontService.getFonts({})
     this.debouncedCustomText = this.fc.valueChanges.pipe(debounceTime(300))

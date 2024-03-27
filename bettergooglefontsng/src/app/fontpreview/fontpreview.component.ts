@@ -17,6 +17,9 @@ export class FontpreviewComponent implements OnChanges {
   waterfall = false
   @Input()
   showItalics = false
+  @Input()
+  specimenOnly = false;
+
   weights?: { min_value: number; max_value: number; all: number[]; };
   /**
    * List of weights supported by this font
@@ -44,7 +47,7 @@ export class FontpreviewComponent implements OnChanges {
   // Why is this on Changes and not on viewInit? probably only tried with OnInit when template is not yet rendered
   // but @ipnuts should already be available? hm....
   ngOnChanges(changes: SimpleChanges): void {
-      console.log('eco', changes)
+    console.log('eco', changes)
 
     // todo: function
     if (changes['font']) {
@@ -55,7 +58,7 @@ export class FontpreviewComponent implements OnChanges {
       // angular is doing the some for the scoped css outputs
       // having 2000 different fonts in one app is a very special case so it's ok that angular has no way of doing it in an angular way
       let css = ''
-      
+
       for (const f of this.font.fonts) {
         const weights = weightAxis ? `${weightAxis.min_value} ${weightAxis.max_value}` : f.weight
         css += generateFontCssWeight({ name: this.font.name, url: f.url, weight: weights, style: 'normal' })
